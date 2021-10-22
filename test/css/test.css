@@ -502,6 +502,10 @@ div.cut div.cut_content_1 div.cut_background_1{
   position: absolute;
   top: 0px;
   right: 0px;
+  transition: 2s;
+}
+div.cut div.cut_content_1 div.cut_background_1:hover{
+  width: 2000px;
 }
 div.cut div.cut_content_2 a.title_2{
   color: white;
@@ -541,7 +545,11 @@ div.cut div.cut_content_2 div.cut_background_2{
   border-radius: 100px;
   position: absolute;
   top: 0px;
-  right: 0px;
+  left: 50px;
+  transition: 2s;
+}
+div.cut div.cut_content_2 div.cut_background_2:hover{
+  width: 2000px;
 }
 div.cut div.cut_content_3 a.title_3{
   color: white;
@@ -582,6 +590,10 @@ div.cut div.cut_content_3 div.cut_background_3{
   position: absolute;
   top: 0px;
   right: 0px;
+  transition: 2s;
+}
+div.cut div.cut_content_3 div.cut_background_3:hover{
+  width: 2000px;
 }
 div.pull{
   /* border: 1px solid white; */
