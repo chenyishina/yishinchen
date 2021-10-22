@@ -164,7 +164,7 @@ nav.nav ul.list div.shop ul.shop_list > li > a:hover{
   color: black;
 }
 div.group{
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 1200px;
   height: 550px;
   position: absolute;
@@ -203,6 +203,7 @@ div.group div.guid > a{
   display: block;
 }
 div.group div.guid  a.time_1{
+  font-size: 18px;
   margin: 0 0 10px 30px;
 }
 div.group div.guid  a.time_1 > span{
@@ -216,7 +217,7 @@ div.group div.guid  a.pm_1 > span{
   padding: 0 0 0 60px;
 }
 div.group div.guid a.intro_1{
-  font-size: 14px;
+  font-size: 13px;
   margin: 0 0 0 30px;
 }
 div.group div.guid a.am_1{
@@ -237,6 +238,7 @@ div.group div.guid a.free{
   position: absolute;
   bottom: 0;
   right: 25px;
+  font-size: 13px;
 }
 div.group div.guid div.background_color_1{
   width:250px;
@@ -263,6 +265,7 @@ div.group div.diy > a{
   display: block;
 }
 div.group div.diy a.time_2{
+  font-size: 18px;
   margin: 0 0 10px 30px;
 }
 div.group div.diy a.time_2 > span{
@@ -276,7 +279,7 @@ div.group div.diy a.pm_2 > span{
   padding: 0 0 0 60px;
 }
 div.group div.diy a.intro_2{
-  font-size: 14px;
+  font-size: 13px;
   margin: 0 0 0 30px;
 }
 div.group div.diy a.am_2{
@@ -297,6 +300,7 @@ div.group div.diy a.fee{
   position: absolute;
   bottom: 0;
   right: 25px;
+  font-size: 13px;
 }
 div.group div.diy div.background_color_2{
   width:250px;
@@ -346,7 +350,7 @@ div.group img.line{
   right: 80px;
 }
 div.reserve{
-  border: 1px solid white;
+  /* border: 1px solid white; */
   width: 1200px;
   height: 710px;
   position: absolute;
@@ -374,6 +378,7 @@ div.reserve div.server div.title_1 > img{
 div.reserve div.server div.title_1 > a{
   /* border: 1px solid red; */
   color: white;
+  font-size: 18px;
 }
 div.reserve div.server div.date{
   /* border: 1px solid white; */
@@ -459,6 +464,7 @@ div.member div.title_2 > img{
 div.member div.title_2  > a{
   /* border: 1px solid red; */
   color: white;
+  font-size: 18px;
 }
 div.member div.username{
   /* border: 1px solid white; */
@@ -530,4 +536,128 @@ div.member div.others > a{
   position: absolute;
   bottom: 50px;
   left: 470px;
+}
+div.products{
+  /* border:1px solid green; */
+  width: 1200px;
+  height: 450px;
+  position: absolute;
+  left: 50%;
+  bottom: 200px;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+div.diy_background_color{
+  height: 450px;
+  width: 100%;
+  background-color: #070B16;
+  position: absolute;
+  bottom: 200px;
+}
+div.products div.diy > img{
+  display: inline-block;
+  height: 250px;
+  font-size: 0;
+  padding: 0 15px;
+}
+div.products div.diy{
+  /* border: 1px solid red; */
+  width:2430px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 100px;
+}
+div.left_color{
+  height: 160px;
+  width: 20%;
+  position: absolute;
+  left: 0;
+  top: 700px;
+  background-color: #37415A;
+  border-radius: 0 100px 100px 0;
+}
+img.sketch{
+width: 300px;
+position: absolute;
+top: 650px;
+left: 50%;
+transform: translateX(-250%);
+}
+img.fan{
+  width: 200px;
+  position: absolute;
+  bottom: 650px;
+  right: 50%;
+  transform: translateX(270%);
+}
+div.fotter_color{
+  /* border: 1px solid blue; */
+  width: 100%;
+  min-width: 1440px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  background-color: #121B32;
+  bottom: 0px;
+}
+div.fotter{
+  /* border: 1px solid white; */
+  min-width: 1240px;
+  height: 220px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+}
+div.fotter img.fotter_sketch{
+  width: 650px;
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+}
+div.fotter img.fb{
+  width: 25px;
+  position: absolute;
+  right: 300px;
+  bottom: 85px;
+}
+div.fotter img.ig{
+  width: 25px;
+  position: absolute;
+  right: 350px;
+  bottom: 85px;
+}
+div.fotter img.twitter{
+  width: 25px;
+  position: absolute;
+  right: 400px;
+  bottom: 85px;
+}
+div.fotter > pre{
+  color: white;
+}
+div.fotter pre.tel{
+  position: absolute;
+  right: 20px;
+  bottom: 130px;
+}
+div.fotter pre.time{
+  position: absolute;
+  right: 20px;
+  bottom: 100px;
+}
+div.fotter pre.add{
+  position: absolute;
+  right: 20px;
+  bottom: 70px;
+}
+div.fotter pre.tibame{
+  color:#54607E;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  white-space: nowrap;
+  text-align: right;
 }

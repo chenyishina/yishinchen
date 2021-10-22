@@ -162,7 +162,7 @@ div.combine_background_1{
   min-width: 1440px;
   height: 1080px;
   position: absolute;
-  bottom: 220px;
+  bottom: 200px;
   z-index: -2;
 }
 div.combine_background_2{
@@ -214,14 +214,14 @@ div.combine_content img.umbrella{
   position: absolute;
   left: 170px;
   top: 250px;
-  border-radius: 70px;
+  border-radius: 20px;
 }
 div.combine_content img.porsche{
   width: 540px;
   position: absolute;
   right: 30px;
   top: 1620px;
-  border-radius: 70px;
+  border-radius: 20px;
 }
 div.combine_content img.ear{
   width: 280px;
@@ -322,7 +322,7 @@ div.fotter_color{
   /* border: 1px solid blue; */
   width: 100%;
   min-width: 1440px;
-  height: 220px;
+  height: 200px;
   display: block;
   position: absolute;
   background-color: #121B32;
@@ -339,28 +339,28 @@ div.fotter{
   transform: translateX(-50%);
 }
 div.fotter img.fotter_sketch{
-  width: 550px;
+  width: 650px;
   position: absolute;
-  left: 30px;
-  bottom: 40px;
+  left: 0px;
+  bottom: 10px;
 }
 div.fotter img.fb{
   width: 25px;
   position: absolute;
   right: 300px;
-  bottom: 55px;
+  bottom: 85px;
 }
 div.fotter img.ig{
   width: 25px;
   position: absolute;
   right: 350px;
-  bottom: 55px;
+  bottom: 85px;
 }
 div.fotter img.twitter{
   width: 25px;
   position: absolute;
   right: 400px;
-  bottom: 55px;
+  bottom: 85px;
 }
 div.fotter > pre{
   color: white;
@@ -368,15 +368,23 @@ div.fotter > pre{
 div.fotter pre.tel{
   position: absolute;
   right: 20px;
-  bottom: 100px;
+  bottom: 130px;
 }
 div.fotter pre.time{
   position: absolute;
   right: 20px;
-  bottom: 70px;
+  bottom: 100px;
 }
 div.fotter pre.add{
   position: absolute;
   right: 20px;
-  bottom: 40px;
+  bottom: 70px;
+}
+div.fotter pre.tibame{
+  color:#54607E;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  white-space: nowrap;
+  text-align: right;
 }

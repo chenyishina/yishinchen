@@ -752,10 +752,17 @@ div.fotter_fotter div.fotter_info{
   transform: translatex(-50%);
   top: 280px;
   width: 950px;
+  height: 120px;
 }
 div.fotter_fotter div.fotter_info > pre{
   /* border: 1px solid white; */
   color: white;
   display: inline-block;
-
+}
+div.fotter_fotter div.fotter_info pre.tibame{
+  color:#54607E;
+  text-align: right;
+  position: absolute;
+  right: 40px;
+  bottom: 0;
 }
