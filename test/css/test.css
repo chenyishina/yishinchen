@@ -1,0 +1,749 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  min-width: 1440px;
+  height: 4500px;
+  background-color: #1F273D;
+  position: absolute;
+}
+
+div.icon img.category{
+  width: 30px;
+  position: fixed;
+  top: 45px;
+  right: 120px;
+  z-index: 10;
+}
+div.icon img.member{
+  width: 30px;
+  position: fixed;
+  top: 95px;
+  right: 118px;
+  z-index: 10;
+}
+div.icon img.bag{
+  width: 30px;
+  position: fixed;
+  top: 148px;
+  right: 115px;
+  z-index: 10;
+}
+div.icon img.top{
+  width: 30px;
+  position: fixed;
+  bottom: 50px;
+  right: 120px;
+  z-index: 10;
+}
+
+nav.nav{
+  /* border: 1px solid white; */
+  width: 1200px;
+  margin: 25px  auto;
+}
+
+nav.nav ul.list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0px;
+}
+
+nav.nav ul.list div.shop{
+  /* border: 1px solid blue; */
+  padding: 20px 0px;
+  position: relative;
+  margin: 0px 30px;
+  font-size: 16px;
+}
+nav.nav ul.list div.shop a.shop_cate{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+nav.nav ul.list div.shop ul.shop_list{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: -7px;
+  top: 100%;
+  display: none;
+}
+
+nav.nav ul.list div.shop:hover ul.shop_list{
+  display: block;
+}
+
+nav.nav ul.list div.shop ul.shop_list > li{
+  /* border: 1px solid red; */
+  width: 80px;
+  list-style: none;
+  margin: 0px;
+  padding: 15px 5px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+nav.nav ul.list div.shop ul.shop_list > li > a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 3px 0px;
+  transition: 0.5s;
+  position: relative;
+  z-index: 10;
+}
+
+nav.nav ul.list li > a img.logo{
+  width: 66px;
+  height: 66px;
+  display: inline-block;
+  margin: 0px 30px 0px 80px;
+}
+
+ul.list > li {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul.list > li > a{
+  /* border: 1px solid green; */
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  /* padding: 20px 0px; */
+  margin: 0px 30px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+ul.list > li > a.about_us:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.pro_test:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.group:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.traffic:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.combination:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+nav.nav ul.list div.shop ul.shop_list > li > a:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+div.background_color_right{
+  width: 70%;
+  height: 275px;
+  position: absolute;
+  right: 0;
+  top: 670px;
+  background-color: #37415A;
+  border-radius: 300px 0px 0px 300px;
+}
+img.crown{
+  width: 870px;
+  position: absolute;
+  right: 300px;
+  top: 860px;
+}
+div.background_color_left{
+  width: 30%;
+  height: 390px;
+  position: absolute;
+  left: 0;
+  top: 3250px;
+  background-color: #37415A;
+  border-radius:0px 300px 300px 0px;
+}
+img.light_sketch{
+  width: 300px;
+  position: absolute;
+  left: 10%;
+  bottom: 200px;
+}
+div.test{
+  /* border: 1px solid red; */
+  width: 1200px;
+  height: 700px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.test div.test_title{
+  /* border: 1px solid blue; */
+  width: 280px;
+  height: 130px;
+  position: absolute;
+  left:-70px;
+  top: 70px;
+}
+div.test div.test_title > img{
+  width: 280px;
+}
+div.test div.test_title > a{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 17px;
+  left: 85px;
+}
+div.test div.cut_video{
+  /* border: 1px solid white; */
+  width: 170px;
+  height: 420px;
+  position: absolute;
+  bottom: 0;
+}
+div.test div.test_video div.cut_video > video{
+  width: 170px;
+}
+div.test div.test_video div.cut_video > a{
+  font-size: 18px;
+  vertical-align: right;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 80px;
+}
+div.test div.test_video div.cut_video a.more_1{
+  color: white;
+  font-size: 14px;
+  background-color: black;
+  padding: 5px 15px;
+  white-space: pre;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+div.test div.test_video div.cut_video a.more_1:hover{
+  background-color: white;
+  color: black;
+  padding: 5px 5px;
+}
+div.test div.open_close_video{
+  /* border: 1px solid white; */
+  height: 420px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.test div.test_video div.open_close_video > video{
+  height: 280px;
+}
+div.test div.test_video div.open_close_video > a{
+  font-size: 18px;
+  vertical-align: right;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 80px;
+  white-space: pre;
+}
+div.test div.test_video div.open_close_video a.more_2{
+  color: white;
+  font-size: 14px;
+  background-color: black;
+  padding: 5px 15px;
+  white-space: pre;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+div.test div.test_video div.open_close_video a.more_2:hover{
+  background-color: white;
+  color: black;
+  padding: 5px 5px;
+}
+div.test div.pull_video{
+  /* border: 1px solid white; */
+  height: 420px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+div.test div.test_video div.pull_video > video{
+  width: 170px;
+}
+div.test div.test_video div.pull_video > a{
+  font-size: 18px;
+  vertical-align: right;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 80px;
+  white-space: pre;
+}
+div.test div.test_video div.pull_video a.more_3{
+  color: white;
+  font-size: 14px;
+  background-color: black;
+  padding: 5px 15px;
+  white-space: pre;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+div.test div.test_video div.pull_video a.more_3:hover{
+  background-color: white;
+  color: black;
+  padding: 5px 5px;
+}
+div.test div.test_video img.left_icon{
+  width: 60px;
+  position: absolute;
+  top: 400px;
+  left: 230px;
+}
+div.test div.test_video img.right_icon{
+  width: 60px;
+  position: absolute;
+  top: 400px;
+  right: 230px;
+  transform: rotate(180deg);
+}
+div.open_close_content{
+  /* border: 1px solid blue; */
+  width: 1200px;
+  height: 720px;
+  position: absolute;
+  top: 1300px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.open_close_content div.open_close_jpg{
+  /* border: 1px solid white; */
+  width: 630px;
+  height: 500px;
+  position: absolute;
+  top: 165px;
+  left: 125px;
+}
+div.open_close_content div.open_close_jpg img.jpg_1{
+  height: 500px;
+  position: absolute;
+  right: 0px;
+  border-radius: 10px;
+}
+div.open_close_content div.open_close_jpg img.jpg_2{
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+div.open_close_content div.open_close_jpg img.jpg_3{
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 90px;
+  border-radius: 10px;
+}
+div.open_close_content div.open_close_jpg img.jpg_4{
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 220px;
+  border-radius: 10px;
+}
+div.open_close_content div.open_close_title{
+  /* border: 1px solid green; */
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  top: 70px;
+  left: 125px;
+}
+div.open_close_content div.open_close_title > a{
+  color: white;
+  font-size: 20px;
+}
+div.open_close_content div.open_close_words{
+  /* border: 1px solid red; */
+  width: 220px;
+  height: 300px;
+  position: absolute;
+  right: 125px;
+  top: 250px;
+}
+div.open_close_content div.open_close_words div.open_close_words_1 a.title_1{
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+div.open_close_content div.open_close_words div.open_close_words_1 a.para_1{
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+}
+div.open_close_content div.open_close_words div.open_close_words_2 a.title_2{
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: none;
+}
+div.open_close_content div.open_close_words div.open_close_words_2 a.para_2{
+  color: white;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  display: none;
+}
+div.open_close_content div.open_close_background{
+  width: 750px;
+  height: 430px;
+  background-color: #37415A;
+  position: absolute;
+  top: 210px;
+  left:200px;
+  border-radius: 0px 200px 200px 0px;
+}
+div.cut{
+  /* border: 1px solid green; */
+  width: 1200px;
+  height: 850px;
+  position: absolute;
+  top: 2200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.cut div.cut_title > a{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50px;
+  left: 120px;
+}
+div.cut div.cut_content_1 a.title_1{
+  color: white;
+  font-size: 18px;  position: absolute;
+  top: 10px;
+  left: 120px;
+  z-index: 1;
+}
+div.cut div.cut_content_1 a.content_1{
+  /* border: 1px solid blue; */
+  width:200px;
+  color: white;
+  font-size: 18px;  position: absolute;
+  top: 60px;
+  left: 120px;
+  z-index: 1;
+}
+div.cut div.cut_content_1 img.cut_1{
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  right: 350px;
+  z-index: 1;
+}
+div.cut div.cut_content_1{
+  /* border: 1px solid white; */
+  width: 1100px;
+  height: 200px;
+  position: absolute;
+  top: 150px;
+  right: 100px;
+}
+div.cut div.cut_content_1 div.cut_background_1{
+  width: 960px;
+  height: 200px;
+  background-color: #0D162F;
+  border-radius: 100px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+div.cut div.cut_content_2 a.title_2{
+  color: white;
+  font-size: 18px;  position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 1;
+}
+div.cut div.cut_content_2 a.content_2{
+  /* border: 1px solid blue; */
+  width:240px;
+  color: white;
+  font-size: 18px;  position: absolute;
+  top: 60px;
+  left: 20px;
+  z-index: 1;
+}
+div.cut div.cut_content_2 img.cut_2{
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  right: 500px;
+  z-index: 1;
+}
+div.cut div.cut_content_2{
+  /* border: 1px solid white; */
+  width: 1200px;
+  height: 200px;
+  position: absolute;
+  top: 380px;
+  right: 0px;
+}
+div.cut div.cut_content_2 div.cut_background_2{
+  width: 1150px;
+  height: 200px;
+  background-color: #0D162F;
+  border-radius: 100px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+div.cut div.cut_content_3 a.title_3{
+  color: white;
+  font-size: 18px;  position: absolute;
+  top: 10px;
+  left: 50px;
+  z-index: 1;
+}
+div.cut div.cut_content_3 a.content_3{
+  /* border: 1px solid blue; */
+  width:240px;
+  color: white;
+  font-size: 18px;  position: absolute;
+  top: 60px;
+  left: 50px;
+  z-index: 1;
+}
+div.cut div.cut_content_3 img.cut_3{
+  height: 200px;
+  position: absolute;
+  top: 0px;
+  right: 260px;
+  z-index: 1;
+}
+div.cut div.cut_content_3{
+  /* border: 1px solid white; */
+  width: 1000px;
+  height: 200px;
+  position: absolute;
+  top: 600px;
+  right: 50px;
+}
+div.cut div.cut_content_3 div.cut_background_3{
+  width: 860px;
+  height: 200px;
+  background-color: #0D162F;
+  border-radius: 100px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+div.pull{
+  /* border: 1px solid white; */
+  width: 1200px;
+  height: 600px;
+  position: absolute;
+  top: 3300px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.pull div.pull_title > a{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 0px;
+  left: 150px;
+}
+div.pull div.pull_content_1{
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  left: 150px;
+  bottom: 0;
+}
+div.pull div.pull_content_1 img.pull_1{
+  height: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+div.pull div.pull_content_1 a.title_1{
+  color: white;
+  font-size: 18px;
+  width: 300px;
+  position: absolute;
+  left: 0;
+  top: 350px;
+}
+div.pull div.pull_content_1 a.content_1{
+  color: white;
+  width: 250px;
+  position: absolute;
+  left: 0;
+  top: 390px;
+}
+div.pull div.pull_content_2{
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+div.pull div.pull_content_2 img.pull_2{
+  height: 300px;
+  position: absolute;
+  left: -45px;
+  top: 0;
+}
+div.pull div.pull_content_2 a.title_2{
+  color: white;
+  font-size: 18px;
+  width: 300px;
+  position: absolute;
+  left: 40px;
+  top: 350px;
+}
+div.pull div.pull_content_2 a.content_2{
+  color: white;
+  width: 220px;
+  position: absolute;
+  left: 40px;
+  top: 390px;
+}
+div.pull div.pull_content_3{
+  /* border: 1px solid red; */
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  right: 150px;
+  bottom: 0;
+}
+div.pull div.pull_content_3 img.pull_3{
+  height: 300px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+div.pull div.pull_content_3 a.title_3{
+  color: white;
+  font-size: 18px;
+  width: 300px;
+  position: absolute;
+  left: 20px;
+  top: 350px;
+}
+div.pull div.pull_content_3 a.content_3{
+  color: white;
+  width: 250px;
+  position: absolute;
+  left: 20px;
+  top: 390px;
+}
+
+div.fotter_color{
+  /* border: 1px solid blue; */
+  width: 100%;
+  min-width: 1440px;
+  height: 220px;
+  display: block;
+  position: absolute;
+  background-color: #121B32;
+  bottom: 0px;
+}
+div.fotter{
+  /* border: 1px solid white; */
+  min-width: 1240px;
+  height: 220px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+}
+div.fotter img.fotter_sketch{
+  width: 550px;
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
+}
+div.fotter img.fb{
+  width: 25px;
+  position: absolute;
+  right: 300px;
+  bottom: 55px;
+}
+div.fotter img.ig{
+  width: 25px;
+  position: absolute;
+  right: 350px;
+  bottom: 55px;
+}
+div.fotter img.twitter{
+  width: 25px;
+  position: absolute;
+  right: 400px;
+  bottom: 55px;
+}
+div.fotter > pre{
+  color: white;
+}
+div.fotter pre.tel{
+  position: absolute;
+  right: 20px;
+  bottom: 100px;
+}
+div.fotter pre.time{
+  position: absolute;
+  right: 20px;
+  bottom: 70px;
+}
+div.fotter pre.add{
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+}

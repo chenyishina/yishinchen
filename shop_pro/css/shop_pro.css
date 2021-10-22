@@ -1,0 +1,496 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  min-width: 1440px;
+  height:2200px;
+  background-color: #1F273D;
+  position: absolute;
+}
+
+div.icon img.category{
+  width: 30px;
+  position: fixed;
+  top: 45px;
+  right: 120px;
+  z-index: 10;
+}
+div.icon img.member{
+  width: 30px;
+  position: fixed;
+  top: 95px;
+  right: 118px;
+  z-index: 10;
+}
+div.icon img.bag{
+  width: 30px;
+  position: fixed;
+  top: 148px;
+  right: 115px;
+  z-index: 10;
+}
+div.icon img.top{
+  width: 30px;
+  position: fixed;
+  bottom: 50px;
+  right: 120px;
+  z-index: 10;
+}
+
+nav.nav{
+  /* border: 1px solid white; */
+  width: 1200px;
+  margin: 25px  auto;
+}
+
+nav.nav ul.list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0px;
+}
+
+nav.nav ul.list div.shop{
+  /* border: 1px solid blue; */
+  padding: 20px 0px;
+  position: relative;
+  margin: 0px 30px;
+  font-size: 16px;
+}
+nav.nav ul.list div.shop a.shop_cate{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+nav.nav ul.list div.shop ul.shop_list{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: -7px;
+  top: 100%;
+  /* display: none; */
+}
+
+nav.nav ul.list div.shop:hover ul.shop_list{
+  display: block;
+}
+
+nav.nav ul.list div.shop ul.shop_list > li{
+  /* border: 1px solid red; */
+  width: 80px;
+  list-style: none;
+  margin: 0px;
+  padding: 15px 5px;
+  text-align: center;
+}
+
+nav.nav ul.list div.shop ul.shop_list > li > a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 3px 0px;
+  transition: 0.5s;
+  position: relative;
+  z-index: 10;
+}
+
+nav.nav ul.list li > a img.logo{
+  width: 66px;
+  height: 66px;
+  display: inline-block;
+  margin: 0px 30px 0px 80px;
+}
+
+ul.list > li {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul.list > li > a{
+  /* border: 1px solid green; */
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  /* padding: 20px 0px; */
+  margin: 0px 30px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+ul.list > li > a.about_us:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.pro_test:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.group:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.traffic:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.combination:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+nav.nav ul.list div.shop ul.shop_list > li > a:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+div.background_color{
+  /* border: 1px solid red; */
+  height: 920px;
+  width: 100%;
+  min-width: 1440px;
+  background-color: #2B344A;
+  position: absolute;
+  bottom: 220px;
+}
+div.background_color_left{
+  /* border: 1px solid red; */
+  height: 160px;
+  width: 20%;
+  background-color: #37415A;
+  position: absolute;
+  left: 0px;
+  bottom: 1050px;
+  border-radius: 0px 100px 100px 0px;
+  transition: 2s;
+}
+div.background_color_bottom{
+  /* border: 1px solid red; */
+  height: 160px;
+  width: 25%;
+  background-color: #37415A;
+  position: absolute;
+  right: 0px;
+  bottom: 150px;
+  border-radius: 100px 0px 0px 100px;
+  transition: 2s;
+}
+div.background_color_bottom:hover{
+  width: 100%;
+  border-radius: 0px;
+}
+div.shop_pro_content{
+  /* border: 1px solid blue; */
+  height: 1800px;
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.shop_pro_content img.shop_pro_jpg{
+  width: 280px;
+  position: absolute;
+  left: -70px;
+  top: 70px;
+}
+img.sketch_left{
+  width: 230px;
+  position: absolute;
+  left: 2%;
+  top: 940px;
+}
+img.sketch_bottom{
+  width: 150px;
+  position: absolute;
+  right: 10%;
+  bottom: 220px;
+}
+img.lamp{
+  width: 500px;
+  position: absolute;
+  right: 0;
+  top: 160px;
+}
+div.shop_pro_content img.product_1{
+  height: 230px;
+  position: absolute;
+  left: 225px;
+  top: 460px;
+  border-radius: 30px 30px 0px 0px;
+}
+div.shop_pro_content img.product_2{
+  height: 230px;
+  height: 230px;
+  position: absolute;
+  right: 225px;
+  top: 460px;
+  border-radius: 30px 30px 0px 0px;
+}
+div.shop_pro_content img.product_3{
+  height: 230px;
+  position: absolute;
+  left: 225px;
+  top: 1200px;
+  border-radius: 30px 30px 0px 0px;
+}
+div.shop_pro_content img.product_4{
+  height: 230px;
+  position: absolute;
+  right: 225px;
+  top: 1200px;
+  border-radius: 30px 30px 0px 0px;
+}
+div.shop_pro_content img.desk_1{
+  width: 380px;
+  position: absolute;
+  left: 185px;
+  top: 670px;
+}
+div.shop_pro_content img.desk_2{
+  width: 335px;
+  position: absolute;
+  right: 200px;
+  top: 580px;
+}
+div.shop_pro_content img.desk_3{
+  width: 335px;
+  position: absolute;
+  left: 205px;
+  top: 1320px;
+}
+div.shop_pro_content img.desk_4{
+  width: 380px;
+  position: absolute;
+  right: 175px;
+  top: 1410px;
+}
+div.shop_pro_content pre.product_1_title{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 320px;
+  left: 330px;
+  text-align: right;
+}
+div.shop_pro_content pre.product_1_price{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 390px;
+  left: 390px;
+}
+div.shop_pro_content pre.product_2_title{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 320px;
+  right: 240px;
+}
+div.shop_pro_content pre.product_2_price{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 390px;
+  right: 290px;
+}
+div.shop_pro_content pre.product_3_title{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 1060px;
+  left: 360px;
+}
+div.shop_pro_content pre.product_3_price{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 1130px;
+  left: 390px;
+}
+div.shop_pro_content pre.product_4_title{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 1060px;
+  right: 240px;
+}
+div.shop_pro_content pre.product_4_price{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 1130px;
+  right: 290px;
+}
+div.shop_pro_content pre.shop_pro_title{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 62px;
+  left: -13px;
+}
+div.shop_pro_content a.more_1{
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 5px 13px;
+  white-space: pre;
+  text-decoration: none;
+  font-size: 14px;
+  position: absolute;
+  top: 800px;
+  left: 430px;
+  transition: 0.5s;
+}
+div.shop_pro_content a.more_2{
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 5px 13px;
+  white-space: pre;
+  text-decoration: none;
+  font-size: 14px;
+  position: absolute;
+  top: 800px;
+  right: 220px;
+  transition: 0.5s;
+}
+div.shop_pro_content a.more_3{
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 5px 13px;
+  white-space: pre;
+  text-decoration: none;
+  font-size: 14px;
+  position: absolute;
+  top: 1540px;
+  left: 430px;
+  transition: 0.5s;
+}
+div.shop_pro_content a.more_4{
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 5px 13px;
+  white-space: pre;
+  text-decoration: none;
+  font-size: 14px;
+  position: absolute;
+  top: 1540px;
+  right: 220px;
+  transition: 0.5s;
+}
+div.shop_pro_content a img.shop_bag_1{
+  width: 30px;
+  position: absolute;
+  top: 405px;
+  left: 480px;
+}
+div.shop_pro_content a img.shop_bag_2{
+  width: 30px;
+  position: absolute;
+  top: 405px;
+  right: 240px;
+}
+div.shop_pro_content a img.shop_bag_3{
+  width: 30px;
+  position: absolute;
+  top: 1145px;
+  left: 480px;
+}
+div.shop_pro_content a img.shop_bag_4{
+  width: 30px;
+  position: absolute;
+  top: 1145px;
+  right: 240px;
+}
+div.shop_pro_content > a:hover{
+  background-color: #96430F;
+  border-radius: 10px;
+}
+div.shop_pro_content > a > img:hover{
+  transform: rotate(45deg);
+}
+div.background_color_left:hover{
+  width: 100%;
+  border-radius: 0px;
+}
+div.fotter_color{
+  /* border: 1px solid blue; */
+  width: 100%;
+  min-width: 1440px;
+  height: 220px;
+  display: block;
+  position: absolute;
+  background-color: #121B32;
+  bottom: 0px;
+}
+div.fotter{
+  /* border: 1px solid white; */
+  min-width: 1240px;
+  height: 220px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+}
+div.fotter img.fotter_sketch{
+  width: 550px;
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
+}
+div.fotter img.fb{
+  width: 25px;
+  position: absolute;
+  right: 300px;
+  bottom: 55px;
+}
+div.fotter img.ig{
+  width: 25px;
+  position: absolute;
+  right: 350px;
+  bottom: 55px;
+}
+div.fotter img.twitter{
+  width: 25px;
+  position: absolute;
+  right: 400px;
+  bottom: 55px;
+}
+div.fotter > pre{
+  color: white;
+}
+div.fotter pre.tel{
+  position: absolute;
+  right: 20px;
+  bottom: 100px;
+}
+div.fotter pre.time{
+  position: absolute;
+  right: 20px;
+  bottom: 70px;
+}
+div.fotter pre.add{
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+}

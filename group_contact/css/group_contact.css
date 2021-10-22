@@ -1,0 +1,533 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  min-width: 1440px;
+  height: 2550px;
+  background-color: #1F273D;
+  position: absolute;
+}
+
+div.icon img.category{
+  width: 30px;
+  position: fixed;
+  top: 45px;
+  right: 120px;
+  z-index: 10;
+}
+div.icon img.member{
+  width: 30px;
+  position: fixed;
+  top: 95px;
+  right: 118px;
+  z-index: 10;
+}
+div.icon img.bag{
+  width: 30px;
+  position: fixed;
+  top: 148px;
+  right: 115px;
+  z-index: 10;
+}
+div.icon img.top{
+  width: 30px;
+  position: fixed;
+  bottom: 50px;
+  right: 120px;
+  z-index: 10;
+}
+
+nav.nav{
+  /* border: 1px solid white; */
+  width: 1200px;
+  margin: 25px  auto;
+}
+
+nav.nav ul.list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0px;
+}
+
+nav.nav ul.list div.shop{
+  /* border: 1px solid blue; */
+  padding: 20px 0px;
+  position: relative;
+  margin: 0px 30px;
+  font-size: 16px;
+}
+nav.nav ul.list div.shop a.shop_cate{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+nav.nav ul.list div.shop ul.shop_list{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: -7px;
+  top: 100%;
+  display: none;
+}
+
+nav.nav ul.list div.shop:hover ul.shop_list{
+  display: block;
+}
+
+nav.nav ul.list div.shop ul.shop_list > li{
+  /* border: 1px solid red; */
+  width: 80px;
+  list-style: none;
+  margin: 0px;
+  padding: 15px 5px;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+}
+
+nav.nav ul.list div.shop ul.shop_list > li > a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 3px 0px;
+  transition: 0.5s;
+  position: relative;
+  z-index: 10;
+}
+
+nav.nav ul.list li > a img.logo{
+  width: 66px;
+  height: 66px;
+  display: inline-block;
+  margin: 0px 30px 0px 80px;
+}
+
+ul.list > li {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul.list > li > a{
+  /* border: 1px solid green; */
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  /* padding: 20px 0px; */
+  margin: 0px 30px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+ul.list > li > a.about_us:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.pro_test:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.group:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.traffic:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.combination:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+nav.nav ul.list div.shop ul.shop_list > li > a:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+div.group{
+  border: 1px solid red;
+  width: 1200px;
+  height: 550px;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.group div.title{
+  /* border: 1px solid blue; */
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 270px;
+}
+div.group div.title > img{
+  width: 30px;
+  vertical-align: bottom;
+}
+div.group div.title > a{
+  color: white;
+}
+div.group div.title > a > span{
+  font-size: 20px;
+}
+div.group div.guid{
+  /* border: 1px solid white; */
+  width: 300px;
+  height: 220px;
+  position: absolute;
+  top: 130px;
+  left: 400px;
+}
+div.group div.guid > a{
+  /* border: 1px solid red; */
+  color: white;
+  display: block;
+}
+div.group div.guid  a.time_1{
+  margin: 0 0 10px 30px;
+}
+div.group div.guid  a.time_1 > span{
+  font-size: 14px;
+  padding: 0 0 0 30px;
+}
+div.group div.guid  a.am_1 > span{
+  padding: 0 0 0 60px;
+}
+div.group div.guid  a.pm_1 > span{
+  padding: 0 0 0 60px;
+}
+div.group div.guid a.intro_1{
+  font-size: 14px;
+  margin: 0 0 0 30px;
+}
+div.group div.guid a.am_1{
+  width: 190px;
+  position: absolute;
+  top:97px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.group div.guid a.pm_1{
+  width: 190px;
+  position: absolute;
+  top: 147px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.group div.guid a.free{
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+}
+div.group div.guid div.background_color_1{
+  width:250px;
+  height: 120px;
+  background-color: #091229;
+  position: absolute;
+  top: 75px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  border-radius: 10px;
+}
+div.group div.diy{
+  /* border: 1px solid white; */
+  width: 300px;
+  height: 220px;
+  position: absolute;
+  top: 130px;
+  left: 700px;
+}
+div.group div.diy > a{
+  /* border: 1px solid red; */
+  color: white;
+  display: block;
+}
+div.group div.diy a.time_2{
+  margin: 0 0 10px 30px;
+}
+div.group div.diy a.time_2 > span{
+  font-size: 14px;
+  padding: 0 0 0 30px;
+}
+div.group div.diy a.am_2 > span{
+  padding: 0 0 0 60px;
+}
+div.group div.diy a.pm_2 > span{
+  padding: 0 0 0 60px;
+}
+div.group div.diy a.intro_2{
+  font-size: 14px;
+  margin: 0 0 0 30px;
+}
+div.group div.diy a.am_2{
+  width: 190px;
+  position: absolute;
+  top: 97px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.group div.diy a.pm_2{
+  width: 190px;
+  position: absolute;
+  top: 147px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.group div.diy a.fee{
+  position: absolute;
+  bottom: 0;
+  right: 25px;
+}
+div.group div.diy div.background_color_2{
+  width:250px;
+  height: 120px;
+  background-color: #091229;
+  position: absolute;
+  top: 75px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  border-radius: 10px;
+}
+div.group div.important{
+  /* border: 1px solid green; */
+  width: 700px;
+  height: 100px;
+  position: absolute;
+  right: 80px;
+  bottom: 0;
+}
+div.group div.important > img{
+  /* border: 1px solid red; */
+  width: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+div.group div.important > p{
+  /* border: 1px solid red; */
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  margin: 0;
+}
+div.group img.lamp{
+  width: 200px;
+  transform: scaleX(-1);
+  position: absolute;
+  top: 110px;
+  left: 170px;
+}
+div.group img.line{
+  width: 900px;
+  position: absolute;
+  bottom: 0px;
+  right: 80px;
+}
+div.reserve{
+  border: 1px solid white;
+  width: 1200px;
+  height: 710px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 960px;
+}
+div.reserve div.server{
+  /* border: 1px solid blue; */
+  width: 330px;
+  height: 550px;
+  position: absolute;
+  left: 200px;
+}
+div.reserve div.server div.title_1{
+  /* border: 1px solid red; */
+  display: inline-block;
+  height: 80px;
+}
+div.reserve div.server div.title_1 > img{
+  /* border: 1px solid red; */
+  width: 40px;
+  vertical-align: middle;
+}
+div.reserve div.server div.title_1 > a{
+  /* border: 1px solid red; */
+  color: white;
+}
+div.reserve div.server div.date{
+  /* border: 1px solid white; */
+  color: white;
+  height: 120px;
+}
+div.reserve div.server div.date > a{
+  line-height: 50px;
+}
+div.reserve div.server div.which_guid{
+  /* border: 1px solid blue; */
+  color: white;
+  height: 90px;
+  position: relative;
+}
+div.reserve div.server div.which_guid div.background_color_1{
+  height: 30px;
+  width: 150px;
+  background-color: #54607E;
+  border-radius: 10px;
+  position: absolute;
+  top: 45px;
+  z-index: -1;
+}
+div.reserve div.server div.which_guid > a{
+  line-height: 50px;
+}
+div.reserve div.server div.diy{
+  /* border: 1px solid blue; */
+  color: white;
+  height: 130px;
+  position: relative;
+}
+div.reserve div.server div.diy div.background_color_2{
+  height: 30px;
+  width: 150px;
+  background-color: #54607E;
+  border-radius: 10px;
+  position: absolute;
+  top: 45px;
+  z-index: -1;
+}
+div.reserve div.server div.diy > a{
+  line-height: 50px;
+}
+div.reserve div.server div.people{
+  /* border: 1px solid blue; */
+  color: white;
+}
+#people{
+  color: white;
+  border: none;
+  background-color: #54607E;
+  border-radius: 10px;
+  margin: 0 0 0 15px;
+  width: 55px;
+  height: 28px;
+}
+#date{
+  color: white;
+  border: none;
+  background-color: #54607E;
+  border-radius: 10px;
+  height: 28px;
+}
+div.member{
+  /* border: 1px solid red; */
+  width: 330px;
+  height: 550px;
+  position: absolute;
+  right: 200px;
+}
+div.member div.title_2{
+  /* border: 1px solid red; */
+  display: inline-block;
+  height: 80px;
+}
+div.member div.title_2 > img{
+  /* border: 1px solid red; */
+  width: 40px;
+  vertical-align: middle;
+}
+div.member div.title_2  > a{
+  /* border: 1px solid red; */
+  color: white;
+}
+div.member div.username{
+  /* border: 1px solid white; */
+  color: white;
+  height: 80px;
+}
+div.member div.username > a{
+  line-height: 50px;
+}
+#username{
+  background-color: #54607E;
+  border: none;
+  border-radius: 10px;
+  height: 28px;
+  color: white;
+}
+div.member div.tel{
+  /* border: 1px solid white; */
+  color: white;
+  height: 80px;
+}
+div.member div.tel > a{
+  line-height: 50px;
+}
+#tel{
+  color: white;
+  background-color: #54607E;
+  border: none;
+  border-radius: 10px;
+  height: 28px;
+}
+div.member div.email{
+  /* border: 1px solid white; */
+  color: white;
+  height: 80px;
+}
+div.member div.email > a{
+  line-height: 50px;
+}
+#email{
+  color: white;
+  background-color: #54607E;
+  border: none;
+  border-radius: 10px;
+  height: 28px;
+}
+div.member div.others{
+  /* border: 1px solid white; */
+  color: white;
+  height: 160px;
+}
+div.member div.others > a{
+  line-height: 50px;
+}
+#others{
+  color: white;
+  background-color: #54607E;
+  border: none;
+  border-radius: 10px;
+  height: 100px;
+  width: 200px;
+}
+#button{
+  background-color: #091229;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  height: 28px;
+  position: absolute;
+  bottom: 50px;
+  left: 470px;
+}

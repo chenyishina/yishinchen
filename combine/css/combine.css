@@ -1,0 +1,382 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  min-width: 1440px;
+  height:2600px;
+  background-color: #1F273D;
+  position: absolute;
+}
+
+div.icon img.category{
+  width: 30px;
+  position: fixed;
+  top: 45px;
+  right: 120px;
+  z-index: 10;
+}
+div.icon img.member{
+  width: 30px;
+  position: fixed;
+  top: 95px;
+  right: 118px;
+  z-index: 10;
+}
+div.icon img.bag{
+  width: 30px;
+  position: fixed;
+  top: 148px;
+  right: 115px;
+  z-index: 10;
+}
+div.icon img.top{
+  width: 30px;
+  position: fixed;
+  bottom: 50px;
+  right: 120px;
+  z-index: 10;
+}
+
+nav.nav{
+  /* border: 1px solid white; */
+  width: 1200px;
+  margin: 25px  auto;
+}
+
+nav.nav ul.list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0px;
+}
+
+nav.nav ul.list div.shop{
+  /* border: 1px solid blue; */
+  padding: 20px 0px;
+  position: relative;
+  margin: 0px 30px;
+  font-size: 16px;
+}
+nav.nav ul.list div.shop a.shop_cate{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+nav.nav ul.list div.shop ul.shop_list{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: -7px;
+  top: 100%;
+  display: none;
+}
+
+nav.nav ul.list div.shop:hover ul.shop_list{
+  display: block;
+}
+
+nav.nav ul.list div.shop ul.shop_list > li{
+  /* border: 1px solid red; */
+  width: 80px;
+  list-style: none;
+  margin: 0px;
+  padding: 15px 5px;
+  text-align: center;
+}
+
+nav.nav ul.list div.shop ul.shop_list > li > a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 3px 0px;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+nav.nav ul.list li > a img.logo{
+  width: 66px;
+  height: 66px;
+  display: inline-block;
+  margin: 0px 30px 0px 80px;
+}
+
+ul.list > li {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul.list > li > a{
+  /* border: 1px solid green; */
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  /* padding: 20px 0px; */
+  margin: 0px 30px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+ul.list > li > a.about_us:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
+}
+ul.list > li > a.pro_test:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
+}
+ul.list > li > a.group:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
+}
+ul.list > li > a.traffic:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
+}
+nav.nav ul.list div.shop ul.shop_list > li > a:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
+}
+
+div.combine_background_1{
+  /* border: 1px solid red; */
+  background-color: #2B344A;
+  width: 100%;
+  min-width: 1440px;
+  height: 1080px;
+  position: absolute;
+  bottom: 220px;
+  z-index: -2;
+}
+div.combine_background_2{
+  /* border: 1px solid red; */
+  background-color: #37415A;
+  width: 70%;
+  height: 370px;
+  position: absolute;
+  border-radius: 500px 0px 0px 500px;
+  top: 1100px;
+  right: 0px;
+  z-index: -2;
+}
+div.combine_background_3{
+  /* border: 1px solid red; */
+  background-color: #37415A;
+  width: 50%;
+  height: 280px;
+  position: absolute;
+  border-radius: 0px 500px 500px 0px;
+  top: 1900px;
+  left: 0px;
+  z-index: -2;
+}
+div.combine_content{
+  /* border: 1px solid red; */
+  width: 1200px;
+  height: 2400px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+div.combine_content img.combine_title_jpg{
+  width: 280px;
+  position: absolute;
+  left: -70px;
+  top: 70px;
+}
+div.combine_content img.right_desk{
+  width: 450px;
+  position: absolute;
+  right: 0px;
+  top: 450px;
+  opacity: 0.3;
+}
+div.combine_content img.umbrella{
+  width: 340px;
+  position: absolute;
+  left: 170px;
+  top: 250px;
+  border-radius: 70px;
+}
+div.combine_content img.porsche{
+  width: 540px;
+  position: absolute;
+  right: 30px;
+  top: 1620px;
+  border-radius: 70px;
+}
+div.combine_content img.ear{
+  width: 280px;
+  position: absolute;
+  right: 200px;
+  top: 250px;
+}
+div.combine_content img.stairs{
+  width: 90px;
+  position: absolute;
+  left: 430px;
+  top: 800px;
+}
+div.combine_content img.what{
+  width: 260px;
+  position: absolute;
+  right: 650px;
+  top: 1680px;
+}
+div.combine_content img.chat_box{
+  width: 300px;
+  position: absolute;
+  left: 0px;
+  top: 1600px;
+}
+div.combine_content img.hi{
+  width: 270px;
+  position: absolute;
+  left: 280px;
+  /* top: 800px;*/  /*下滑幅度 */
+  top: 920px;
+  transform: rotate(-33deg);
+}
+div.combine_content img.next_1{
+  position: absolute;
+  left: 460px;
+  top: 750px;
+  transform: rotate(-90deg);
+}
+div.combine_content img.next_2{
+  position: absolute;
+  right: 610px;
+  top: 1920px;
+}
+div.combine_content img.umbrella_logo{
+  width: 100px;
+  position: absolute;
+  right: 400px;
+  top: 1210px;
+}
+div.combine_content img.lh_logo{
+  width: 100px;
+  position: absolute;
+  right: 200px;
+  top: 1200px;
+}
+div.combine_content img.X{
+  width: 55px;
+  position: absolute;
+  right: 320px;
+  top: 1230px;
+}
+pre.combine_title{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 33px;
+  top: 66px;
+}
+pre.umbrella_title{
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  left: 700px;
+  top: 1025px;
+}
+pre.umbrella_content{
+  color: white;
+  position: absolute;
+  left: 700px;
+  top: 1075px;
+}
+pre.porsche_title{
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  left: 65px;
+  bottom: 695px;
+}
+pre.porsche_content{
+  color: white;
+  position: absolute;
+  left: 65px;
+  bottom: 625px;
+}
+
+div.fotter_color{
+  /* border: 1px solid blue; */
+  width: 100%;
+  min-width: 1440px;
+  height: 220px;
+  display: block;
+  position: absolute;
+  background-color: #121B32;
+  bottom: 0px;
+}
+div.fotter{
+  /* border: 1px solid white; */
+  min-width: 1240px;
+  height: 220px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+}
+div.fotter img.fotter_sketch{
+  width: 550px;
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
+}
+div.fotter img.fb{
+  width: 25px;
+  position: absolute;
+  right: 300px;
+  bottom: 55px;
+}
+div.fotter img.ig{
+  width: 25px;
+  position: absolute;
+  right: 350px;
+  bottom: 55px;
+}
+div.fotter img.twitter{
+  width: 25px;
+  position: absolute;
+  right: 400px;
+  bottom: 55px;
+}
+div.fotter > pre{
+  color: white;
+}
+div.fotter pre.tel{
+  position: absolute;
+  right: 20px;
+  bottom: 100px;
+}
+div.fotter pre.time{
+  position: absolute;
+  right: 20px;
+  bottom: 70px;
+}
+div.fotter pre.add{
+  position: absolute;
+  right: 20px;
+  bottom: 40px;
+}

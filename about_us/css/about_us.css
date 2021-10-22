@@ -1,0 +1,706 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  min-width: 1440px;
+  height:6700px;
+  background-color: #1F273D;
+  position: absolute;
+}
+
+div.icon img.category{
+  width: 30px;
+  position: fixed;
+  top: 45px;
+  right: 120px;
+  z-index: 10;
+}
+div.icon img.member{
+  width: 30px;
+  position: fixed;
+  top: 95px;
+  right: 118px;
+  z-index: 10;
+}
+div.icon img.bag{
+  width: 30px;
+  position: fixed;
+  top: 148px;
+  right: 115px;
+  z-index: 10;
+}
+div.icon img.top{
+  width: 30px;
+  position: fixed;
+  bottom: 50px;
+  right: 120px;
+  z-index: 10;
+}
+
+nav.nav{
+  /* border: 1px solid white; */
+  width: 1200px;
+  margin: 25px  auto;
+}
+
+nav.nav ul.list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0px;
+}
+
+nav.nav ul.list div.shop{
+  /* border: 1px solid blue; */
+  padding: 20px 0px;
+  position: relative;
+  margin: 0px 30px;
+  font-size: 16px;
+}
+nav.nav ul.list div.shop a.shop_cate{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+nav.nav ul.list div.shop ul.shop_list{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: -7px;
+  top: 100%;
+  display: none;
+}
+
+nav.nav ul.list div.shop:hover ul.shop_list{
+  display: block;
+}
+
+nav.nav ul.list div.shop ul.shop_list > li{
+  /* border: 1px solid red; */
+  width: 80px;
+  list-style: none;
+  margin: 0px;
+  padding: 15px 5px;
+  text-align: center;
+}
+
+nav.nav ul.list div.shop ul.shop_list > li > a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 3px 0px;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+nav.nav ul.list li > a img.logo{
+  width: 66px;
+  height: 66px;
+  display: inline-block;
+  margin: 0px 30px 0px 80px;
+}
+
+ul.list > li {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul.list > li > a{
+  /* border: 1px solid green; */
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  /* padding: 20px 0px; */
+  margin: 0px 30px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+ul.list > li > a.pro_test:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
+}
+ul.list > li > a.combination:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
+}
+ul.list > li > a.group:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
+}
+ul.list > li > a.traffic:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
+}
+nav.nav ul.list div.shop ul.shop_list > li > a:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
+}
+div.background_video{
+  /* border: 1px solid red; */
+  width: 100%;
+  min-width: 1440px;
+  height: 700px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  opacity: 0.7;
+  font-size: 0;
+  z-index: -1;
+}
+div.banner_logo{
+  /* border: 1px solid blue; */
+  position: absolute;
+  top: 320px;
+  right: 50%;
+  transform: translateX(50%);
+  opacity: 0.3;
+}
+div.about_us{
+  /* border: 1px solid red; */
+  width: 1200px;
+  height: 750px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 700px;
+  transform: translateX(-50%);
+}
+div.about_us_title_color{
+  width: 33%;
+  height: 80px;
+  background-color: #37415A;
+  position: absolute;
+  top: 785px;
+}
+div.about_us img.title_icon{
+  width: 100px;
+  position: absolute;
+  top: 65px;
+  left: 100px;
+}
+div.about_us pre.about_us_title{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 90px;
+  left: 220px;
+}
+div.about_us img.map{
+  width: 460px;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+div.about_us div.content > pre{
+  color: white;
+}
+div.about_us div.content pre.start{
+  position: absolute;
+  top: 170px;
+  left: 220px;
+}
+div.about_us div.content pre.no_1{
+  position: absolute;
+  top: 305px;
+  left: 180px;
+}
+div.about_us div.content pre.no_2{
+  position: absolute;
+  top: 180px;
+  left: 420px;
+}
+div.about_us div.content pre.no_3{
+  position: absolute;
+  top: 400px;
+  left: 460px;
+}
+div.about_us div.content pre.no_4{
+  position: absolute;
+  top: 435px;
+  left: 180px;
+}
+div.about_us div.content pre.no_5{
+  position: absolute;
+  top: 500px;
+  left: 340px;
+}
+div.about_us div.content pre.end{
+  position: absolute;
+  top: 600px;
+  left: 400px;
+}
+div.about_us img.lunghui{
+  position: absolute;
+  top: 300px;
+  left: 600px;
+  width: 550px;
+}
+div.about_us div.lh_background_color{
+  background-color: #37415A;
+  width: 480px;
+  height: 320px;
+  position: absolute;
+  top: 315px;
+  left: 630px;
+  border-radius: 130px;
+}
+
+div.creative_color_1{
+  width: 75%;
+  height: 480px;
+  background-color: #0D162F;
+  position: absolute;
+  top: 1750px;
+  border-radius: 0px 300px 300px 0px;
+
+}
+div.creative_color_2{
+  width: 100%;
+  min-width: 1440px;
+  height: 480px;
+  background-color: #37415A;
+  position: absolute;
+  top: 1900px;
+}
+div.creative_color_3{
+  width: 100%;
+  min-width: 1440px;
+  height: 870px;
+  background-color: #0D162F;
+  position: absolute;
+  top: 2380px;
+  opacity: 0.6;
+}
+div.creative{
+  /* border: 1px solid white; */
+  width: 1200px;
+  height: 2000px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 1450px;
+  transform: translateX(-50%);
+}
+div.creative div.creative_title{
+  /* border: 1px solid blue; */
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 280px;
+  right: 50px;
+}
+div.creative img.lock_wall{
+  width: 420px;
+  position: absolute;
+  top: 400px;
+  left: 370px;
+}
+div.creative div.creative_title_1{
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 370px;
+  left: 830px;
+}
+div.creative div.creative_content{
+  /* border: 1px solid blue; */
+  width: 360px;
+  height: 255px;
+  color: white;
+  position: absolute;
+  top: 440px;
+  left: 830px;
+}
+div.creative img.crown{
+  width: 360px;
+  position: absolute;
+  top: 880px;
+  left: 150px;
+}
+div.creative div.where{
+  /* border: 1px solid blue; */
+  color: white;
+  position: absolute;
+  top: 1200px;
+  left: 400px;
+  width: 330px;
+  height: 130px;
+}
+div.creative div.how{
+  /* border: 1px solid blue; */
+  color: white;
+  position: absolute;
+  top: 1450px;
+  left: 800px;
+  width: 340px;
+  height: 180px;
+}
+div.creative div.wherehow{
+  font-size: 22px;
+  /* border: 1px solid blue; */
+  color: white;
+  position: absolute;
+  top: 1600px;
+  left: 240px;
+  white-space: pre;
+}
+div.creative img.lock_love{
+  width: 520px;
+  height: 230px;
+  object-fit: cover;
+  position: absolute;
+  bottom: 70px;
+  left: 500px;
+  border-radius: 0px 100px;
+}
+div.creative img.love_wall{
+  width: 690px;
+  position: absolute;
+  bottom: 200px;
+  left: 70px;
+  opacity: 0.5;
+}
+div.temple{
+  /* border: 1px solid blue; */
+  width: 1200px;
+  height: 1700px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 3450px;
+  transform: translateX(-50%);
+}
+div.temple_color{
+  width:100%;
+  min-width: 1440px;
+  height: 1050px;
+  background-color: #0D162F;
+  position: absolute;
+  top: 4200px;
+}
+img.temple_logo{
+  width: 250px;
+  position: absolute;
+  top: 3500px;
+  right: 0px;
+}
+div.temple img.temple_back{
+  width: 800px;
+  height: 330px;
+  border-radius: 200px;
+  object-fit: cover;
+  position: absolute;
+  top: 450px;
+  left: 120px;
+}
+div.temple img.friendly{
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 680px;
+  left: 320px;
+}
+div.temple img.colorful{
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 680px;
+  left: 570px;
+}
+div.temple img.light{
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  top: 680px;
+  left: 825px;
+}
+div.temple div.temple_title{
+  color: white;
+  font-size: 20px;
+  writing-mode: vertical-rl;
+  background-color: #0D162F;
+  padding: 30px 0px 100px 20px;
+  position: absolute;
+  top: 320px;
+  left: 270px;
+}
+div.temple p.friendly_title{
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 890px;
+  left: 380px;
+}
+div.temple pre.colorful_title{
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 890px;
+  left: 585px;
+}
+div.temple p.light_title{
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 890px;
+  left: 900px;
+}
+div.temple p.friendly_content{
+  width: 180px;
+  height: 100px;
+  color: white;
+  position: absolute;
+  top: 950px;
+  left: 335px;
+}
+div.temple p.colorful_content{
+  color: white;
+  width: 180px;
+  height: 100px;
+  color: white;
+  position: absolute;
+  top: 950px;
+  left: 590px;
+}
+div.temple p.light_content{
+  color: white;
+  width: 180px;
+  height: 100px;
+  color: white;
+  position: absolute;
+  top: 950px;
+  left: 850px;
+}
+div.temple div.temple_luck_b1{
+  width: 290px;
+  height: 225px;
+  background-color: #37415A;
+  position: absolute;
+  top: 1350px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+div.temple div.temple_luck_b2{
+  width: 450px;
+  height: 35px;
+  background-color: #37415A;
+  position: absolute;
+  top: 1650px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.temple img.temple_lock{
+  width: 215px;
+  border-radius: 0 100px;
+  position: absolute;
+  top: 1315px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.temple img.luck{
+  width: 170px;
+  position: absolute;
+  top: 1500px;
+  right: 250px;
+}
+div.temple pre.luck_1{
+  color: white;
+  position: absolute;
+  top: 1620px;
+  left: 440px;
+  font-size: 18px;
+}
+div.temple pre.luck_2{
+  color: white;
+  position: absolute;
+  top: 1622px;
+  left: 650px;
+  font-size: 18px;
+}
+div.temple a.pick_me{
+  color: white;
+  white-space: pre;
+  background-color: black;
+  padding: 10px 20px;
+  position: absolute;
+  top: 1650px;
+  left: 900px;
+  font-size: 18px;
+}
+div.temple a.pick_me:hover{
+  cursor: pointer;
+  background-color: white;
+  color:black;
+  border-radius: 20px;
+  transition: 1s;
+}
+div.temple img.luck:hover{
+  cursor: pointer;
+  animation: swing 0.5s infinite alternate;
+  transform-origin: bottom;
+}
+@keyframes swing {
+    0% { transform: rotate(-2deg); }
+    100% { transform: rotate(2deg); }
+}
+div.achievement{
+  /* border: 1px solid blue; */
+  width: 1200px;
+  height: 1450px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 5150px;
+  transform: translateX(-50%);
+}
+div.achievement img.ach_1993{
+  height: 150px;
+  position: absolute;
+  top: 380px;
+  left: 350px;
+}
+div.achievement img.ach_1996{
+  height: 150px;
+  position: absolute;
+  top: 380px;
+  left: 670px;
+}
+div.achievement_color{
+  width: 75%;
+  height: 480px;
+  background-color: #37415A;
+  position: absolute;
+  top: 5600px;
+  right: 0;
+}
+div.achievement img.exihibition{
+  width: 530px;
+  border-radius: 180px 0px;
+  position: absolute;
+  top: 610px;
+  right: 130px;
+}
+div.achievement pre.achievement_title{
+  color: white;
+  font-size: 20px;
+  border-radius: 180px 0px;
+  position: absolute;
+  top: 300px;
+  left: 350px;
+}
+div.achievement p.achievement_content{
+  /* border: 1px solid red; */
+  color: white;
+  width: 340px;
+  height: 340px;
+  position: absolute;
+  top: 610px;
+  left: 170px;
+}
+div.factory_overflow{
+  /* border: 1px solid white; */
+  height: 250px;
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
+  overflow: hidden;
+}
+div.achievement div.factory_overflow div.factory{
+  box-sizing: content-box;
+  /* border: 1px solid red; */
+  width:3960px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0px;
+  font-size: 0;
+}
+div.achievement div.factory_overflow div.factory > img{
+  display: inline-block;
+  width: 360px;
+}
+div.fotter_color{
+  /* border: 1px solid blue; */
+  width: 100%;
+  min-width: 1440px;
+  height: 220px;
+  display: block;
+  position: absolute;
+  background-color: #121B32;
+  top: 6700px;
+}
+div.fotter{
+  /* border: 1px solid white; */
+  min-width: 1240px;
+  height: 220px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 6700px;
+  transform: translateX(-50%);
+}
+div.fotter img.fotter_sketch{
+  width: 550px;
+  position: absolute;
+  left: 30px;
+  bottom: 40px;
+}
+div.fotter img.fb{
+  width: 25px;
+  position: absolute;
+  right: 300px;
+  bottom: 55px;
+}
+div.fotter img.ig{
+  width: 25px;
+  position: absolute;
+  right: 350px;
+  bottom: 55px;
+}
+div.fotter img.twitter{
+  width: 25px;
+  position: absolute;
+  right: 400px;
+  bottom: 55px;
+}
+div.fotter > pre{
+  color: white;
+}
+div.fotter pre.tel{
+position: absolute;
+right: 20px;
+bottom: 100px;
+}
+div.fotter pre.time{
+position: absolute;
+right: 20px;
+bottom: 70px;
+}
+div.fotter pre.add{
+position: absolute;
+right: 20px;
+bottom: 40px;
+}

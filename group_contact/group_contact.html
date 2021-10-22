@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>團體預約</title>
+    <link rel="icon" href="./image/title_logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/group_contact.css">
+  </head>
+
+
+  <body>
+    <header>
+      <nav class="nav">
+        <ul class="list">
+          <li>
+            <a href="../home/home.html"><img class="logo" src="./image/logo_white.png"></a>
+          </li>
+          <li>
+            <a class="about_us" href="../about_us/about_us.html">關於我們</a>
+          </li>
+          <li>
+            <a class="pro_test" href="#">專業技術測試</a>
+          </li>
+          <li>
+            <a class="combination" href="../combine/combine.html">異業結合</a>
+          </li>
+          <li>
+            <div class="shop">
+              <a class="shop_cate" href="#" style="pointer-events:none;">線上商店</a>
+              <ul class="shop_list">
+                <li><a class="pro" href="../shop_pro/shop_pro.html">專業級</a>
+                <li><a class="creative" href="../shop_creative/shop_creative.html">文創商品</a>
+              </ul>
+            </div>
+            <li>
+              <a class="group" style="background-color: #96430F; padding: 3px 0px; border-radius: 10px; pointer-events:none;">團體預約</a>
+            </li>
+            <li>
+              <a class="traffic" href="../traffic/traffic.html">交通與營業資訊</a>
+            </li>
+        <ul>
+      </nav>
+    </header>
+
+    <div class="icon">
+      <a href="#"><img class="category" src="./image/icon/category.png"></a>
+      <a href="#"><img class="member" src="./image/icon/member.png"></a>
+      <a href="#"><img class="bag" src="./image/icon/bag.png"></a>
+      <a href="#"><img class="top" src="./image/icon/top.png"></a>
+    </div>
+
+    <div class="group">
+      <div class="title">
+        <img src="./image/group_contact/lock_icon_1.png">
+        <a><span>跟著隆輝研究鎖</span>--線上預約</a>
+      </div>
+
+      <div class="guid">
+        <a class="time_1">導覽時程<span>(40分鐘)</span></a>
+        <a class="intro_1">介紹鎖具機械，認識鎖的構成</a>
+        <a class="am_1">上午場<span>10:00-10:40</span></a>
+        <a class="pm_1">下午場<span>14:00-14:40</span></a>
+        <a class="free">此為免費導覽，請事先線上預約</a>
+        <div class="background_color_1"></div>
+      </div>
+      <div class="diy">
+        <a class="time_2">鎖具DIY<span>(40分鐘)</span></a>
+        <a class="intro_2">動手製作文創小鎖，選擇自己喜歡的造型搭配，可客製電刻刻字</a>
+        <a class="am_2">上午場<span>11:00-11:40</span></a>
+        <a class="pm_2">下午場<span>15:00-15:40</span></a>
+        <a class="fee">NT. 550/人</a>
+        <div class="background_color_2"></div>
+      </div>
+
+      <div class="important">
+        <img src="./image/group_contact/lock_icon_2.png">
+        <p><span>預約注意事項</span>導覽與DIY採5人以上團體預約<br>
+          預約導覽時段為10：00和14：00兩場  (機關團體如欲包場，可先匯款報名)
+          <br>預約DIY場次為11:00和15:00兩場，非團體可現場報名 (機關團體如欲包場，可先匯款報名)</p>
+      </div>
+      <img class="lamp" src="./image/group_contact/lamp.png">
+      <img class="line" src="./image/group_contact/line.png">
+    </div>
+
+    <div class="reserve">
+
+      <div class="server">
+        <div class="title_1">
+          <img src="./image/icon/next.png">
+          <a>進入預約流程</a>
+        </div>
+
+        <div class="date">
+          <a>預約日期</a><br>
+          <input type="date" id="date">
+        </div>
+
+        <div class="which_guid">
+          <div class="background_color_1"></div>
+          <a>導覽預約場次</a><br>
+          <label>
+          <input type="radio" name="time1" value="guid上午場">上午場
+          </label>
+          <label>
+          <input type="radio" name="time1" value="guid下午場">下午場
+          </label>
+        </div>
+
+        <div class="diy">
+          <div class="background_color_2"></div>
+          <a>DIY預約場次</a><br>
+          <label>
+          <input type="radio" name="time2" value="diy上午場">上午場
+          </label>
+          <label>
+          <input type="radio" name="time2" value="diy下午場">下午場
+          </label>
+        </div>
+
+        <div class="people">
+          <label for="people"><a>預約人數</a></label>
+          <input type="number" id="people" name="people" min="5">人
+        </div>
+      </div>
+
+      <div class="member">
+        <div class="title_2">
+          <img src="./image/icon/next.png">
+          <a>個人基本資料</a>
+        </div>
+
+        <div class="username">
+          <a>姓名</a><br>
+          <input type="text" name="username" id="username">
+        </div>
+
+        <div class="tel">
+          <a>電話</a><br>
+          <input type="text" name="tel" id="tel">
+        </div>
+
+        <div class="email">
+          <a>電子信箱</a><br>
+          <input type="text" name="email" id="email">
+        </div>
+
+        <div class="others">
+          <a>備註</a><br>
+          <textarea name="notes" id="others"></textarea>
+        </div>
+      </div>
+      <button type="submit" name="button" id="button">資料送出</button>
+    </div>
+
+
+  </body>
+</html>
