@@ -1,0 +1,441 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  min-width: 1440px;
+  height: 1400px;
+  background-color: #1F273D;
+  position: absolute;
+}
+
+div.icon img.category{
+  width: 30px;
+  position: fixed;
+  top: 45px;
+  right: 120px;
+  z-index: 10;
+}
+div.icon img.member{
+  width: 30px;
+  position: fixed;
+  top: 95px;
+  right: 118px;
+  z-index: 10;
+}
+div.icon img.bag{
+  width: 30px;
+  position: fixed;
+  top: 148px;
+  right: 115px;
+  z-index: 10;
+}
+div.icon img.top{
+  width: 30px;
+  position: fixed;
+  bottom: 50px;
+  right: 120px;
+  z-index: 10;
+}
+
+nav.nav{
+  /* border: 1px solid white; */
+  width: 1200px;
+  margin: 25px  auto;
+}
+
+nav.nav ul.list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0px;
+}
+
+nav.nav ul.list div.shop{
+  /* border: 1px solid blue; */
+  padding: 20px 0px;
+  position: relative;
+  margin: 0px 30px;
+  font-size: 16px;
+}
+nav.nav ul.list div.shop a.shop_cate{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+nav.nav ul.list div.shop ul.shop_list{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: -7px;
+  top: 100%;
+  /* display: none; */
+}
+
+nav.nav ul.list div.shop:hover ul.shop_list{
+  display: block;
+}
+
+nav.nav ul.list div.shop ul.shop_list > li{
+  /* border: 1px solid red; */
+  width: 80px;
+  list-style: none;
+  margin: 0px;
+  padding: 15px 5px;
+  text-align: center;
+}
+
+nav.nav ul.list div.shop ul.shop_list > li > a{
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 3px 0px;
+  transition: 0.5s;
+  position: relative;
+  z-index: 10;
+}
+
+nav.nav ul.list li > a img.logo{
+  width: 66px;
+  height: 66px;
+  display: inline-block;
+  margin: 0px 30px 0px 80px;
+}
+
+ul.list > li {
+  color: white;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul.list > li > a{
+  /* border: 1px solid green; */
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  /* padding: 20px 0px; */
+  margin: 0px 30px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+ul.list > li > a.about_us:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.pro_test:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.group:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.traffic:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+ul.list > li > a.combination:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+nav.nav ul.list div.shop ul.shop_list > li > a:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black;
+}
+img.lamp{
+  width: 500px;
+  position: absolute;
+  right: 0;
+  top: 160px;
+}
+div.shop_pro_007 > a{
+  color: white;
+  font-size: 20px;
+  white-space: pre;
+  position: absolute;
+  top: 82px;
+  left: -13px;
+}
+div.shop_pro_007{
+  /* border: 1px solid blue; */
+  height: 950px;
+  width: 1200px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.shop_pro_007 img.shop_pro_desk{
+  width: 280px;
+  position: absolute;
+  left: -70px;
+  top: 70px;
+}
+div.shop_pro_007 div.product_007{
+  /* border: 1px solid red; */
+  width: 450px;
+  height: 560px;
+  position: absolute;
+  left: 300px; 
+  top: 250px;
+}
+div.shop_pro_007 div.product_007 img.NO_007{
+  width: 370px;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  top: 90px;
+  left: 60px;
+}
+div.shop_pro_007 div.product_007 img.desk{
+  width: 450px;
+  position: absolute;
+  top: 360px;
+  left: 25px;
+}
+div.shop_pro_007 div.product_007 > pre{
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+div.shop_pro_007 div.product_007 > a.box1{
+  width: 27px;
+  height: 27px;
+  background-color: #050F27;
+  position: absolute;
+  left: 10px;
+  top: 100px;
+}
+div.shop_pro_007 div.product_007 > a.box2{
+  width: 27px;
+  height: 27px;
+  background-color: #3C4969;
+  position: absolute;
+  left: 10px;
+  top: 150px;
+}
+div.shop_pro_007 div.product_007 > a.box3{
+  width: 27px;
+  height: 27px;
+  background-color: #3C4969;
+  position: absolute;
+  left: 10px;
+  top: 200px;
+}
+div.shop_pro_007 div.product_007 > a:hover{
+    cursor: pointer;
+}
+div.choose{
+  /* border: 1px solid white; */
+  width: 380px;
+  height: 560px;
+  position: absolute;
+  right: 70px;
+  top: 250px;
+}
+div.choose > a{
+  /* border: 1px solid blue; */
+  color: white;
+  display: block;
+  text-align: right;
+  padding: 0 0 30px 0;
+} 
+div.choose > a:first-child{
+    font-size: 18px;
+  padding: 50px 0 50px 0;
+}
+div.choose div.info{
+  /* border: 1px solid red; */
+  height: 170px;
+  position: relative;
+}
+div.choose div.info pre{
+  color: white;
+}
+div.choose div.info pre.size{
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+div.choose div.info pre.F{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+div.choose div.info pre.number_title{
+  position: absolute;
+  left: 50px;
+  top: 60px;
+}
+#number{
+  background-color: #525B73;
+  width: 45px;
+  height: 20px;
+  border: none;
+  position: absolute;
+  right: 20px;
+  top: 70px;
+  color:white;
+}
+#button{
+  background-color: #010716;
+  width: 280px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 115px;
+  color: white;
+  border-radius: 10px;
+}
+div.choose div.info div.color_1{
+  background-color: #010716;
+  width: 280px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 61px;
+  border-radius: 10px;
+}
+div.choose div.info div.color_2{
+  background-color: #010716;
+  width: 280px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 12px;
+  border-radius: 10px;
+}
+div.choose div.color_3{
+  background-color: #010716;
+  width: 130px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  bottom: 72px;
+  border-radius: 10px;
+  z-index: -1;
+}
+div.shop_pro_007 div.menu{
+  /* border: 1px solid red; */
+  color: white;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 300px;
+}
+div.shop_pro_007 div.menu > ul {
+  padding: 0;
+  list-style: none;
+}
+div.shop_pro_007 div.menu > ul > li{
+  /* border: 1px solid white; */
+  text-decoration: none;
+  padding: 15px 0 10px 40px;
+  text-align: left;
+}
+div.shop_pro_007 div.menu > ul > li > a{
+  /* border: 1px solid green; */
+  text-decoration: none;
+  transition: 0.5s;
+}
+div.shop_pro_007 div.menu > ul > li > a:link{
+  color:white;
+}
+div.shop_pro_007 div.menu > ul > li > a:visited{
+  color:white;
+}
+div.shop_pro_007 div.menu > ul > li > a:hover{
+  background-color: #C6A77C;
+  padding: 3px 0px;
+  border-radius: 10px;
+}
+
+div.fotter_color{
+  /* border: 1px solid blue; */
+  width: 100%;
+  min-width: 1440px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  background-color: #121B32;
+  bottom: 0px;
+}
+div.fotter{
+  /* border: 1px solid white; */
+  min-width: 1240px;
+  height: 220px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translateX(-50%);
+}
+div.fotter img.fotter_sketch{
+  width: 650px;
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+}
+div.fotter img.fb{
+  width: 25px;
+  position: absolute;
+  right: 300px;
+  bottom: 85px;
+}
+div.fotter img.ig{
+  width: 25px;
+  position: absolute;
+  right: 350px;
+  bottom: 85px;
+}
+div.fotter img.twitter{
+  width: 25px;
+  position: absolute;
+  right: 400px;
+  bottom: 85px;
+}
+div.fotter > pre{
+  color: white;
+}
+div.fotter pre.tel{
+  position: absolute;
+  right: 20px;
+  bottom: 130px;
+}
+div.fotter pre.time{
+  position: absolute;
+  right: 20px;
+  bottom: 100px;
+}
+div.fotter pre.add{
+  position: absolute;
+  right: 20px;
+  bottom: 70px;
+}
+div.fotter pre.tibame{
+  color:#54607E;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  white-space: nowrap;
+  text-align: right;
+}
