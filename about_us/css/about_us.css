@@ -620,7 +620,7 @@ div.achievement p.achievement_content{
 }
 div.factory_overflow{
   /* border: 1px solid white; */
-  height: 250px;
+  height: 280px;
   width: 1200px;
   position: absolute;
   left: 50%;
@@ -631,7 +631,7 @@ div.factory_overflow{
 div.achievement div.factory_overflow div.factory{
   box-sizing: content-box;
   /* border: 1px solid red; */
-  width:3960px;
+  width:1100px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
