@@ -180,6 +180,7 @@ div.background_color_left{
   bottom: 1050px;
   border-radius: 0px 100px 100px 0px;
   transition: 2s;
+  z-index: 1;
 }
 div.background_color_bottom{
   /* border: 1px solid red; */
@@ -215,6 +216,7 @@ img.sketch_left{
   position: absolute;
   left: 2%;
   top: 940px;
+  z-index: 2;
 }
 img.sketch_bottom{
   width: 150px;
@@ -228,116 +230,6 @@ img.lamp{
   right: 0;
   top: 160px;
 }
-div.shop_pro_content img.product_1{
-  height: 230px;
-  position: absolute;
-  left: 225px;
-  top: 460px;
-  border-radius: 30px 30px 0px 0px;
-}
-div.shop_pro_content img.product_2{
-  height: 230px;
-  height: 230px;
-  position: absolute;
-  right: 225px;
-  top: 460px;
-  border-radius: 30px 30px 0px 0px;
-}
-div.shop_pro_content img.product_3{
-  height: 230px;
-  position: absolute;
-  left: 225px;
-  top: 1200px;
-  border-radius: 30px 30px 0px 0px;
-}
-div.shop_pro_content img.product_4{
-  height: 230px;
-  position: absolute;
-  right: 225px;
-  top: 1200px;
-  border-radius: 30px 30px 0px 0px;
-}
-div.shop_pro_content img.desk_1{
-  width: 380px;
-  position: absolute;
-  left: 185px;
-  top: 670px;
-}
-div.shop_pro_content img.desk_2{
-  width: 335px;
-  position: absolute;
-  right: 200px;
-  top: 580px;
-}
-div.shop_pro_content img.desk_3{
-  width: 335px;
-  position: absolute;
-  left: 205px;
-  top: 1320px;
-}
-div.shop_pro_content img.desk_4{
-  width: 380px;
-  position: absolute;
-  right: 175px;
-  top: 1410px;
-}
-div.shop_pro_content pre.product_1_title{
-  font-size: 18px;
-  color: white;
-  position: absolute;
-  top: 320px;
-  left: 330px;
-  text-align: right;
-}
-div.shop_pro_content pre.product_1_price{
-  font-size: 18px;
-  color: white;
-  position: absolute;
-  top: 390px;
-  left: 390px;
-}
-div.shop_pro_content pre.product_2_title{
-  font-size: 18px;
-  color: white;
-  position: absolute;
-  top: 320px;
-  right: 240px;
-}
-div.shop_pro_content pre.product_2_price{
-  font-size: 18px;
-  color: white;
-  position: absolute;
-  top: 390px;
-  right: 290px;
-}
-div.shop_pro_content pre.product_3_title{
-  font-size: 18px;
-  color: white;
-  position: absolute;
-  top: 1060px;
-  left: 360px;
-}
-div.shop_pro_content pre.product_3_price{
-  font-size: 18px;
-  color: white;
-  position: absolute;
-  top: 1130px;
-  left: 390px;
-}
-div.shop_pro_content pre.product_4_title{
-  font-size: 18px;
-  color: white;
-  position: absolute;
-  top: 1060px;
-  right: 240px;
-}
-div.shop_pro_content pre.product_4_price{
-  font-size: 18px;
-  color: white;
-  position: absolute;
-  top: 1130px;
-  right: 290px;
-}
 div.shop_pro_content pre.shop_pro_title{
   color: white;
   font-size: 20px;
@@ -345,87 +237,254 @@ div.shop_pro_content pre.shop_pro_title{
   top: 62px;
   left: -13px;
 }
-div.shop_pro_content a.more_1{
+div.shop_pro_content div.p_1{
+  /* border: 1px solid red; */
+  position: absolute;
+  width: 360px;
+  height: 520px;
+  top: 340px;
+  left: 180px;
+}
+div.shop_pro_content div.p_1 img.product_1{
+  height: 230px;
+  position: absolute;
+  left: 35px;
+  top: 120px;
+  border-radius: 30px 30px 0px 0px;
+}
+div.shop_pro_content div.p_1 img.desk_1{
+  width: 380px;
+  position: absolute;
+  left: 0px;
+  top: 330px;
+}
+div.shop_pro_content div.p_1 pre.product_1_title{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 35px;
+  text-align: right;
+  margin: 0;
+}
+div.shop_pro_content div.p_1 pre.product_1_price{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 60px;
+  right: 100px;
+}
+div.shop_pro_content div.p_1 a.more_1{
   background-color: black;
   color: white;
-  display: inline-block;
   padding: 5px 13px;
   white-space: pre;
   text-decoration: none;
   font-size: 14px;
   position: absolute;
-  top: 800px;
-  left: 430px;
+  bottom: 30px;
+  right: 35px;
   transition: 0.5s;
 }
-div.shop_pro_content a.more_2{
+div.shop_pro_content div.p_1 a img.shop_bag_1{
+  width: 30px;
+  position: absolute;
+  top: 70px;
+  right: 35px;
+}
+div.shop_pro_content div.p_2{
+  /* border: 1px solid red; */
+  position: absolute;
+  width: 360px;
+  height: 520px;
+  top: 340px;
+  right: 180px;
+}
+div.shop_pro_content div.p_2 img.product_2{
+  height: 230px;
+  position: absolute;
+  left: 35px;
+  top: 120px;
+  border-radius: 30px 30px 0px 0px;
+}
+div.shop_pro_content div.p_2 img.desk_2{
+  width: 370px;
+  position: absolute;
+  left: 0px;
+  top: 240px;
+}
+div.shop_pro_content div.p_2 pre.product_2_title{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 35px;
+  text-align: right;
+  margin: 0;
+}
+div.shop_pro_content div.p_2 pre.product_2_price{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 60px;
+  right: 100px;
+}
+div.shop_pro_content div.p_2 a.more_2{
   background-color: black;
   color: white;
-  display: inline-block;
   padding: 5px 13px;
   white-space: pre;
   text-decoration: none;
   font-size: 14px;
   position: absolute;
-  top: 800px;
-  right: 220px;
+  bottom: 30px;
+  right: 35px;
   transition: 0.5s;
 }
-div.shop_pro_content a.more_3{
+div.shop_pro_content div.p_2 a img.shop_bag_2{
+  width: 30px;
+  position: absolute;
+  top: 70px;
+  right: 35px;
+}
+div.shop_pro_content div.p_3{
+  /* border: 1px solid red; */
+  position: absolute;
+  width: 360px;
+  height: 520px;
+  top: 1100px;
+  left: 180px;
+}
+div.shop_pro_content div.p_3 img.product_3{
+  height: 230px;
+  position: absolute;
+  left: 35px;
+  top: 120px;
+  border-radius: 30px 30px 0px 0px;
+}
+div.shop_pro_content div.p_3 img.desk_3{
+  width: 370px;
+  position: absolute;
+  left: 0px;
+  top: 240px;
+}
+div.shop_pro_content div.p_3 pre.product_3_title{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 35px;
+  text-align: right;
+  margin: 0;
+}
+div.shop_pro_content div.p_3 pre.product_3_price{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 60px;
+  right: 100px;
+}
+div.shop_pro_content div.p_3 a.more_3{
   background-color: black;
   color: white;
-  display: inline-block;
   padding: 5px 13px;
   white-space: pre;
   text-decoration: none;
   font-size: 14px;
   position: absolute;
-  top: 1540px;
-  left: 430px;
+  bottom: 30px;
+  right: 35px;
   transition: 0.5s;
 }
-div.shop_pro_content a.more_4{
+div.shop_pro_content div.p_3 a img.shop_bag_3{
+  width: 30px;
+  position: absolute;
+  top: 70px;
+  right: 35px;
+}
+div.shop_pro_content div.p_4{
+  /* border: 1px solid red; */
+  position: absolute;
+  width: 360px;
+  height: 520px;
+  top: 1100px;
+  right: 180px;
+}
+div.shop_pro_content div.p_4 img.product_4{
+  height: 230px;
+  position: absolute;
+  left: 35px;
+  top: 120px;
+  border-radius: 30px 30px 0px 0px;
+}
+div.shop_pro_content div.p_4 img.desk_4{
+  width: 380px;
+  position: absolute;
+  left: 0px;
+  top: 330px;
+}
+div.shop_pro_content div.p_4 pre.product_4_title{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 0px;
+  right: 35px;
+  text-align: right;
+  margin: 0;
+}
+div.shop_pro_content div.p_4 pre.product_4_price{
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top: 60px;
+  right: 100px;
+}
+div.shop_pro_content div.p_4 a.more_4{
   background-color: black;
   color: white;
-  display: inline-block;
   padding: 5px 13px;
   white-space: pre;
   text-decoration: none;
   font-size: 14px;
   position: absolute;
-  top: 1540px;
-  right: 220px;
+  bottom: 30px;
+  right: 35px;
   transition: 0.5s;
 }
-div.shop_pro_content a img.shop_bag_1{
+div.shop_pro_content div.p_4 a img.shop_bag_4{
   width: 30px;
   position: absolute;
-  top: 405px;
-  left: 480px;
+  top: 70px;
+  right: 35px;
 }
-div.shop_pro_content a img.shop_bag_2{
-  width: 30px;
-  position: absolute;
-  top: 405px;
-  right: 240px;
-}
-div.shop_pro_content a img.shop_bag_3{
-  width: 30px;
-  position: absolute;
-  top: 1145px;
-  left: 480px;
-}
-div.shop_pro_content a img.shop_bag_4{
-  width: 30px;
-  position: absolute;
-  top: 1145px;
-  right: 240px;
-}
-div.shop_pro_content > a:hover{
+div.shop_pro_content div.p_1 a.more_1:hover{
   background-color: #96430F;
   border-radius: 10px;
 }
-div.shop_pro_content > a > img:hover{
+
+div.shop_pro_content div.p_2 a.more_2:hover{
+  background-color: #96430F;
+  border-radius: 10px;
+}
+div.shop_pro_content div.p_3 a.more_3:hover{
+  background-color: #96430F;
+  border-radius: 10px;
+}
+
+div.shop_pro_content div.p_4 a.more_4:hover{
+  background-color: #96430F;
+  border-radius: 10px;
+}
+div.shop_pro_content div.p_1 > a > img:hover{
+  transform: rotate(45deg);
+}
+div.shop_pro_content div.p_2 > a > img:hover{
+  transform: rotate(45deg);
+}
+div.shop_pro_content div.p_3 > a > img:hover{
+  transform: rotate(45deg);
+}
+div.shop_pro_content div.p_4 > a > img:hover{
   transform: rotate(45deg);
 }
 div.background_color_left:hover{
