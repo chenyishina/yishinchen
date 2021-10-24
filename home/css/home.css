@@ -160,6 +160,30 @@ nav.nav ul.list div.shop ul.shop_list > li > a:hover{
   color: black
 
 }
+div.hamburger{
+  background-color: #121B32;
+  /* border: 1px solid blue; */
+  width: 800px;
+  height: 600px;
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  border-radius: 50px;
+}
+div.hamburger > a img{
+  /* border: 1px solid green; */
+  display: block;
+  width: 220px;
+  position: relative;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.hamburger > a img:hover{
+  left:49%;
+}
 
  div.banner_background{
    /* border: 1px solid red; */
@@ -170,7 +194,6 @@ nav.nav ul.list div.shop ul.shop_list > li > a:hover{
    position: relative;
    top: 100px;
  }
-
 
 div.banner_background img.key_1{
   position: absolute;

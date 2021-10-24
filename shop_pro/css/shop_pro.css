@@ -161,6 +161,30 @@ nav.nav ul.list div.shop ul.shop_list > li > a:hover{
   border-radius: 10px;
   color: black;
 }
+div.hamburger{
+  background-color: #121B32;
+  /* border: 1px solid blue; */
+  width: 800px;
+  height: 600px;
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  border-radius: 50px;
+}
+div.hamburger > a img{
+  /* border: 1px solid green; */
+  display: block;
+  width: 220px;
+  position: relative;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+div.hamburger > a img:hover{
+  left:49%;
+}
 div.background_color{
   /* border: 1px solid red; */
   height: 920px;
