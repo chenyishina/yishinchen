@@ -10,6 +10,7 @@ body{
   height:2200px;
   background-color: #1F273D;
   position: absolute;
+  font-family: "微軟正黑體", "BiauKai", "helvetica";
 }
 
 div.icon img.category{

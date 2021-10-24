@@ -9,6 +9,7 @@ body{
   min-width: 1440px;
   height:8720px;
   background-color: #1F273D;
+  font-family: "微軟正黑體", "BiauKai", "helvetica";
 }
 
 div.icon img.category{

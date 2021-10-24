@@ -10,6 +10,7 @@ body{
   height: 2550px;
   background-color: #1F273D;
   position: absolute;
+  font-family: "微軟正黑體", "BiauKai", "helvetica";
 }
 
 div.icon img.category{
@@ -235,10 +236,10 @@ div.group div.guid  a.time_1 > span{
   padding: 0 0 0 30px;
 }
 div.group div.guid  a.am_1 > span{
-  padding: 0 0 0 60px;
+  padding: 0 0 0 50px;
 }
 div.group div.guid  a.pm_1 > span{
-  padding: 0 0 0 60px;
+  padding: 0 0 0 50px;
 }
 div.group div.guid a.intro_1{
   font-size: 13px;
@@ -297,10 +298,10 @@ div.group div.diy a.time_2 > span{
   padding: 0 0 0 30px;
 }
 div.group div.diy a.am_2 > span{
-  padding: 0 0 0 60px;
+  padding: 0 0 0 50px;
 }
 div.group div.diy a.pm_2 > span{
-  padding: 0 0 0 60px;
+  padding: 0 0 0 50px;
 }
 div.group div.diy a.intro_2{
   font-size: 13px;
