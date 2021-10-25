@@ -248,31 +248,37 @@ div.about_us div.content pre.no_1{
   position: absolute;
   top: 305px;
   left: 180px;
+  font-size: 16px;
 }
 div.about_us div.content pre.no_2{
   position: absolute;
   top: 180px;
   left: 420px;
+  font-size: 16px;
 }
 div.about_us div.content pre.no_3{
   position: absolute;
   top: 400px;
   left: 460px;
+  font-size: 16px;
 }
 div.about_us div.content pre.no_4{
   position: absolute;
   top: 435px;
   left: 180px;
+  font-size: 16px;
 }
 div.about_us div.content pre.no_5{
   position: absolute;
   top: 500px;
   left: 340px;
+  font-size: 16px;
 }
 div.about_us div.content pre.end{
   position: absolute;
   top: 600px;
   left: 400px;
+  font-size: 16px;
 }
 div.about_us img.lunghui{
   position: absolute;

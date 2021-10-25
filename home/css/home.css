@@ -320,6 +320,7 @@ div.key_background div.about > pre{
   display: inline-block;
   color: white;
   line-height: 25px;
+  font-size: 16PX;
 }
 div.key_background div.about > pre > span{
   text-decoration: underline ;
@@ -437,6 +438,7 @@ div.process div.cut div > div{
 div.process div.cut div > div > pre{
     color: white;
     text-align: center;
+    font-size: 16px;
 }
 div.process div.cut div > div > pre.cut_title{
   font-size: 18px;
@@ -457,6 +459,7 @@ div.process div.hole div{
 }
 div.process div.hole div.hole_text div > pre{
   color: white;
+  font-size: 16px;
 }
 div.process div.hole div.hole_text > div pre.hole_title{
   font-size: 18px;
@@ -489,6 +492,7 @@ div.process div.heart{
 }
 div.process div.heart > pre{
   color: white;
+  font-size: 16px;
 }
 div.process div.heart > pre.heart_title{
   /* border: 1px solid white; */
@@ -533,6 +537,7 @@ div.process div.components div{
 }
 div.process div.components div.components_text div > pre{
   color: white;
+  font-size: 16px;
 }
 div.process div.components div.components_text > div pre.components_title{
   font-size: 18px;
@@ -578,13 +583,18 @@ div.process div.key div > div > pre{
     position: absolute;
     top: 160px;
     right: 430px;
+    font-size: 16px;
 }
 div.process div.key div > div > pre.key_title{
   position: absolute;
   top: 100px;
   right: 430px;
   font-size: 18px;
-
+}
+div.process div.key div.key_text div > img{
+  position: absolute;
+  top: 30px;
+  left: 0px;
 }
 div.process div.combine{
   /* border: 1px solid red; */
@@ -597,6 +607,7 @@ div.process div.combine{
 }
 div.process div.combine > pre{
   color: white;
+  font-size: 16px;
 }
 div.process div.combine > pre.combine_title{
   /* border: 1px solid white; */
@@ -659,6 +670,7 @@ div.process div.package div.package{
 }
 div.process div.package div.package_text div > pre{
   color: white;
+  font-size: 16px;
 }
 div.process div.package div.package_text > div pre.package_title{
   font-size: 18px;
@@ -676,7 +688,7 @@ div.process div.package div.package_text pre.package_content {
 div.process div.package div.package_text > div img.package_jpg{
   position: absolute;
   top: 70px;
-  left: 750px;
+  left: 785px;
 }
 
 div.note_lock_color{

@@ -244,6 +244,7 @@ div.group div.guid  a.pm_1 > span{
 div.group div.guid a.intro_1{
   font-size: 13px;
   margin: 0 0 0 30px;
+  font-size: 14px;
 }
 div.group div.guid a.am_1{
   width: 190px;
@@ -263,7 +264,7 @@ div.group div.guid a.free{
   position: absolute;
   bottom: 0;
   right: 25px;
-  font-size: 13px;
+  font-size: 14px;
 }
 div.group div.guid div.background_color_1{
   width:250px;
@@ -306,6 +307,7 @@ div.group div.diy a.pm_2 > span{
 div.group div.diy a.intro_2{
   font-size: 13px;
   margin: 0 0 0 30px;
+  font-size: 14px;
 }
 div.group div.diy a.am_2{
   width: 190px;
@@ -325,7 +327,7 @@ div.group div.diy a.fee{
   position: absolute;
   bottom: 0;
   right: 25px;
-  font-size: 13px;
+  font-size: 14px;
 }
 div.group div.diy div.background_color_2{
   width:250px;

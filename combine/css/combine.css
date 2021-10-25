@@ -327,19 +327,21 @@ pre.umbrella_content{
   position: absolute;
   left: 700px;
   top: 1075px;
+  font-size: 16px;
 }
 pre.porsche_title{
   color: white;
   font-size: 18px;
   position: absolute;
   left: 65px;
-  bottom: 695px;
+  bottom: 700px;
 }
 pre.porsche_content{
   color: white;
   position: absolute;
-  left: 65px;
-  bottom: 625px;
+  left: 55px;
+  bottom: 620px;
+  font-size: 16px;
 }
 
 div.fotter_color{

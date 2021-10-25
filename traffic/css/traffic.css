@@ -221,31 +221,31 @@ div.traffic img.map{
 div.traffic img.office{
   width: 30px;
   position: absolute;
-  top: 180px;
+  top: 185px;
   left: 250px;
 }
 div.traffic img.tel_1{
   width: 20px;
   position: absolute;
-  top: 230px;
+  top: 240px;
   left: 250px;
 }
 div.traffic img.factory{
   width: 25px;
   position: absolute;
-  top: 305px;
+  top: 310px;
   left: 250px;
 }
 div.traffic img.tel_2{
   width: 20px;
   position: absolute;
-  top: 340px;
+  top: 350px;
   left: 250px;
 }
 div.traffic img.mail{
   width: 30px;
   position: absolute;
-  top: 480px;
+  top: 485px;
   left: 250px;
 }
 div.traffic pre.office_content{
