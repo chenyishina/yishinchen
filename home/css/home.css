@@ -482,8 +482,8 @@ div.process div.hole div.hole_text pre.hole_content {
 }
 div.process div.heart{
   /* border: 1px solid red; */
-  width: 600px;
-  height: 250px;
+  width: 700px;
+  height: 260px;
   position: relative;
   text-align: center;
   top: 930px;
@@ -599,7 +599,7 @@ div.process div.key div.key_text div > img{
 div.process div.combine{
   /* border: 1px solid red; */
   width: 600px;
-  height: 250px;
+  height: 270px;
   position: relative;
   top: 1800px;
   left: 50%;
@@ -704,7 +704,8 @@ div.note_lock_color{
 img.note_lock{
   position: absolute;
   top: -150px;
-  right: 120px;
+  right: 50%;
+  transform: translateX(270%);
 }
 
 div.news{
