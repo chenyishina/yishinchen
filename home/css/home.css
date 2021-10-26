@@ -4,8 +4,11 @@
 }
 
 body{
+  /* border: 1px solid red; */
   margin: 0px;
-  height:8720px;
+  width: 100%;
+  min-width: 1200px;
+  height:8850px;
   background-color: #1F273D;
   font-family: "微軟正黑體", "BiauKai", "helvetica";
 }
@@ -195,7 +198,7 @@ div.hamburger div.hamburger_all > a img:hover{
 }
  div.banner_background{
    /* border: 1px solid red; */
-   width: 100%;
+   min-width: 1200px;
    height: 1650px;
    background-color: #121B32;
    position: relative;
@@ -284,6 +287,7 @@ div img.money_1{
 
 div.key_background{
   /* border: 1px solid red; */
+  width: 1200px;
   height: 520px;
   margin: 0px  auto;
   background-image: url("../image/story/key_background.png");
@@ -295,13 +299,14 @@ div.key_background{
 }
 
 div.key_background div.about{
-  width: 900px;
-  height: 180px;
+  width: 800px;
+  height: 210px;
   /* border: 1px solid blue; */
   margin: 0 auto;
-  position: relative;
-  top: 50px;
-  left: 90px;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translateX(-35%);
   overflow: auto;
 }
 
@@ -317,8 +322,9 @@ div.key_background img.story{
   height: 140px;
   margin: 0 auto;
   display: block;
-  position: relative;
-  right: 400px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-290%);
   top: 200px;
 }
 
@@ -335,7 +341,9 @@ div.key_background div.about > pre > span{
 }
 div.pull_me{
   /* border: 1px solid red; */
+  width: 1200px;
   position: relative;
+  margin: 0 auto;
   top: 500px;
   overflow: hidden;
 }
@@ -376,26 +384,25 @@ div.product_background div.product marquee > a img{
 div.product_background div.product marquee{
   /* border: 1px solid red; */
   width: 1200px;
-  position: absolute;
-  top: -105px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  top: 0px;
+  margin: 0 auto;
 }
 div.product_background div.product{
   /* border: 1px solid blue; */
-  width: 100%;
+  width: 1200px;
   display: block;
-  position: absolute;
-  top: 40%;
-  left: 50%;
- transform: translate(-50%,-50%);
+  position: relative;
+  margin: 0 auto;
+  top: 10px;
 }
 div.process{
   /* border: 1px solid red; */
   position: relative;
   top: 830px;
-  width: 100%;
-  height: 3500px;
+  min-width: 1200px;
+  margin: 0 auto;
+  height: 3650px;
   overflow: hidden;
 }
 div.process > pre{
@@ -458,7 +465,7 @@ div.process div.hole{
   display: inline-block;
   vertical-align: middle;
   position: absolute;
-  top: 800px;
+  top: 840px;
   left: -50px;
 }
 div.process div.hole div{
@@ -495,7 +502,7 @@ div.process div.heart{
   height: 260px;
   position: absolute;
   text-align: center;
-  top: 1150px;
+  top: 1200px;
   left: 50%;
   transform: translateX(-20%);
   display: inline-block;
@@ -537,7 +544,7 @@ div.process div.components{
   display: inline-block;
   vertical-align: middle;
   position: absolute;
-  top: 1600px;
+  top: 1700px;
   left: -50px;
 }
 div.process div.components div{
@@ -574,7 +581,7 @@ div.process div.key{
   width: 750px;
   height: 300px;
   position: absolute;
-  top: 1950px;
+  top: 2100px;
   right: 0px;
   overflow: hidden;
 }
@@ -611,7 +618,7 @@ div.process div.combine{
   width: 600px;
   height: 270px;
   position: absolute;
-  top: 2250px;
+  top: 2450px;
   left: 50%;
   transform: translateX(-90%);
 }
@@ -650,7 +657,7 @@ div.process div.test{
   /* border: 1px solid red; */
   position: absolute;
   text-align: center;
-  top: 2600px;
+  top: 2830px;
   left: 50%;
   transform: translateX(-15%);
 }
@@ -671,7 +678,7 @@ div.process div.package{
   display: inline-block;
   vertical-align: middle;
   position: absolute;
-  top: 3000px;
+  top: 3250px;
   left: -50px;
 }
 div.process div.package div.package{
@@ -707,25 +714,35 @@ div.note_lock_color{
   top:-60px;
   right: 0px;
   height: 100px;
-  width: 300px;
+  width: 380px;
   background-color: #37415A;
-  border-radius: 100px 0px 0px 100px;
+  border-radius: 100px;
 }
 
 img.note_lock{
   position: absolute;
   top: -150px;
   right: 50%;
-  transform: translateX(250%);
+  transform: translateX(200%);
 }
 
 div.news{
   /* border: 1px solid blue; */
-  width: 100%;
+  width: 1200px;
   height: 600px;
   background-color: #121B32;
   position: relative;
-  top: 825px;
+  top: 880px;
+  margin: 0 auto;
+}
+div.news_background_color{
+  /* border: 1px solid white; */
+  background-color: #121B32;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  top: 280px;
+  z-index: -1;
 }
 div.news div.news_title{
   /* border: 1px solid red; */
@@ -748,13 +765,13 @@ div.news div.news_img{
   top: 230px;
 }
 div.news div.news_content{
-    /* border: 1px solid red; */
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-    display: inline-block;
-    width: 1200px;
-    top: 430px;
+  /* border: 1px solid red; */
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  display: inline-block;
+  width: 1200px;
+  top: 430px;
 }
 div.news div.news_content > pre{
   /* border: 1px solid green; */
@@ -769,17 +786,17 @@ div.fotter_background{
   background-repeat: repeat-x;
   background-size: auto 250px;
   position: relative;
-  top: 950px;
+  top: 330px;
 }
-
 div.fotter_fotter{
   /* border: 1px solid red; */
-  width: 100%;
+  width: 1200px;
+  margin: 0 auto;
   height: 400px;
   background-repeat: repeat-x;
   background-size: auto 250px;
   position: relative;
-  top: 950px;
+  top: 320px;
 }
 div.fotter_fotter img.fotter_logo{
   /* border: 1px solid blue; */

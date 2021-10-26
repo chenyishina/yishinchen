@@ -4,6 +4,7 @@
 
 body{
   width: 100%;
+  min-width: 1200px;
   margin: 0px;
   height:2200px;
   background-color: #1F273D;
@@ -233,14 +234,14 @@ div.shop_creative_content{
   /* border: 1px solid blue; */
   height: 1800px;
   width: 1200px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
+  
 }
 div.shop_creative_content img.shop_creative_jpg{
   width: 280px;
   position: absolute;
-  left: -70px;
+  left: 0px;
   top: 70px;
 }
 div.shop_creative_content pre.shop_creative_title{
@@ -248,7 +249,7 @@ div.shop_creative_content pre.shop_creative_title{
   font-size: 20px;
   position: absolute;
   top: 62px;
-  left: -24px;
+  left: 40px;
 }
 img.sketch_left{
   width: 150px;
@@ -263,13 +264,13 @@ img.sketch_bottom{
   position: absolute;
   right: 50%;
   transform: translateX(160%);
-  bottom: 220px;
+  bottom: 200px;
 }
 img.lamp{
   width: 500px;
   position: absolute;
   right: 0;
-  top: 160px;
+  top: 170px;
 }
 div.shop_creative_content div.p_1{
   /* border: 1px solid red; */
@@ -293,7 +294,7 @@ div.shop_creative_content div.p_1 img.desk_1{
   top: 330px;
 }
 div.shop_creative_content div.p_1 pre.product_1_title{
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   position: absolute;
   top: 20px;
@@ -348,7 +349,7 @@ div.shop_creative_content div.p_2 img.desk_2{
   top: 240px;
 }
 div.shop_creative_content div.p_2 pre.product_2_title{
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   position: absolute;
   top: 20px;
@@ -403,7 +404,7 @@ div.shop_creative_content div.p_3 img.desk_3{
   top: 240px;
 }
 div.shop_creative_content div.p_3 pre.product_3_title{
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   position: absolute;
   top: 20px;
@@ -458,7 +459,7 @@ div.shop_creative_content div.p_4 img.desk_4{
   top: 330px;
 }
 div.shop_creative_content div.p_4 pre.product_4_title{
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   position: absolute;
   top: 20px;
@@ -536,13 +537,12 @@ div.fotter_color{
 }
 div.fotter{
   /* border: 1px solid white; */
-  min-width: 1200px;
-  height: 220px;
+  width: 1200px;
+  height: 190px;
   display: block;
-  position: absolute;
-  left: 50%;
-  bottom: 0px;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
+  top: 80px;
 }
 div.fotter img.fotter_sketch{
   width: 550px;

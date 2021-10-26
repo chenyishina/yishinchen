@@ -4,6 +4,7 @@
 
 body{
   width: 100%;
+  min-width: 1200px;
   margin: 0px;
   height:2200px;
   background-color: #1F273D;
@@ -233,14 +234,13 @@ div.shop_pro_content{
   /* border: 1px solid blue; */
   height: 1800px;
   width: 1200px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
 }
 div.shop_pro_content img.shop_pro_jpg{
   width: 280px;
   position: absolute;
-  left: -70px;
+  left: 0px;
   top: 70px;
 }
 img.sketch_left{
@@ -261,15 +261,15 @@ img.sketch_bottom{
 img.lamp{
   width: 500px;
   position: absolute;
-  right: 0;
-  top: 160px;
+  right: 0px;
+  top: 170px;
 }
 div.shop_pro_content pre.shop_pro_title{
   color: white;
   font-size: 20px;
   position: absolute;
   top: 62px;
-  left: -13px;
+  left: 50px;
 }
 div.shop_pro_content div.p_1{
   /* border: 1px solid red; */
@@ -536,13 +536,12 @@ div.fotter_color{
 }
 div.fotter{
   /* border: 1px solid white; */
-  min-width: 1200px;
-  height: 220px;
+  width: 1200px;
+  height: 190px;
   display: block;
-  position: absolute;
-  left: 50%;
-  bottom: 0px;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
+  top: 80px;
 }
 div.fotter img.fotter_sketch{
   width: 550px;

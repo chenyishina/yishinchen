@@ -5,6 +5,7 @@
 
 body{
   width: 100%;
+  min-width: 1200px;
   margin: 0px;
   height:6900px;
   background-color: #1F273D;
@@ -199,6 +200,7 @@ div.background_video{
   font-size: 0;
   z-index: -1;
 }
+
 div.banner_logo{
   /* border: 1px solid blue; */
   position: absolute;
@@ -212,10 +214,9 @@ div.about_us{
   width: 1200px;
   height: 750px;
   display: block;
-  position: absolute;
-  left: 50%;
-  top: 700px;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
+  top: 580px;
 }
 div.about_us_title_color{
   width: 33%;
@@ -332,10 +333,9 @@ div.creative{
   width: 1200px;
   height: 2000px;
   display: block;
-  position: absolute;
-  left: 50%;
-  top: 1450px;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
+  top: 580px;
 }
 div.creative div.creative_title{
   /* border: 1px solid blue; */
@@ -343,20 +343,20 @@ div.creative div.creative_title{
   font-size: 20px;
   position: absolute;
   top: 280px;
-  right: 50px;
+  right: 80px;
 }
 div.creative img.lock_wall{
   width: 420px;
   position: absolute;
   top: 400px;
-  left: 370px;
+  left: 330px;
 }
 div.creative div.creative_title_1{
   color: white;
   font-size: 18px;
   position: absolute;
   top: 370px;
-  left: 830px;
+  left: 800px;
 }
 div.creative div.creative_content{
   /* border: 1px solid blue; */
@@ -365,7 +365,7 @@ div.creative div.creative_content{
   color: white;
   position: absolute;
   top: 440px;
-  left: 830px;
+  left: 800px;
 }
 div.creative img.crown{
   width: 360px;
@@ -421,10 +421,9 @@ div.temple{
   width: 1200px;
   height: 1700px;
   display: block;
-  position: absolute;
-  left: 50%;
-  top: 3450px;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
+  top: 570px;
 }
 div.temple_color{
   width:100%;
@@ -602,23 +601,22 @@ div.temple img.luck:hover{
 div.achievement{
   /* border: 1px solid blue; */
   width: 1200px;
-  height: 1450px;
+  height: 1200px;
   display: block;
-  position: absolute;
-  left: 50%;
-  top: 5150px;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
+  top: 850px;
 }
 div.achievement img.ach_1993{
   height: 150px;
   position: absolute;
-  top: 380px;
+  top: 100px;
   left: 350px;
 }
 div.achievement img.ach_1996{
   height: 150px;
   position: absolute;
-  top: 380px;
+  top: 100px;
   left: 670px;
 }
 div.achievement_color{
@@ -633,7 +631,7 @@ div.achievement img.exihibition{
   width: 530px;
   border-radius: 180px 0px;
   position: absolute;
-  top: 610px;
+  top: 330px;
   right: 130px;
 }
 div.achievement pre.achievement_title{
@@ -641,7 +639,7 @@ div.achievement pre.achievement_title{
   font-size: 20px;
   border-radius: 180px 0px;
   position: absolute;
-  top: 300px;
+  top: 20px;
   left: 350px;
 }
 div.achievement p.achievement_content{
@@ -650,7 +648,7 @@ div.achievement p.achievement_content{
   width: 340px;
   height: 340px;
   position: absolute;
-  top: 610px;
+  top: 330px;
   left: 170px;
 }
 div.factory_overflow{
@@ -688,13 +686,12 @@ div.fotter_color{
 }
 div.fotter{
   /* border: 1px solid white; */
-  min-width: 1200px;
-  height: 220px;
+  width: 1200px;
+  height: 190px;
   display: block;
-  position: absolute;
-  left: 50%;
-  bottom: 0px;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
+  top: 930px;
 }
 div.fotter img.fotter_sketch{
   width: 550px;

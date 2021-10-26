@@ -4,6 +4,7 @@
 
 body{
   width: 100%;
+  min-width: 1200px;
   margin: 0px;
   height: 4400px;
   background-color: #1F273D;
@@ -208,7 +209,8 @@ div.background_color_right{
 img.crown{
   width: 870px;
   position: absolute;
-  right: 300px;
+  right: 50%;
+  transform: translateX(60%);
   top: 860px;
 }
 div.background_color_left{
@@ -231,16 +233,15 @@ div.test{
   /* border: 1px solid red; */
   width: 1200px;
   height: 700px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
 }
 div.test div.test_title{
   /* border: 1px solid blue; */
   width: 280px;
   height: 130px;
   position: absolute;
-  left:-70px;
+  left: 0px;
   top: 70px;
 }
 div.test div.test_title > img{
@@ -397,10 +398,9 @@ div.open_close_content{
   /* border: 1px solid blue; */
   width: 1200px;
   height: 720px;
-  position: absolute;
-  top: 1300px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  top: 450px;
+  margin: 0 auto;
 }
 div.open_close_content div.open_close_jpg{
   /* border: 1px solid white; */
@@ -498,10 +498,9 @@ div.cut{
   /* border: 1px solid green; */
   width: 1200px;
   height: 850px;
-  position: absolute;
-  top: 2200px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  top: 650px;
+  margin: 0 auto;
 }
 div.cut div.cut_title > a{
   color: white;
@@ -593,7 +592,7 @@ div.cut div.cut_content_2 div.cut_background_2{
   position: absolute;
   top: 0px;
   left: 50px;
-  transition: 1s;
+  transition: 1.5s;
 }
 div.cut div.cut_content_2 div.cut_background_2:hover{
   width: 750px;
@@ -646,10 +645,9 @@ div.pull{
   /* border: 1px solid white; */
   width: 1200px;
   height: 600px;
-  position: absolute;
-  top: 3300px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  top: 950px;
+  margin: 0 auto;
 }
 div.pull div.pull_title > a{
   color: white;
@@ -757,13 +755,12 @@ div.fotter_color{
 }
 div.fotter{
   /* border: 1px solid white; */
-  min-width: 1200px;
-  height: 220px;
+  width: 1200px;
+  height: 190px;
   display: block;
-  position: absolute;
-  left: 50%;
-  bottom: 0px;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
+  top: 1210px;
 }
 div.fotter img.fotter_sketch{
   width: 550px;

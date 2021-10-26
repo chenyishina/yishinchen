@@ -4,6 +4,7 @@
 
 body{
   width: 100%;
+  min-width: 1200px;
   margin: 0px;
   height:2600px;
   background-color: #1F273D;
@@ -223,9 +224,8 @@ div.combine_content{
   /* border: 1px solid red; */
   width: 1200px;
   height: 2200px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
   z-index: -1;
 }
 div.combine_content div.combine_title_1{
@@ -234,7 +234,7 @@ div.combine_content div.combine_title_1{
   height: 200px;
   position: absolute;
   top: 0;
-  left: -80px;
+  left: 0px;
 }
 div.combine_content pre.combine_title{
   color: white;
@@ -411,13 +411,12 @@ div.fotter_color{
 }
 div.fotter{
   /* border: 1px solid white; */
-  min-width: 1200px;
-  height: 220px;
+  width: 1200px;
+  height: 190px;
   display: block;
-  position: absolute;
-  left: 50%;
-  bottom: 0px;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
+  top: 80px;
 }
 div.fotter img.fotter_sketch{
   width: 550px;
