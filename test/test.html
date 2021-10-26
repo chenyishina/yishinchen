@@ -79,7 +79,7 @@
           <video class="cut" controls controlsList="nodownload">
             <source src="./image/video/cut.mp4" type="video/mp4"></video>
           <a>剪力測試</a>
-          <a class="more_1" href="#cut">&lt;      MORE</a>
+          <a class="more_1" id="cut" style="cursor: pointer;">&lt;      MORE</a>
         </div>
 
         <a href="#"><img class="left_icon" src="./image/icon/next.png"></a>
@@ -88,7 +88,7 @@
           <video class="open_close" controls controlsList="nodownload">
             <source src="./image/video/open_close.mp4" type="video/mp4"></video>
           <a>鑰匙插拔 | 開閉鎖測試</a>
-          <a class="more_2" href="#open_close">&lt;      MORE</a>
+          <a class="more_2" id="open_close" style="cursor: pointer;">&lt;      MORE</a>
         </div>
 
         <a href="#"><img class="right_icon" src="./image/icon/next.png"></a>
@@ -97,13 +97,13 @@
           <video class="pull" controls controlsList="nodownload">
             <source src="./image/video/pull.mp4" type="video/mp4"></video>
           <a>拉力測試</a>
-          <a class="more_3" href="#pull">&lt;      MORE</a>
+          <a class="more_3" id="pull" style="cursor: pointer;">&lt;      MORE</a>
         </div>
       </div>
     </div>
 
 
-    <div class="open_close_content" id="open_close">
+    <div class="open_close_content">
       <div class="open_close_background"></div>
       <div class="open_close_title">
         <a>鑰匙插拔 | 開閉鎖測試</a>
@@ -130,7 +130,7 @@
         </div>
       </div>
     </div>
-    <div class="cut" id="cut">
+    <div class="cut">
       <div class="cut_title"><a>剪力測試</a></div>
 
       <div class="cut_content_1">
@@ -158,7 +158,7 @@
       </div>
     </div>
 
-    <div class="pull" id="pull">
+    <div class="pull">
       <div class="pull_title"><a>拉力測試</a></div>
 
       <div class="pull_content_1">
@@ -199,11 +199,39 @@
     <script type="text/javascript" src="./js/jquery.js"></script>
     <script type="text/javascript" src="./js/jquery_migrate.js"></script>
     <script>
+
       $(function(){
         $("#go_top").on("click", function(e){
           e.preventDefault();
           $('html, body').animate({
             scrollTop: 0
+          }, 750);
+        });  
+      });
+
+      $(function(){
+        $("#cut").on("click", function(e){
+          e.preventDefault();
+          $('html, body').animate({
+            scrollTop: 2200
+          }, 750);
+        });  
+      });
+
+      $(function(){
+        $("#pull").on("click", function(e){
+          e.preventDefault();
+          $('html, body').animate({
+            scrollTop: 3300
+          }, 750);
+        });  
+      });
+
+      $(function(){
+        $("#open_close").on("click", function(e){
+          e.preventDefault();
+          $('html, body').animate({
+            scrollTop: 1300
           }, 750);
         });  
       });
