@@ -5,8 +5,6 @@
 body{
   width: 100%;
   margin: 0px;
-  padding: 0px;
-  min-width: 1440px;
   height:2200px;
   background-color: #1F273D;
   position: absolute;
@@ -200,7 +198,6 @@ div.background_color{
   /* border: 1px solid red; */
   height: 920px;
   width: 100%;
-  min-width: 1440px;
   background-color: #2B344A;
   position: absolute;
   bottom: 200px;
@@ -257,7 +254,7 @@ img.sketch_left{
   width: 150px;
   position: absolute;
   left: 50%;
-  transform: translateX(-470%);
+  transform: translateX(-400%);
   top: 950px;
   z-index: 2;
 }
@@ -265,7 +262,7 @@ img.sketch_bottom{
   width: 380px;
   position: absolute;
   right: 50%;
-  transform: translateX(200%);
+  transform: translateX(160%);
   bottom: 220px;
 }
 img.lamp{
@@ -531,7 +528,6 @@ div.background_color_left:hover{
 div.fotter_color{
   /* border: 1px solid blue; */
   width: 100%;
-  min-width: 1440px;
   height: 200px;
   display: block;
   position: absolute;
@@ -540,7 +536,7 @@ div.fotter_color{
 }
 div.fotter{
   /* border: 1px solid white; */
-  min-width: 1240px;
+  min-width: 1200px;
   height: 220px;
   display: block;
   position: absolute;
@@ -549,7 +545,7 @@ div.fotter{
   transform: translateX(-50%);
 }
 div.fotter img.fotter_sketch{
-  width: 650px;
+  width: 550px;
   position: absolute;
   left: 0px;
   bottom: 10px;
@@ -574,6 +570,7 @@ div.fotter img.twitter{
 }
 div.fotter > pre{
   color: white;
+  font-size: 14px;
 }
 div.fotter pre.tel{
   position: absolute;

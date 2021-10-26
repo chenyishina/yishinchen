@@ -5,8 +5,6 @@
 body{
   width: 100%;
   margin: 0px;
-  padding: 0px;
-  min-width: 1440px;
   height:2600px;
   background-color: #1F273D;
   position: absolute;
@@ -194,7 +192,6 @@ div.combine_background_1{
   /* border: 1px solid red; */
   background-color: #2B344A;
   width: 100%;
-  min-width: 1440px;
   height: 1080px;
   position: absolute;
   bottom: 200px;
@@ -406,7 +403,6 @@ pre.porsche_content{
 div.fotter_color{
   /* border: 1px solid blue; */
   width: 100%;
-  min-width: 1440px;
   height: 200px;
   display: block;
   position: absolute;
@@ -415,7 +411,7 @@ div.fotter_color{
 }
 div.fotter{
   /* border: 1px solid white; */
-  min-width: 1240px;
+  min-width: 1200px;
   height: 220px;
   display: block;
   position: absolute;
@@ -424,7 +420,7 @@ div.fotter{
   transform: translateX(-50%);
 }
 div.fotter img.fotter_sketch{
-  width: 650px;
+  width: 550px;
   position: absolute;
   left: 0px;
   bottom: 10px;
@@ -449,6 +445,7 @@ div.fotter img.twitter{
 }
 div.fotter > pre{
   color: white;
+  font-size: 14px;
 }
 div.fotter pre.tel{
   position: absolute;

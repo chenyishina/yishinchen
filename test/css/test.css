@@ -5,8 +5,6 @@
 body{
   width: 100%;
   margin: 0px;
-  padding: 0px;
-  min-width: 1440px;
   height: 4400px;
   background-color: #1F273D;
   position: absolute;
@@ -573,7 +571,7 @@ div.cut div.cut_content_2 a.content_2{
   z-index: 1;
 }
 div.cut div.cut_content_2 img.cut_2{
-  height: 200px;
+  height: 190px;
   position: absolute;
   top: 0px;
   right: 500px;
@@ -589,16 +587,16 @@ div.cut div.cut_content_2{
 }
 div.cut div.cut_content_2 div.cut_background_2{
   width: 1150px;
-  height: 200px;
+  height: 190px;
   background-color: #0D162F;
   border-radius: 100px;
   position: absolute;
   top: 0px;
   left: 50px;
-  transition: 2s;
+  transition: 1s;
 }
 div.cut div.cut_content_2 div.cut_background_2:hover{
-  width: 2000px;
+  width: 750px;
 }
 div.cut div.cut_content_3 a.title_3{
   color: white;
@@ -748,11 +746,9 @@ div.pull div.pull_content_3 a.content_3{
   left: 20px;
   top: 390px;
 }
-
 div.fotter_color{
   /* border: 1px solid blue; */
   width: 100%;
-  min-width: 1440px;
   height: 200px;
   display: block;
   position: absolute;
@@ -761,7 +757,7 @@ div.fotter_color{
 }
 div.fotter{
   /* border: 1px solid white; */
-  min-width: 1240px;
+  min-width: 1200px;
   height: 220px;
   display: block;
   position: absolute;
@@ -770,7 +766,7 @@ div.fotter{
   transform: translateX(-50%);
 }
 div.fotter img.fotter_sketch{
-  width: 650px;
+  width: 550px;
   position: absolute;
   left: 0px;
   bottom: 10px;
@@ -795,6 +791,7 @@ div.fotter img.twitter{
 }
 div.fotter > pre{
   color: white;
+  font-size: 14px;
 }
 div.fotter pre.tel{
   position: absolute;
