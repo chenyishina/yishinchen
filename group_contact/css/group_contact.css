@@ -217,7 +217,7 @@ div.group div.title > a > span{
 div.group div.guid{
   /* border: 1px solid white; */
   width: 300px;
-  height: 220px;
+  height: 240px;
   position: absolute;
   top: 130px;
   left: 400px;
@@ -249,14 +249,14 @@ div.group div.guid a.intro_1{
 div.group div.guid a.am_1{
   width: 190px;
   position: absolute;
-  top:97px;
+  top:107px;
   left: 50%;
   transform: translateX(-50%);
 }
 div.group div.guid a.pm_1{
   width: 190px;
   position: absolute;
-  top: 147px;
+  top: 157px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -271,7 +271,7 @@ div.group div.guid div.background_color_1{
   height: 120px;
   background-color: #091229;
   position: absolute;
-  top: 75px;
+  top: 85px;
   left: 50%;
   transform: translateX(-50%);
   z-index: -1;
@@ -280,7 +280,7 @@ div.group div.guid div.background_color_1{
 div.group div.diy{
   /* border: 1px solid white; */
   width: 300px;
-  height: 220px;
+  height: 240px;
   position: absolute;
   top: 130px;
   left: 700px;
@@ -312,14 +312,14 @@ div.group div.diy a.intro_2{
 div.group div.diy a.am_2{
   width: 190px;
   position: absolute;
-  top: 97px;
+  top: 107px;
   left: 50%;
   transform: translateX(-50%);
 }
 div.group div.diy a.pm_2{
   width: 190px;
   position: absolute;
-  top: 147px;
+  top: 157px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -334,7 +334,7 @@ div.group div.diy div.background_color_2{
   height: 120px;
   background-color: #091229;
   position: absolute;
-  top: 75px;
+  top: 85px;
   left: 50%;
   transform: translateX(-50%);
   z-index: -1;
