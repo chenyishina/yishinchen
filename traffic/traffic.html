@@ -42,13 +42,14 @@
     </header>
     
     <div class="icon">
-      <a href="#" onclick="hide1.style.display=hide1.style.display=='none'?'':'none'"><img class="category" src="./image/icon/category.png"></a>
+      <a href="#" onclick="document.getElementById('hide1').style.display=''"><img class="category" src="./image/icon/category.png"></a>
       <a href="#"><img class="member" src="./image/icon/member.png"></a>
       <a href="#"><img class="bag" src="./image/icon/bag.png"></a>
       <a href="#"><img class="top" src="./image/icon/top.png"></a>
     </div>
 
     <div class="hamburger" id="hide1" style="display: none;">
+      <a href="#"><img id="icon_ham" onclick="document.getElementById('hide1').style.display='none'" src="image/icon/category_1.png"></a>
       <div class="hamburger_all">
         <a href="../traffic/traffic.html"><img class="h_1" src="./image/hamburger/h_1.png"></a>
         <a href="../about_us/about_us.html"><img src="./image/hamburger/h_2.png"></a>

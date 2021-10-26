@@ -165,9 +165,9 @@ div.hamburger{
   background-color: #121B32;
   /* border: 1px solid blue; */
   width: 800px;
-  height: 600px;
+  height: 500px;
   position: fixed;
-  top: 100px;
+  top: 85px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
@@ -181,7 +181,7 @@ div.hamburger div.hamburger_all{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 50px;
+  top: 10px;
 }
 div.hamburger div.hamburger_all > a img{
   /* border: 1px solid green; */
@@ -194,6 +194,12 @@ div.hamburger div.hamburger_all > a img{
 }
 div.hamburger div.hamburger_all > a img:hover{
   left:48%;
+}
+#icon_ham{
+  width: 50px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
 }
 div.background_color{
   /* border: 1px solid red; */
