@@ -257,7 +257,17 @@
         </div>
       </div>
 
+      <script>
 
+        $(function(){
+          $("#go_top").on("click", function(e){
+            e.preventDefault();
+            $('html, body').animate({
+              scrollTop: 0
+            }, 750);
+          });  
+        });
+      </script>
 
   </body>
 </html>
