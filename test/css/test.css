@@ -738,8 +738,9 @@ div.pull div.pull_content_3 a.title_3{
   top: 350px;
 }
 div.pull div.pull_content_3 a.content_3{
+  /* border: 1px solid green; */
   color: white;
-  width: 250px;
+  width: 260px;
   position: absolute;
   left: 20px;
   top: 390px;
