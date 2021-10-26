@@ -202,7 +202,8 @@ img.chair{
   width: 170px;
   position: absolute;
   bottom: 410px;
-  left: 120px;
+  left: 50%;
+  transform: translateX(-400%);
 }
 div.traffic{
   /* border: 1px solid red; */
@@ -215,8 +216,8 @@ div.traffic{
 div.traffic img.map{
   width: 400px;
   position: absolute;
-  top: 160px;
-  right: 200px;
+  top: 120px;
+  right: 180px;
 }
 div.traffic img.office{
   width: 30px;
@@ -233,13 +234,13 @@ div.traffic img.tel_1{
 div.traffic img.factory{
   width: 25px;
   position: absolute;
-  top: 310px;
+  top: 340px;
   left: 250px;
 }
 div.traffic img.tel_2{
   width: 20px;
   position: absolute;
-  top: 350px;
+  top: 385px;
   left: 250px;
 }
 div.traffic img.mail{
@@ -263,13 +264,13 @@ div.traffic pre.office_tel{
 div.traffic pre.factory_content{
   color: white;
   position: absolute;
-  top: 300px;
+  top: 330px;
   left: 300px;
 }
 div.traffic pre.factory_tel{
   color: white;
   position: absolute;
-  top: 335px;
+  top: 370px;
   left: 300px;
 }
 div.traffic pre.mail_add{

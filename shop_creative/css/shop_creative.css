@@ -246,14 +246,16 @@ div.shop_creative_content pre.shop_creative_title{
 img.sketch_left{
   width: 150px;
   position: absolute;
-  left: 2%;
+  left: 50%;
+  transform: translateX(-470%);
   top: 950px;
   z-index: 2;
 }
 img.sketch_bottom{
   width: 380px;
   position: absolute;
-  right: 0;
+  right: 50%;
+  transform: translateX(200%);
   bottom: 220px;
 }
 img.lamp{

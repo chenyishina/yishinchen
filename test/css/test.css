@@ -215,7 +215,8 @@ div.background_color_left{
 img.light_sketch{
   width: 300px;
   position: absolute;
-  left: 10%;
+  left: 50%;
+  transform: translateX(-200%);
   bottom: 180px;
 }
 div.test{
@@ -371,13 +372,13 @@ div.test div.test_video div.pull_video a.more_3:hover{
   color: black;
   padding: 5px 5px;
 }
-div.test div.test_video img.left_icon{
+div.test div.test_video a img.left_icon{
   width: 60px;
   position: absolute;
   top: 150px;
   left: 230px;
 }
-div.test div.test_video img.right_icon{
+div.test div.test_video a img.right_icon{
   width: 60px;
   position: absolute;
   top: 150px;

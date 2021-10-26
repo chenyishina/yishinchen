@@ -239,14 +239,16 @@ div.shop_pro_content img.shop_pro_jpg{
 img.sketch_left{
   width: 230px;
   position: absolute;
-  left: 2%;
+  left: 50%;
+  transform: translateX(-350%);
   top: 940px;
   z-index: 2;
 }
 img.sketch_bottom{
   width: 150px;
   position: absolute;
-  right: 10%;
+  right: 50%;
+  transform: translateX(450%);
   bottom: 220px;
 }
 img.lamp{
