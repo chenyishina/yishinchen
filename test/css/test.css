@@ -270,7 +270,7 @@ div.test div.test_video{
 }
 div.test div.cut_video{
   /* border: 1px solid white; */
-  width: 170px;
+  width: 165px;
   height: 420px;
   position: absolute;
   bottom: 0;
@@ -348,7 +348,7 @@ div.test div.test_video div.open_close_video a.more_2:hover{
 }
 div.test div.pull_video{
   /* border: 1px solid white; */
-  width:170px;
+  width: 165px;
   height: 420px;
   position: absolute;
   bottom: 0;
@@ -388,16 +388,16 @@ div.test div.test_video div.pull_video a.more_3:hover{
   padding: 5px 5px;
 }
 div.test div.test_video a img.left_icon{
-  width: 60px;
+  width: 40px;
   position: absolute;
-  top: 150px;
-  left: 230px;
+  top: 110px;
+  left: 235px;
 }
 div.test div.test_video a img.right_icon{
-  width: 60px;
+  width: 40px;
   position: absolute;
-  top: 150px;
-  right: 230px;
+  top: 110px;
+  right: 235px;
   transform: rotate(180deg);
 }
 div.open_close_content{
