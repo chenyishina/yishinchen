@@ -45,14 +45,14 @@
     </header>
 
     <div class="icon">
-      <a href="#" onclick="document.getElementById('hide1').style.display=''"><img class="category" src="./image/icon/category.png"></a>
+      <a style="cursor: pointer;"onclick="document.getElementById('hide1').style.display=''"><img class="category" src="./image/icon/category.png"></a>
       <a href="#"><img class="member" src="./image/icon/member.png"></a>
       <a href="#"><img class="bag" src="./image/icon/bag.png"></a>
-      <a href="#"><img class="top" src="./image/icon/top.png"></a>
+      <a href="#"><img id="go_top" src="./image/icon/top.png"></a>
     </div>
 
     <div class="hamburger" id="hide1" style="display: none;">
-      <a href="#"><img id="icon_ham" onclick="document.getElementById('hide1').style.display='none'" src="image/icon/category_1.png"></a>
+      <a style="cursor: pointer;"><img id="icon_ham" onclick="document.getElementById('hide1').style.display='none'" src="image/icon/category_1.png"></a>
       <div class="hamburger_all">
         <a href="../traffic/traffic.html"><img class="h_1" src="./image/hamburger/h_1.png"></a>
         <a href="../about_us/about_us.html"><img src="./image/hamburger/h_2.png"></a>
@@ -63,7 +63,6 @@
         <a href="../group_contact/group_contact.html"><img src="./image/hamburger/h_7.png"></a>
       </div>
     </div>
-
 
     <div class="group">
       <div class="title">
@@ -202,8 +201,6 @@
 
     <script type="text/javascript" src="./js/jquery.js"></script>
     <script type="text/javascript" src="./js/jquery_migrate.js"></script>
-    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
     <script type="text/javascript" src="./js/slick.min.js"></script>
     <script>
       $('.slick').slick({
@@ -212,6 +209,15 @@
         autoplay: true,
         autoplaySpeed: 2000,
       });
+
+      $(function(){
+          $("#go_top").on("click", function(e){
+            e.preventDefault();
+            $('html, body').animate({
+              scrollTop: 0
+            }, 750);
+          });  
+        });
     </script>
 
   </body>

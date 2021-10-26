@@ -33,7 +33,7 @@ div.icon img.bag{
   right: 115px;
   z-index: 10;
 }
-div.icon img.top{
+#go_top{
   width: 30px;
   position: fixed;
   bottom: 50px;
