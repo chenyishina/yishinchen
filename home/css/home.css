@@ -211,85 +211,135 @@ div.hamburger div.hamburger_all > a img:hover{
    position: relative;
    top: 100px;
  }
-
-div.banner_background img.key_1{
+div.banner_background div.top_1{
+  /* border: 1px solid green; */
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  left: 0px;
+  top: -70px;
+} 
+div.banner_background div.top_1 img.key_1{
   position: absolute;
   left: -100px;
-  top: -70px;
+  top: 0px;
 }
 
-div img.light_left{
+div.banner_background div.top_1 img.light_left{
   width: 110px;
   height: 265px;
   display: inline-block;
   position: absolute;
   left: 180px;
-  top: 150px;
+  top: 220px;
 }
-div img.light_middle{
+div.banner_background div.top_1 img.light_middle{
   width: 109px;
   height: 153px;
   display: inline-block;
   position: absolute;
   left: 280px;
-  top: 150px;
+  top: 250px;
 }
-div img.light_right{
+div.banner_background div.top_1 img.light_right{
   display: inline-block;
   position: absolute;
   left: 380px;
-  top: 150px;
+  top: 220px;
 }
-div.banner_background div.key_color_bank{
+div.banner_background div.top_1 div.key_color_bank{
   width: 750px;
   height: 140px;
   position: absolute;
   left: 0px;
-  top: 120px;
+  top: 180px;
   background: linear-gradient(-60deg, transparent 180px, #2F364A 0);
 }
-
-div img.machine_1{
+div.banner_background div.circle_right{
+  /* border:1px solid red; */
+  width: 500px;
+  height: 430px;
   position: absolute;
   right: 0px;
-  top: 300px;
+  top: 320px;
 }
-
+div.banner_background div.circle_right img.machine_1{
+  border-radius: 200px 0 0 200px;
+  width: 300px;
+  position: absolute;
+  right: 0px;
+  top: 15px;
+}
+div.banner_background div.circle_right_color{
+  background-color: #2F364A;
+  width: 350px;
+  height: 430px;
+  border-radius: 300px 0 0 300px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
 div img.banner_logo{
   position: absolute;
-  left: 40%;
+  left: 50%;
+  transform: translateX(-50%);
   top: 700px;
   width: 250px;
   opacity: .5;
 }
-
-div img.combination_1{
+div.banner_background div.circle_left{
+  /* border:1px solid red; */
+  width: 500px;
+  height: 700px;
   position: absolute;
-  left: -50px;
-  top:  780px;
+  left: 0px;
+  top: 840px;
 }
-
-div img.fan{
+div.banner_background div.circle_left img.combination_1{
+  width: 430px;
+  border-radius: 0 400px 400px 0;
+  position: absolute;
+  left: 0px;
+  top:  20px;
+}
+div.banner_background div.circle_left_color{
+  background-color: #2F364A;
+  width: 490px;
+  height: 630px;
+  border-radius: 0 330px 330px 0;
+  position: absolute;
+  left: 0px;
+  top:  0px;
+}
+div.bottom{
+  /* border: 1px solid green; */
+  width: 500px;
+  height: 280px;
+  position: absolute;
+  right: 0px;
+  top: 1450px;
+}
+div.bottom img.fan{
   position: absolute;
   right: 150px;
-  top: 1580px;
+  top: 100px;
   width: 160px;
 }
 
-div.banner_background div.fan_color_bank{
+div.banner_background div.bottom div.fan_color_bank{
   width: 600px;
   height: 100px;
   position: absolute;
   right: 0px;
-  top: 1620px;
+  top: 140px;
   background: linear-gradient(110deg, transparent 180px, #2F364A 0);
 }
 
-div img.money_1{
+div div.bottom img.money_1{
   height: 200px;
   position: absolute;
   right: 0px;
-  top: 1450px;
+  top: 0px;
 }
 
 div.key_background{

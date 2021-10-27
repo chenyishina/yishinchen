@@ -206,7 +206,7 @@ div.hamburger div.hamburger_all > a img:hover{
 div.group{
   /* border: 1px solid red; */
   width: 1200px;
-  height: 550px;
+  height: 560px;
   position: relative;
   top: 120px;
   margin: 0 auto;
@@ -360,7 +360,7 @@ div.group div.important{
   height: 100px;
   position: absolute;
   right: 80px;
-  bottom: 0;
+  bottom: 10px;
 }
 div.group div.important > img{
   /* border: 1px solid red; */
