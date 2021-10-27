@@ -390,7 +390,7 @@ div.group img.line{
   bottom: 0px;
   right: 80px;
 }
-div.reserve{
+form.reserve{
   /* border: 1px solid white; */
   width: 1200px;
   height: 710px;
@@ -398,43 +398,43 @@ div.reserve{
   margin: 0 auto;
   top: 320px;
 }
-div.reserve div.server{
+form.reserve div.server{
   /* border: 1px solid blue; */
   width: 330px;
   height: 550px;
   position: absolute;
   left: 200px;
 }
-div.reserve div.server div.title_1{
+form.reserve div.server div.title_1{
   /* border: 1px solid red; */
   display: inline-block;
   height: 80px;
 }
-div.reserve div.server div.title_1 > img{
+form.reserve div.server div.title_1 > img{
   /* border: 1px solid red; */
   width: 40px;
   vertical-align: middle;
 }
-div.reserve div.server div.title_1 > a{
+form.reserve div.server div.title_1 > a{
   /* border: 1px solid red; */
   color: white;
   font-size: 18px;
 }
-div.reserve div.server div.date{
+form.reserve div.server div.date{
   /* border: 1px solid white; */
   color: white;
   height: 120px;
 }
-div.reserve div.server div.date > a{
+form.reserve div.server div.date > a{
   line-height: 50px;
 }
-div.reserve div.server div.which_guid{
+form.reserve div.server div.which_guid{
   /* border: 1px solid blue; */
   color: white;
   height: 90px;
   position: relative;
 }
-div.reserve div.server div.which_guid div.background_color_1{
+form.reserve div.server div.which_guid div.background_color_1{
   height: 30px;
   width: 150px;
   background-color: #54607E;
@@ -443,16 +443,16 @@ div.reserve div.server div.which_guid div.background_color_1{
   top: 45px;
   z-index: -1;
 }
-div.reserve div.server div.which_guid > a{
+form.reserve div.server div.which_guid > a{
   line-height: 50px;
 }
-div.reserve div.server div.diy{
+form.reserve div.server div.diy{
   /* border: 1px solid blue; */
   color: white;
   height: 130px;
   position: relative;
 }
-div.reserve div.server div.diy div.background_color_2{
+form.reserve div.server div.diy div.background_color_2{
   height: 30px;
   width: 150px;
   background-color: #54607E;
@@ -461,10 +461,10 @@ div.reserve div.server div.diy div.background_color_2{
   top: 45px;
   z-index: -1;
 }
-div.reserve div.server div.diy > a{
+form.reserve div.server div.diy > a{
   line-height: 50px;
 }
-div.reserve div.server div.people{
+form.reserve div.server div.people{
   /* border: 1px solid blue; */
   color: white;
 }
