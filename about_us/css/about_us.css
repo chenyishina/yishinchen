@@ -222,7 +222,7 @@ div.about_us{
   display: block;
   position: relative;
   margin: 0 auto;
-  top: 580px;
+  top: 650px;
 }
 div.about_us_title_color{
   width: 33%;
@@ -234,14 +234,14 @@ div.about_us_title_color{
 div.about_us img.title_icon{
   width: 100px;
   position: absolute;
-  top: 65px;
+  top: 0px;
   left: 100px;
 }
 div.about_us pre.about_us_title{
   color: white;
   font-size: 20px;
   position: absolute;
-  top: 90px;
+  top: 20px;
   left: 220px;
 }
 div.about_us img.map{
