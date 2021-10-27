@@ -6,7 +6,6 @@ body{
   width: 100%;
   min-width: 1200px;
   margin: 0px;
-  height:2200px;
   background-color: #1F273D;
   position: absolute;
   font-family: "微軟正黑體", "BiauKai", "helvetica";
@@ -263,28 +262,28 @@ img.sketch_left{
   position: absolute;
   left: 50%;
   transform: translateX(-400%);
-  top: 950px;
+  top: 880px;
   z-index: 2;
 }
 img.sketch_bottom{
-  width: 380px;
+  width: 400px;
   position: absolute;
   right: 50%;
-  transform: translateX(160%);
-  bottom: 200px;
+  transform: translateX(130%);
+  bottom: 140px;
 }
 img.lamp{
   width: 500px;
   position: absolute;
   right: 0;
-  top: 170px;
+  top: 120px;
 }
 div.shop_creative_content div.p_1{
   /* border: 1px solid red; */
   position: absolute;
   width: 360px;
   height: 520px;
-  top: 340px;
+  top: 240px;
   left: 180px;
 }
 div.shop_creative_content div.p_1 img.product_1{
@@ -339,7 +338,7 @@ div.shop_creative_content div.p_2{
   position: absolute;
   width: 360px;
   height: 520px;
-  top: 340px;
+  top: 240px;
   right: 180px;
 }
 div.shop_creative_content div.p_2 img.product_2{
@@ -394,7 +393,7 @@ div.shop_creative_content div.p_3{
   position: absolute;
   width: 360px;
   height: 520px;
-  top: 1100px;
+  top: 1000px;
   left: 180px;
 }
 div.shop_creative_content div.p_3 img.product_3{
@@ -449,7 +448,7 @@ div.shop_creative_content div.p_4{
   position: absolute;
   width: 360px;
   height: 520px;
-  top: 1100px;
+  top: 1000px;
   right: 180px;
 }
 div.shop_creative_content div.p_4 img.product_4{
@@ -549,7 +548,7 @@ div.fotter{
   display: block;
   position: relative;
   margin: 0 auto;
-  top: 80px;
+  top: -10px;
 }
 div.fotter img.fotter_sketch{
   width: 550px;

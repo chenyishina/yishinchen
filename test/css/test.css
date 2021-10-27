@@ -6,7 +6,6 @@ body{
   width: 100%;
   min-width: 1200px;
   margin: 0px;
-  height: 4400px;
   background-color: #1F273D;
   position: absolute;
   font-family: "微軟正黑體", "BiauKai", "helvetica";
@@ -233,7 +232,8 @@ img.light_sketch{
   position: absolute;
   left: 50%;
   transform: translateX(-200%);
-  bottom: 180px;
+  bottom: -1050px;
+  z-index: 1;
 }
 div.test{
   /* border: 1px solid red; */
@@ -758,7 +758,7 @@ div.fotter_color{
   display: block;
   position: absolute;
   background-color: #121B32;
-  bottom: 0px;
+  bottom: -1220px;
 }
 div.fotter{
   /* border: 1px solid white; */

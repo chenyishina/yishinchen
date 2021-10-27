@@ -6,7 +6,7 @@ body{
   width: 100%;
   min-width: 1200px;
   margin: 0px;
-  height: 1250px;
+  /* height: 1250px; */
   background-color: #1F273D;
   position: absolute;
   font-family: "微軟正黑體", "BiauKai", "helvetica";
@@ -217,7 +217,7 @@ div.left_background{
 img.chair{
   width: 170px;
   position: absolute;
-  bottom: 100px;
+  bottom: 180px;
   left: 50%;
   transform: translateX(-350%);
 }
@@ -319,7 +319,7 @@ div.fotter{
   display: block;
   position: relative;
   margin: 0 auto;
-  top: 130px;
+  top:-10px;
 }
 div.fotter img.fotter_sketch{
   width: 550px;
