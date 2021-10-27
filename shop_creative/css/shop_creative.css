@@ -250,19 +250,25 @@ div.shop_creative_content img.shop_creative_jpg{
   left: 0px;
   top: 70px;
 }
+div.shop_creative_content img.shop_creative_logo{
+  width: 50px;
+  position: absolute;
+  left: 10px;
+  top: 70px;
+}
 div.shop_creative_content pre.shop_creative_title{
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   position: absolute;
-  top: 62px;
-  left: 40px;
+  top: 65px;
+  left: 70px;
 }
 img.sketch_left{
-  width: 150px;
+  width: 120px;
   position: absolute;
   left: 50%;
-  transform: translateX(-400%);
-  top: 880px;
+  transform: translateX(-450%);
+  top: 900px;
   z-index: 2;
 }
 img.sketch_bottom{
