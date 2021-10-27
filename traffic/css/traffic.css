@@ -41,7 +41,6 @@ div.icon img.bag{
   right: 120px;
   z-index: 10;
 }
-
 nav.nav{
   /* border: 1px solid white; */
   width: 1200px;
@@ -50,7 +49,7 @@ nav.nav{
 
 nav.nav ul.list{
   list-style: none;
-  margin: 0;
+  margin: 0 70px;
   padding: 0;
   font-size: 0px;
 }
@@ -75,6 +74,7 @@ nav.nav ul.list div.shop ul.shop_list{
   right: -7px;
   top: 100%;
   display: none;
+  z-index: 1;
 }
 
 nav.nav ul.list div.shop:hover ul.shop_list{
@@ -88,8 +88,6 @@ nav.nav ul.list div.shop ul.shop_list > li{
   margin: 0px;
   padding: 15px 5px;
   text-align: center;
-  position: relative;
-  z-index: 10;
 }
 
 nav.nav ul.list div.shop ul.shop_list > li > a{
@@ -98,15 +96,13 @@ nav.nav ul.list div.shop ul.shop_list > li > a{
   font-size: 14px;
   padding: 3px 0px;
   transition: 0.5s;
-  position: relative;
-  z-index: 10;
 }
 
 nav.nav ul.list li > a img.logo{
   width: 66px;
   height: 66px;
   display: inline-block;
-  margin: 0px 30px 0px 80px;
+  /* margin: 0px 30px 0px 80px; */
 }
 
 ul.list > li {
@@ -128,41 +124,43 @@ ul.list > li > a{
   font-size: 16px;
   transition: 0.5s;
 }
+
 ul.list > li > a.about_us:hover{
   background-color: #D6C9A1;
   padding: 3px 0px;
   border-radius: 10px;
-  color: black;
+  color: black
 }
 ul.list > li > a.pro_test:hover{
   background-color: #D6C9A1;
   padding: 3px 0px;
   border-radius: 10px;
-  color: black;
-}
-ul.list > li > a.group:hover{
-  background-color: #D6C9A1;
-  padding: 3px 0px;
-  border-radius: 10px;
-  color: black;
-}
-ul.list > li > a.traffic:hover{
-  background-color: #D6C9A1;
-  padding: 3px 0px;
-  border-radius: 10px;
-  color: black;
+  color: black
 }
 ul.list > li > a.combination:hover{
   background-color: #D6C9A1;
   padding: 3px 0px;
   border-radius: 10px;
-  color: black;
+  color: black
+}
+ul.list > li > a.group:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
+}
+ul.list > li > a.traffic:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
 }
 nav.nav ul.list div.shop ul.shop_list > li > a:hover{
   background-color: #D6C9A1;
   padding: 3px 0px;
   border-radius: 10px;
-  color: black;
+  color: black
+
 }
 div.hamburger{
   background-color: #121B32;

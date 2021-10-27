@@ -48,7 +48,7 @@ nav.nav{
 
 nav.nav ul.list{
   list-style: none;
-  margin: 0;
+  margin: 0 70px;
   padding: 0;
   font-size: 0px;
 }
@@ -73,6 +73,7 @@ nav.nav ul.list div.shop ul.shop_list{
   right: -7px;
   top: 100%;
   display: none;
+  z-index: 1;
 }
 
 nav.nav ul.list div.shop:hover ul.shop_list{
@@ -86,8 +87,6 @@ nav.nav ul.list div.shop ul.shop_list > li{
   margin: 0px;
   padding: 15px 5px;
   text-align: center;
-  position: relative;
-  z-index: 10;
 }
 
 nav.nav ul.list div.shop ul.shop_list > li > a{
@@ -96,15 +95,13 @@ nav.nav ul.list div.shop ul.shop_list > li > a{
   font-size: 14px;
   padding: 3px 0px;
   transition: 0.5s;
-  position: relative;
-  z-index: 10;
 }
 
 nav.nav ul.list li > a img.logo{
   width: 66px;
   height: 66px;
   display: inline-block;
-  margin: 0px 30px 0px 80px;
+  /* margin: 0px 30px 0px 80px; */
 }
 
 ul.list > li {
@@ -126,41 +123,43 @@ ul.list > li > a{
   font-size: 16px;
   transition: 0.5s;
 }
+
 ul.list > li > a.about_us:hover{
   background-color: #D6C9A1;
   padding: 3px 0px;
   border-radius: 10px;
-  color: black;
+  color: black
 }
 ul.list > li > a.pro_test:hover{
   background-color: #D6C9A1;
   padding: 3px 0px;
   border-radius: 10px;
-  color: black;
-}
-ul.list > li > a.group:hover{
-  background-color: #D6C9A1;
-  padding: 3px 0px;
-  border-radius: 10px;
-  color: black;
-}
-ul.list > li > a.traffic:hover{
-  background-color: #D6C9A1;
-  padding: 3px 0px;
-  border-radius: 10px;
-  color: black;
+  color: black
 }
 ul.list > li > a.combination:hover{
   background-color: #D6C9A1;
   padding: 3px 0px;
   border-radius: 10px;
-  color: black;
+  color: black
+}
+ul.list > li > a.group:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
+}
+ul.list > li > a.traffic:hover{
+  background-color: #D6C9A1;
+  padding: 3px 0px;
+  border-radius: 10px;
+  color: black
 }
 nav.nav ul.list div.shop ul.shop_list > li > a:hover{
   background-color: #D6C9A1;
   padding: 3px 0px;
   border-radius: 10px;
-  color: black;
+  color: black
+
 }
 div.hamburger{
   background-color: #121B32;
@@ -451,7 +450,7 @@ div.open_close_content div.open_close_title{
   top: 70px;
   left: 125px;
 }
-div.open_close_content div.open_close_title > a{
+div.open_close_content div.open_close_title > p{
   color: white;
   font-size: 20px;
 }
@@ -463,20 +462,20 @@ div.open_close_content div.open_close_words{
   right: 125px;
   top: 250px;
 }
-div.open_close_content div.open_close_words div.open_close_words_1 a.title_1{
+div.open_close_content div.open_close_words div.open_close_words_1 p.title_1{
   color: white;
   font-size: 18px;
   position: absolute;
   left: 0px;
   top: 0px;
 }
-div.open_close_content div.open_close_words div.open_close_words_1 a.para_1{
+div.open_close_content div.open_close_words div.open_close_words_1 p.para_1{
   color: white;
   position: absolute;
   left: 0px;
   top: 40px;
 }
-div.open_close_content div.open_close_words div.open_close_words_2 a.title_2{
+div.open_close_content div.open_close_words div.open_close_words_2 p.title_2{
   color: white;
   font-size: 18px;
   position: absolute;
@@ -484,7 +483,7 @@ div.open_close_content div.open_close_words div.open_close_words_2 a.title_2{
   top: 0px;
   display: none;
 }
-div.open_close_content div.open_close_words div.open_close_words_2 a.para_2{
+div.open_close_content div.open_close_words div.open_close_words_2 p.para_2{
   color: white;
   position: absolute;
   left: 0px;
@@ -508,26 +507,26 @@ div.cut{
   top: 650px;
   margin: 0 auto;
 }
-div.cut div.cut_title > a{
+div.cut div.cut_title > p{
   color: white;
   font-size: 20px;
   position: absolute;
   top: 50px;
   left: 120px;
 }
-div.cut div.cut_content_1 a.title_1{
+div.cut div.cut_content_1 p.title_1{
   color: white;
   font-size: 18px;  position: absolute;
-  top: 10px;
+  top: 0px;
   left: 120px;
   z-index: 1;
 }
-div.cut div.cut_content_1 a.content_1{
+div.cut div.cut_content_1 p.content_1{
   /* border: 1px solid blue; */
   width:200px;
   color: white;
   font-size: 18px;  position: absolute;
-  top: 60px;
+  top: 50px;
   left: 120px;
   z-index: 1;
 }
@@ -559,19 +558,19 @@ div.cut div.cut_content_1 div.cut_background_1{
 div.cut div.cut_content_1 div.cut_background_1:hover{
   width: 2000px;
 }
-div.cut div.cut_content_2 a.title_2{
+div.cut div.cut_content_2 p.title_2{
   color: white;
   font-size: 18px;  position: absolute;
-  top: 10px;
+  top: 0px;
   left: 20px;
   z-index: 1;
 }
-div.cut div.cut_content_2 a.content_2{
+div.cut div.cut_content_2 p.content_2{
   /* border: 1px solid blue; */
   width:240px;
   color: white;
   font-size: 18px;  position: absolute;
-  top: 60px;
+  top: 50px;
   left: 20px;
   z-index: 1;
 }
@@ -603,19 +602,19 @@ div.cut div.cut_content_2 div.cut_background_2{
 div.cut div.cut_content_2 div.cut_background_2:hover{
   width: 750px;
 }
-div.cut div.cut_content_3 a.title_3{
+div.cut div.cut_content_3 p.title_3{
   color: white;
   font-size: 18px;  position: absolute;
-  top: 10px;
+  top: 0px;
   left: 50px;
   z-index: 1;
 }
-div.cut div.cut_content_3 a.content_3{
+div.cut div.cut_content_3 p.content_3{
   /* border: 1px solid blue; */
   width:240px;
   color: white;
   font-size: 18px;  position: absolute;
-  top: 60px;
+  top: 50px;
   left: 50px;
   z-index: 1;
 }
@@ -655,7 +654,7 @@ div.pull{
   top: 950px;
   margin: 0 auto;
 }
-div.pull div.pull_title > a{
+div.pull div.pull_title > p{
   color: white;
   font-size: 20px;
   position: absolute;
@@ -676,7 +675,7 @@ div.pull div.pull_content_1 img.pull_1{
   left: 0;
   top: 0;
 }
-div.pull div.pull_content_1 a.title_1{
+div.pull div.pull_content_1 p.title_1{
   color: white;
   font-size: 18px;
   width: 300px;
@@ -684,7 +683,7 @@ div.pull div.pull_content_1 a.title_1{
   left: 0;
   top: 350px;
 }
-div.pull div.pull_content_1 a.content_1{
+div.pull div.pull_content_1 p.content_1{
   color: white;
   width: 250px;
   position: absolute;
@@ -706,7 +705,7 @@ div.pull div.pull_content_2 img.pull_2{
   left: -45px;
   top: 0;
 }
-div.pull div.pull_content_2 a.title_2{
+div.pull div.pull_content_2 p.title_2{
   color: white;
   font-size: 18px;
   width: 300px;
@@ -714,7 +713,7 @@ div.pull div.pull_content_2 a.title_2{
   left: 40px;
   top: 350px;
 }
-div.pull div.pull_content_2 a.content_2{
+div.pull div.pull_content_2 p.content_2{
   color: white;
   width: 220px;
   position: absolute;
@@ -735,7 +734,7 @@ div.pull div.pull_content_3 img.pull_3{
   left: 0;
   top: 0;
 }
-div.pull div.pull_content_3 a.title_3{
+div.pull div.pull_content_3 p.title_3{
   color: white;
   font-size: 18px;
   width: 300px;
@@ -743,7 +742,7 @@ div.pull div.pull_content_3 a.title_3{
   left: 20px;
   top: 350px;
 }
-div.pull div.pull_content_3 a.content_3{
+div.pull div.pull_content_3 p.content_3{
   /* border: 1px solid green; */
   color: white;
   width: 260px;
