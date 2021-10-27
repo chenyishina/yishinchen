@@ -302,25 +302,25 @@ div.choose > a:first-child{
     font-size: 18px;
   padding: 50px 0 50px 0;
 }
-div.choose div.info{
+div.choose form.info{
   /* border: 1px solid red; */
   height: 170px;
   position: relative;
 }
-div.choose div.info pre{
+div.choose form.info pre{
   color: white;
 }
-div.choose div.info pre.size{
+div.choose form.info pre.size{
   position: absolute;
   left: 50px;
   top: 10px;
 }
-div.choose div.info pre.F{
+div.choose form.info pre.F{
   position: absolute;
   right: 20px;
   top: 10px;
 }
-div.choose div.info pre.number_title{
+div.choose form.info pre.number_title{
   position: absolute;
   left: 50px;
   top: 60px;
@@ -345,7 +345,7 @@ div.choose div.info pre.number_title{
   color: white;
   border-radius: 10px;
 }
-div.choose div.info div.color_1{
+div.choose form.info div.color_1{
   background-color: #010716;
   width: 280px;
   height: 40px;
@@ -354,7 +354,7 @@ div.choose div.info div.color_1{
   top: 61px;
   border-radius: 10px;
 }
-div.choose div.info div.color_2{
+div.choose form.info div.color_2{
   background-color: #010716;
   width: 280px;
   height: 40px;
