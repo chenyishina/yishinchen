@@ -160,7 +160,6 @@ nav.nav ul.list div.shop ul.shop_list > li > a:hover{
   padding: 3px 0px;
   border-radius: 10px;
   color: black
-
 }
 div.hamburger{
   background-color: #121B32;
@@ -202,82 +201,87 @@ div.hamburger div.hamburger_all > a img:hover{
   top: 25px;
   right: 25px;
 }
-
+div.banner_background_color{
+  /* border: 1px solid red; */
+  background-color: #121B32;
+  width: 100%;
+  min-width: 1200px;
+  position: absolute;
+  height: 1600px;
+  margin: 0 auto;
+  top:220px;
+  z-index: -1;
+}
  div.banner_background{
    /* border: 1px solid red; */
-   min-width: 1200px;
-   height: 1650px;
-   background-color: #121B32;
-   position: relative;
-   top: 100px;
+   width: 1200px;
+   margin: 0 auto;
  }
 div.banner_background div.top_1{
-  /* border: 1px solid green; */
-  width: 700px;
-  height: 500px;
-  position: absolute;
-  left: 0px;
-  top: -70px;
-} 
-div.banner_background div.top_1 img.key_1{
-  position: absolute;
-  left: -100px;
-  top: 0px;
+  /* border: 1px solid blue; */
+  display: block;
 }
-
+div.banner_background div.top_1 img.key_1{
+  /* border: 1px solid red; */
+  width: 520px;
+  transform: scaleY(1) perspective(.6em) rotateX(1deg); 
+  transform-origin: bottom;
+  position: relative;
+  right: 350px;
+  bottom: 180px;
+}
+div.banner_background div.top_1 div.light{
+  /* border: 1px solid blue; */
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: left;
+  position: relative;
+  left: 150px;
+}
 div.banner_background div.top_1 img.light_left{
   width: 110px;
   height: 265px;
   display: inline-block;
-  position: absolute;
-  left: 180px;
-  top: 220px;
 }
 div.banner_background div.top_1 img.light_middle{
   width: 109px;
   height: 153px;
-  display: inline-block;
-  position: absolute;
-  left: 280px;
-  top: 250px;
-}
-div.banner_background div.top_1 img.light_right{
-  display: inline-block;
-  position: absolute;
-  left: 380px;
-  top: 220px;
+  display: inline-block; 
+  vertical-align: top;
+  position: relative;
+  top: 90px;
 }
 div.banner_background div.top_1 div.key_color_bank{
-  width: 750px;
+  width: 550px;
   height: 140px;
-  position: absolute;
-  left: 0px;
-  top: 180px;
-  background: linear-gradient(-60deg, transparent 180px, #2F364A 0);
+  background-color: #2F364A;
+  transform: scaleY(0.8) perspective(.9em) rotateX(-1deg); 
+  transform-origin: bottom;
+  display:block;
+  vertical-align: top;
+  position: relative;
+  top:20px;
 }
 div.banner_background div.circle_right{
   /* border:1px solid red; */
-  width: 500px;
-  height: 430px;
-  position: absolute;
+  position: relative;
   right: 0px;
-  top: 320px;
-}
-div.banner_background div.circle_right img.machine_1{
-  border-radius: 200px 0 0 200px;
-  width: 300px;
-  position: absolute;
-  right: 0px;
-  top: 15px;
+  text-align: right;
 }
 div.banner_background div.circle_right_color{
+  /* border: 1px solid blue; */
+  display: inline-block;
   background-color: #2F364A;
   width: 350px;
   height: 430px;
-  border-radius: 300px 0 0 300px;
+  border-radius: 300px 20px 20px 300px;
+ }
+div.banner_background div.circle_right img.machine_1{
+  border-radius: 200px 20px 20px 200px;
+  width: 300px;
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 10px;
+  top: 20px; 
 }
 div img.banner_logo{
   position: absolute;
@@ -288,60 +292,57 @@ div img.banner_logo{
   opacity: .5;
 }
 div.banner_background div.circle_left{
-  /* border:1px solid red; */
-  width: 500px;
-  height: 700px;
-  position: absolute;
-  left: 0px;
-  top: 840px;
+  /* border:1px solid white; */
+  position: relative;
 }
 div.banner_background div.circle_left img.combination_1{
   width: 430px;
-  border-radius: 0 400px 400px 0;
+  border-radius: 30px 400px 400px 30px;
   position: absolute;
-  left: 0px;
+  left: 20px;
   top:  20px;
 }
 div.banner_background div.circle_left_color{
   background-color: #2F364A;
   width: 490px;
   height: 630px;
-  border-radius: 0 330px 330px 0;
-  position: absolute;
-  left: 0px;
-  top:  0px;
+  border-radius: 30px 330px 330px 30px;
 }
 div.bottom{
   /* border: 1px solid green; */
-  width: 500px;
-  height: 280px;
-  position: absolute;
-  right: 0px;
-  top: 1450px;
+  position: relative;
 }
 div.bottom img.fan{
-  position: absolute;
-  right: 150px;
-  top: 100px;
+  /* border: 1px solid red; */
   width: 160px;
+  text-align: right;
+  position: absolute;
+  bottom: -10px;
+  left: 700px;
 }
-
 div.banner_background div.bottom div.fan_color_bank{
-  width: 600px;
+  /* border: 1px solid blue; */
+  width: 570px;
   height: 100px;
-  position: absolute;
-  right: 0px;
-  top: 140px;
-  background: linear-gradient(110deg, transparent 180px, #2F364A 0);
+  background-color: #2F364A;
+  transform: scaleY(1.3) perspective(.5em) rotateX(1deg); 
+  transform-origin: bottom;
+  display: inline-block;
+  margin-left: 600px;
+  position: relative;
+  top: 180px;
 }
-
 div div.bottom img.money_1{
-  height: 200px;
-  position: absolute;
-  right: 0px;
-  top: 0px;
+  /* border: 1px solid blue; */
+  width: 400px;
+  transform: scaleY(0.6) perspective(.9em) rotateX(-1deg); 
+  transform-origin: bottom;
+  margin-left: 80px;
+  display: inline-block;
+  position: relative;
+  left: 600px;
+  bottom: 70px;
 }
-
 div.key_background{
   /* border: 1px solid red; */
   width: 1200px;
@@ -351,8 +352,7 @@ div.key_background{
   background-repeat: no-repeat;
   background-position: center top;
   position: relative;
-  top: 300px;
-  margin: 0 auto;
+  margin: 220px auto;
 }
 
 div.key_background div.about{
@@ -399,10 +399,9 @@ div.key_background div.about > pre > span{
 div.pull_me{
   /* border: 1px solid red; */
   width: 1200px;
-  position: relative;
   margin: 0 auto;
-  top: 500px;
   overflow: hidden;
+  margin: 150px auto;
 }
 div.pull_me > img{
   margin: 0 auto;
@@ -429,10 +428,10 @@ div.pull_me img.pull_me_inside{
 div.product_background{
   /* border: 1px solid white; */
   background-color: #121B32;
+  min-width: 1200px;
   width: 100%;
   height: 300px;
-  position: relative;
-  top: 700px;
+  margin-bottom: 200px;
 }
 div.product_background div.product marquee > a img{
   /* border: 1px solid red; */
@@ -456,11 +455,9 @@ div.product_background div.product{
 div.process{
   /* border: 1px solid red; */
   position: relative;
-  top: 830px;
-  min-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
-  height: 3650px;
-  overflow: hidden;
+  margin-bottom: 150px;
 }
 div.process > pre{
   /* border: 1px solid blue; */
@@ -470,16 +467,17 @@ div.process > pre{
   color: white;
   text-align: center;
   position: relative;
-  left:-300px;
+  text-align: left;
+  padding-left: 300px;
   display: block;
-  margin: 0 auto;
+  margin-bottom: 100px;
 }
 div.process div.material{
   /* border: 1px solid red; */
-  position: relative;
-  text-align: center;
-  top: 100px;
-  left: -200px;
+  text-align: left;
+  display: block;
+  padding-left: 200px;
+  margin-bottom: 80px;
 }
 div.process div.material div {
   /* border: 1px solid white; */
@@ -493,13 +491,10 @@ div.process div.material div > a {
 }
 div.process div.cut{
   /* border: 1px solid red; */
-  position: absolute;
-  top: 400px;
-  right: 0px;
-  overflow: hidden;
+  text-align: right;
+  margin-bottom: 100px;
 }
 div.process div.cut div{
-  width: 360px;
   /* border: 1px solid white; */
   display: inline-block;
   vertical-align: middle;
@@ -516,19 +511,16 @@ div.process div.cut div > div > pre{
 div.process div.cut div > div > pre.cut_title{
   font-size: 18px;
 }
-
 div.process div.hole{
   /* border: 1px solid green; */
-  display: inline-block;
+  display: block;
   vertical-align: middle;
-  position: absolute;
-  top: 840px;
-  left: -50px;
+  margin-bottom: 150px;
 }
-div.process div.hole div{
+div.process div.hole > div{
   /* border: 1px solid white; */
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 div.process div.hole div.hole_text div > pre{
   color: white;
@@ -537,192 +529,135 @@ div.process div.hole div.hole_text div > pre{
 div.process div.hole div.hole_text > div pre.hole_title{
   font-size: 18px;
 }
-div.process div.hole div.hole_text{
-  /* border: 1px solid white; */
-}
 div.process div.hole div.hole_text > div{
   /* border: 1px solid red; */
   display: inline-block;
   vertical-align: bottom;
   margin: 0 30px;
 }
-
 div.process div.hole div.hole_text pre.hole_content {
   /* border: 1px solid white; */
-  position: absolute;
-  top: 150px;
-  left: 425px;
+ position: relative;
+ right: 340px;
+ top: 60px;
 }
 div.process div.heart{
   /* border: 1px solid red; */
-  width: 700px;
-  height: 260px;
-  position: absolute;
+  display: block;
   text-align: center;
-  top: 1200px;
-  left: 50%;
-  transform: translateX(-20%);
-  display: inline-block;
-}
-div.process div.heart > pre{
   color: white;
-  font-size: 16px;
+  margin-bottom: 180px;
 }
-div.process div.heart > pre.heart_title{
-  /* border: 1px solid white; */
+div.process div.heart div.heart_1{
+  /* border: 1px solid blue; */
   display: inline-block;
+  margin-left: 150px;
+}
+div.process div.heart div.heart_1 > div{
+  /* border: 1px solid blue; */
+  display: inline-block;
+  margin: 20px;
+}
+div.process div.heart pre.heart_title{
   font-size: 18px;
-  position: absolute;
-  top: 150px;
-  right: 300px;
 }
-div.process div.heart div img.heart_icon{
-  /* border: 1px solid white; */
-  position: absolute;
-  top: 50px;
-  right: 400px;
+div.process div.heart pre.heart_content{
+  margin-left: 150px;
 }
-div.process div.heart div img.heart_jpg{
-  /* border: 1px solid white; */
-  position: absolute;
-  top: 20px;
-  right: 100px;
-}
-div.process div.heart > pre.heart_content{
-  /* border: 1px solid white; */
-  display: inline-block;
-  position: absolute;
-  top: 220px;
-  right: 70px;
-}
-
 div.process div.components{
   /* border: 1px solid green; */
-  display: inline-block;
+  display: block;
   vertical-align: middle;
-  position: absolute;
-  top: 1700px;
-  left: -50px;
-}
-div.process div.components div{
-  /* border: 1px solid white; */
-  display: inline-block;
-  vertical-align: top;
-}
-div.process div.components div.components_text div > pre{
   color: white;
   font-size: 16px;
+  margin-bottom: 180px;
+}
+div.process div.components > div{
+  /* border: 1px solid white; */
+  display: inline-block;
+  vertical-align: middle;
 }
 div.process div.components div.components_text > div pre.components_title{
   font-size: 18px;
+  margin-right: 20px;
 }
-div.process div.components div.components_text{
-  /* border: 1px solid white; */
+div.process div.components > div > img{
+  /* border: 1px solid red; */
+  margin-right: 50px;
+  margin-left: 100px;
 }
 div.process div.components div.components_text > div{
   /* border: 1px solid red; */
   display: inline-block;
   vertical-align: bottom;
-  margin: 0 30px;
 }
-
 div.process div.components div.components_text pre.components_content {
   /* border: 1px solid white; */
-  position: absolute;
-  top: 150px;
-  left: 433px;
+  position: relative;
+  right:225px;
+  top:60px;
 }
-
 div.process div.key{
   /* border: 1px solid red; */
-  width: 750px;
-  height: 300px;
-  position: absolute;
-  top: 2100px;
-  right: 0px;
-  overflow: hidden;
+  width: 1200px;
+  display: block;
+  text-align: right;
+  margin-bottom: 150px;
 }
-div.process div.key div{
-  width: 360px;
+div.process div.key > div{
   /* border: 1px solid white; */
   display: inline-block;
   vertical-align: middle;
+  margin: 30px;
 }
 div.process div.key div > div{
     display: block;
-    /* text-align: center; */
+    text-align: center;
 }
 div.process div.key div > div > pre{
     color: white;
-    position: absolute;
-    top: 160px;
-    right: 430px;
     font-size: 16px;
 }
 div.process div.key div > div > pre.key_title{
-  position: absolute;
-  top: 100px;
-  right: 430px;
   font-size: 18px;
-}
-div.process div.key div.key_text div > img{
-  position: absolute;
-  top: 30px;
-  left: 0px;
+  margin-bottom: 30px;
 }
 div.process div.combine{
-  /* border: 1px solid red; */
-  width: 600px;
-  height: 270px;
-  position: absolute;
-  top: 2450px;
-  left: 50%;
-  transform: translateX(-90%);
+  /* border: 1px solid blue; */
+  width: 1200px;
+  display: block;
+  color:white;
+  margin-bottom: 150px;
 }
 div.process div.combine > pre{
   color: white;
   font-size: 16px;
 }
-div.process div.combine > pre.combine_title{
-  /* border: 1px solid white; */
+div.process div.combine div.combine_1 > div{
   display: inline-block;
+}
+div.process div.combine div.combine_1 pre.combine_title{
+  /* border: 1px solid white; */
   font-size: 18px;
-  position: absolute;
-  top: 150px;
-  right: 400px;
-}
-div.process div.combine div img.combine_icon{
-  /* border: 1px solid white; */
-  position: absolute;
-  top: 50px;
-  right: 50px;
-}
-div.process div.combine div img.combine_jpg{
-  /* border: 1px solid white; */
-  position: absolute;
-  top: 20px;
-  right: 200px;
+  margin-right: 50px;
+  margin-left: 150px;
 }
 div.process div.combine > pre.combine_content{
   /* border: 1px solid white; */
-  display: inline-block;
-  position: absolute;
-  top: 220px;
-  right: 75px;
+  margin-left: 150px;
 }
 div.process div.test{
   /* border: 1px solid red; */
-  position: absolute;
   text-align: center;
-  top: 2830px;
-  left: 50%;
-  transform: translateX(-15%);
+  margin-bottom: 130px;
 }
-
-div.process div.test div {
+div.process div.test > div {
   /* border: 1px solid white; */
   display: inline-block;
   vertical-align: middle;
+}
+div.process div.test > div:first-child{
+  margin-left: 200px;
 }
 div.process div.test div > a {
   color: white;
@@ -731,75 +666,71 @@ div.process div.test div > a {
 }
 div.process div.package{
   /* border: 1px solid green; */
-  width: 900px;
-  display: inline-block;
+  width: 1200px;
+  display:block;
   vertical-align: middle;
-  position: absolute;
-  top: 3250px;
-  left: -50px;
+  margin-bottom: 200px;
 }
 div.process div.package div.package{
-  border: 1px solid white;
+  /* border: 1px solid white; */
   display: inline-block;
   vertical-align: top;
 }
-div.process div.package div.package_text div > pre{
+div.process div.package div.package_text{
+  /* border: 1px solid red; */
+  display: inline-block;
+  vertical-align: top;
+  margin: 60px 0 0 50px;
+}
+div.process div.package div.package_text div{
   color: white;
   font-size: 16px;
+  display: inline-block;
 }
 div.process div.package div.package_text > div pre.package_title{
   font-size: 18px;
-  position: absolute;
-  top: 100px;
-  left: 530px;
+  margin-right: 50px;
 }
-
-div.process div.package div.package_text pre.package_content {
-  /* border: 1px solid white; */
-  position: absolute;
-  top: 150px;
-  left: 530px;
+div.process div.package div.package_text > div pre.package_content{
+  position: relative;
+  top: 60px;
+  right: 215px;
 }
-div.process div.package div.package_text > div img.package_jpg{
-  position: absolute;
-  top: 70px;
-  left: 785px;
-}
-
 div.note_lock_color{
   position: absolute;
-  top:-60px;
+  bottom: 550px;
   right: 0px;
   height: 100px;
   width: 380px;
   background-color: #37415A;
-  border-radius: 100px;
+  border-radius: 100px 0 0 100px;
 }
-
 img.note_lock{
   position: absolute;
-  top: -150px;
-  right: 50%;
-  transform: translateX(200%);
+  bottom: 490px;
+  right: 50px;
 }
-
 div.news{
   /* border: 1px solid blue; */
   width: 1200px;
   height: 600px;
-  background-color: #121B32;
-  position: relative;
-  top: 880px;
   margin: 0 auto;
+  text-align: center;
+  position: relative;
+  padding-top: 40px;
 }
 div.news_background_color{
   /* border: 1px solid white; */
   background-color: #121B32;
+  min-width: 1200px;
   width: 100%;
   height: 600px;
-  position: relative;
-  top: 280px;
-  z-index: -1;
+}
+div.news div.news_title{
+  /* border: 1px solid white; */
+  padding-right: 750px;
+  margin-top: 80px;
+  margin-bottom: 70px;
 }
 div.news div.news_title{
   /* border: 1px solid red; */
@@ -807,33 +738,21 @@ div.news div.news_title{
   text-underline-offset: 10px;
   color: white;
   font-size: 18px;
-  position: absolute;
-  left: 50%;
-  transform: translatex(-373%);
-  top: 150px;
 }
-div.news div.news_img{
+div.news > a{
   /* border: 1px solid red; */
-  display: inline-block;
-  width: 1200px;
-  position: absolute;
-  left: 50%;
-  transform: translatex(-50%);
-  top: 230px;
+  display: inline-grid;
+  margin: 0 20px;
+  text-align: left;
 }
-div.news div.news_content{
-  /* border: 1px solid red; */
-  position: absolute;
-  left: 50%;
-  transform: translatex(-50%);
-  display: inline-block;
-  width: 1200px;
-  top: 430px;
-}
-div.news div.news_content > pre{
+div.news > a > p{
   /* border: 1px solid green; */
   color: white;
   display: inline-block;
+  margin: 20px 0;
+}
+div.news > a > img{
+  height: 180px;
 }
 div.fotter_background{
   /* border: 1px solid green; */
@@ -842,8 +761,8 @@ div.fotter_background{
   background-image: url("../image/fotter/fotter_background.png");
   background-repeat: repeat-x;
   background-size: auto 250px;
-  position: relative;
   top: 330px;
+  margin-top: 100px;
 }
 div.fotter_fotter{
   /* border: 1px solid red; */
@@ -853,7 +772,7 @@ div.fotter_fotter{
   background-repeat: repeat-x;
   background-size: auto 250px;
   position: relative;
-  top: 320px;
+  top: 250px;
 }
 div.fotter_fotter img.fotter_logo{
   /* border: 1px solid blue; */
