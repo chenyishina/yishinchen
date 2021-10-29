@@ -7,7 +7,6 @@ body{
   width: 100%;
   min-width: 1200px;
   background-color: #1F273D;
-  position: absolute;
   font-family: "微軟正黑體", "BiauKai", "helvetica";
   margin: 0;
 }
@@ -45,14 +44,12 @@ nav.nav{
   width: 1200px;
   margin: 25px  auto;
 }
-
 nav.nav ul.list{
   list-style: none;
   margin: 0 70px;
   padding: 0;
   font-size: 0px;
 }
-
 nav.nav ul.list div.shop{
   /* border: 1px solid blue; */
   padding: 20px 0px;
@@ -75,11 +72,9 @@ nav.nav ul.list div.shop ul.shop_list{
   display: none;
   z-index: 1;
 }
-
 nav.nav ul.list div.shop:hover ul.shop_list{
   display: block;
 }
-
 nav.nav ul.list div.shop ul.shop_list > li{
   /* border: 1px solid red; */
   width: 80px;
@@ -88,7 +83,6 @@ nav.nav ul.list div.shop ul.shop_list > li{
   padding: 15px 5px;
   text-align: center;
 }
-
 nav.nav ul.list div.shop ul.shop_list > li > a{
   color: white;
   text-decoration: none;
@@ -96,14 +90,12 @@ nav.nav ul.list div.shop ul.shop_list > li > a{
   padding: 3px 0px;
   transition: 0.5s;
 }
-
 nav.nav ul.list li > a img.logo{
   width: 66px;
   height: 66px;
   display: inline-block;
   /* margin: 0px 30px 0px 80px; */
 }
-
 ul.list > li {
   color: white;
   display: inline-block;
@@ -111,7 +103,6 @@ ul.list > li {
   padding: 0px;
   margin: 0px;
 }
-
 ul.list > li > a{
   /* border: 1px solid green; */
   color: white;
@@ -123,7 +114,6 @@ ul.list > li > a{
   font-size: 16px;
   transition: 0.5s;
 }
-
 ul.list > li > a.about_us:hover{
   background-color: #D6C9A1;
   padding: 3px 0px;
@@ -159,7 +149,6 @@ nav.nav ul.list div.shop ul.shop_list > li > a:hover{
   padding: 3px 0px;
   border-radius: 10px;
   color: black
-
 }
 div.hamburger{
   background-color: #121B32;
@@ -206,13 +195,12 @@ div.background_video{
   width: 100%;
   height: 700px;
   overflow: hidden;
-  position: absolute;
-  top: 0px;
+  position: relative;
+  bottom: 120px;
   opacity: 0.7;
   font-size: 0;
   z-index: -1;
 }
-
 div.banner_logo{
   /* border: 1px solid blue; */
   position: absolute;
@@ -224,18 +212,16 @@ div.banner_logo{
 div.about_us{
   /* border: 1px solid red; */
   width: 1200px;
-  height: 750px;
   display: block;
   position: relative;
   margin: 0 auto;
-  top: 650px;
+  bottom: 50px;
 }
 div.about_us_title_color{
   width: 33%;
   height: 80px;
   background-color: #37415A;
-  position: absolute;
-  top: 785px;
+ 
 }
 div.about_us img.title_icon{
   width: 100px;
@@ -252,9 +238,7 @@ div.about_us pre.about_us_title{
 }
 div.about_us img.map{
   width: 460px;
-  position: absolute;
-  top: 150px;
-  left: 50px;
+  margin: 70px 50px 50px 50px;
 }
 div.about_us div.content > pre{
   color: white;
@@ -315,25 +299,26 @@ div.about_us div.lh_background_color{
   left: 630px;
   border-radius: 130px;
 }
-
 div.creative_color_1{
-  width: 75%;
+  width: 50%;
   height: 480px;
   background-color: #0D162F;
   position: absolute;
   top: 1750px;
   border-radius: 0px 300px 300px 0px;
-
 }
 div.creative_color_2{
   width: 100%;
+  min-width: 1200px;
   height: 480px;
   background-color: #37415A;
   position: absolute;
   top: 1900px;
+  z-index: -2;
 }
 div.creative_color_3{
   width: 100%;
+  min-width: 1200px;
   height: 870px;
   background-color: #0D162F;
   position: absolute;
@@ -343,106 +328,115 @@ div.creative_color_3{
 div.creative{
   /* border: 1px solid white; */
   width: 1200px;
-  height: 2000px;
   display: block;
   position: relative;
   margin: 0 auto;
-  top: 650px;
+}
+div.creative div.creative_background_color{
+  width: 800px;
+  height: 480px;
+  background-color: #0D162F;
+  position: absolute;
+  border-radius: 0px 300px 300px 0px;
+  /* border: 1px solid red; */
+  top: 160px;
+  z-index: -1;
 }
 div.creative div.creative_title{
   /* border: 1px solid blue; */
   color: white;
   font-size: 20px;
-  position: absolute;
-  top: 210px;
-  right: 80px;
+  text-align: right;
+}
+div.creative div.creative_title_1{
+  /* border: 1px solid green; */
+  color: white;
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: top;
+}
+div.creative div.content_1{
+  /* border: 1px solid red; */
+  position: relative;
+}
+div.creative div.content_1 > div{
+  display: inline-grid;
+  margin-top: 150px;
 }
 div.creative img.lock_wall{
   width: 420px;
-  position: absolute;
-  top: 330px;
-  left: 330px;
-}
-div.creative div.creative_title_1{
-  color: white;
-  font-size: 18px;
-  position: absolute;
-  top: 300px;
-  left: 800px;
+  vertical-align: top;
+  margin: 250px 40px 250px 250px;
 }
 div.creative div.creative_content{
   /* border: 1px solid blue; */
   width: 360px;
-  height: 255px;
   color: white;
-  position: absolute;
-  top: 370px;
-  left: 800px;
+  display: inline-block;
+  vertical-align: top;
 }
 div.creative img.crown{
   width: 360px;
   position: absolute;
-  top: 800px;
+  bottom: -30px;
   left: 150px;
+}
+div.creative div.content_2{
+  /* border: 1px solid green; */
+  position: relative;
 }
 div.creative div.where{
   /* border: 1px solid blue; */
   color: white;
-  position: absolute;
-  top: 1100px;
-  left: 400px;
-  width: 330px;
-  height: 130px;
+  padding: 0 450px;
+  margin: 150px 0 100px 0;
+}
+div.creative img.love_wall{
+  margin-left: 100px;
+  width: 690px;
+  opacity: 0.5;
 }
 div.creative div.how{
   /* border: 1px solid blue; */
   color: white;
-  position: absolute;
-  top: 1310px;
-  left: 800px;
   width: 340px;
-  height: 180px;
+  float: right;
+  margin-right: 20px;
 }
 div.creative div.wherehow{
   font-size: 22px;
   /* border: 1px solid blue; */
   color: white;
   position: absolute;
-  top: 1500px;
-  left: 240px;
+  bottom: 400px;
+  left: 300px;
   white-space: pre;
 }
 div.creative img.lock_love{
   width: 520px;
   height: 230px;
   object-fit: cover;
-  position: absolute;
-  bottom: 130px;
-  left: 500px;
   border-radius: 0px 100px;
-}
-div.creative img.love_wall{
-  width: 690px;
-  position: absolute;
-  bottom: 330px;
-  left: 70px;
-  opacity: 0.5;
+  position: relative;
+  bottom: 60px;
+  left: 500px;
 }
 div.temple{
   /* border: 1px solid blue; */
   width: 1200px;
-  height: 1700px;
   display: block;
   position: relative;
   margin: 0 auto;
-  top: 650px;
+  color: white;
 }
 div.temple_color{
   width:100%;
+  min-width: 1200px;
   height: 1050px;
   background-color: #0D162F;
   position: absolute;
-  top: 4200px;
+  top: 4000px;
+  z-index: -2;
 }
 img.temple_logo{
   width: 250px;
@@ -455,30 +449,14 @@ div.temple img.temple_back{
   height: 330px;
   border-radius: 200px;
   object-fit: cover;
-  position: absolute;
-  top: 380px;
-  left: 120px;
+  margin: 350px 230px 0px 170px; 
 }
-div.temple img.friendly{
-  width: 200px;
-  border-radius: 50%;
-  position: absolute;
-  top: 570px;
-  left: 320px;
-}
-div.temple img.colorful{
-  width: 200px;
-  border-radius: 50%;
-  position: absolute;
-  top: 570px;
-  left: 570px;
-}
-div.temple img.light{
-  width: 200px;
-  border-radius: 50%;
-  position: absolute;
-  top: 570px;
-  left: 825px;
+div.temple div.temple_image{
+  /* border: 1px solid green; */
+  text-align: center;
+  position: relative;
+  bottom: 100px;
+  padding-left: 200px;
 }
 div.temple div.temple_title{
   color: white;
@@ -490,109 +468,84 @@ div.temple div.temple_title{
   top: 250px;
   left: 270px;
 }
-div.temple p.friendly_title{
-  font-size: 20px;
-  color: white;
-  position: absolute;
-  top: 780px;
-  left: 380px;
+div.temple div.temple_image > div{
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px;
 }
-div.temple pre.colorful_title{
-  font-size: 20px;
-  color: white;
-  position: absolute;
-  top: 780px;
-  left: 585px;
+div.temple div.temple_image > div > p{
+  /* border: 1px solid white; */
+  width: 200px;
+  text-align: center;
 }
-div.temple p.light_title{
-  font-size: 20px;
-  color: white;
-  position: absolute;
-  top: 780px;
-  left: 900px;
+div.temple div.temple_image div.p_1 > img{
+  width: 200px;
+  border-radius: 50%;
 }
-div.temple p.friendly_content{
-  width: 180px;
-  height: 100px;
-  color: white;
-  position: absolute;
-  top: 840px;
-  left: 335px;
+div.temple div.temple_image div.p_2 > img{
+  width: 200px;
+  border-radius: 50%;
 }
-div.temple p.colorful_content{
-  color: white;
-  width: 180px;
-  height: 100px;
-  color: white;
-  position: absolute;
-  top: 840px;
-  left: 590px;
+div.temple div.temple_image div.p_3 > img{
+  width: 200px;
+  border-radius: 50%;
 }
-div.temple p.light_content{
+div.temple_2{
+  /* border: 1px solid red; */
+  text-align: center;
+  position: relative;
+  margin-bottom: 100px;
+}
+div.temple img.temple_lock{
+  width: 215px;
+  border-radius: 0 100px;
+  margin: 130px 0 50px 0;
+}
+div.temple img.luck{
+  width: 170px;
+  position: relative;
+  bottom: 200px;
+  left: 350px;
+}
+div.temple_2_content{
+  /* border: 1px solid white; */
+  padding-right: 70px;
+}
+div.temple_2_content > pre{
+  display: inline-block;
+  margin-left: 60px;
   color: white;
-  width: 180px;
-  height: 100px;
-  color: white;
-  position: absolute;
-  top: 840px;
-  left: 850px;
+  font-size: 18px;
 }
 div.temple div.temple_luck_b1{
   width: 290px;
   height: 225px;
   background-color: #37415A;
   position: absolute;
-  top: 1240px;
+  top: 160px;
   left: 50%;
   transform: translateX(-50%);
-
+  z-index: -1;
 }
 div.temple div.temple_luck_b2{
   width: 450px;
   height: 35px;
   background-color: #37415A;
   position: absolute;
-  top: 1540px;
+  bottom: 230px;
   left: 50%;
   transform: translateX(-50%);
-}
-div.temple img.temple_lock{
-  width: 215px;
-  border-radius: 0 100px;
-  position: absolute;
-  top: 1205px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-div.temple img.luck{
-  width: 170px;
-  position: absolute;
-  top: 1390px;
-  right: 250px;
-}
-div.temple pre.luck_1{
-  color: white;
-  position: absolute;
-  top: 1510px;
-  left: 440px;
-  font-size: 18px;
-}
-div.temple pre.luck_2{
-  color: white;
-  position: absolute;
-  top: 1512px;
-  left: 650px;
-  font-size: 18px;
+  z-index: -1;
 }
 div.temple a.pick_me{
   color: white;
   white-space: pre;
   background-color: black;
   padding: 10px 20px;
-  position: absolute;
-  top: 1540px;
-  left: 900px;
   font-size: 18px;
+  position: relative;
+  bottom: 250px;
+  left: 300px;
 }
 div.temple a.pick_me:hover{
   cursor: pointer;
@@ -613,64 +566,54 @@ div.temple img.luck:hover{
 div.achievement{
   /* border: 1px solid blue; */
   width: 1200px;
-  height: 1200px;
   display: block;
   position: relative;
   margin: 0 auto;
-  top: 850px;
-}
-div.achievement img.ach_1993{
-  height: 150px;
-  position: absolute;
-  top: 100px;
-  left: 350px;
-}
-div.achievement img.ach_1996{
-  height: 150px;
-  position: absolute;
-  top: 100px;
-  left: 670px;
-}
-div.achievement_color{
-  width: 75%;
-  height: 480px;
-  background-color: #37415A;
-  position: absolute;
-  top: 5600px;
-  right: 0;
-}
-div.achievement img.exihibition{
-  width: 530px;
-  border-radius: 180px 0px;
-  position: absolute;
-  top: 330px;
-  right: 130px;
+  margin-bottom: 200px;
 }
 div.achievement pre.achievement_title{
+  /* border: 1px solid green; */
   color: white;
   font-size: 20px;
-  border-radius: 180px 0px;
-  position: absolute;
-  top: 20px;
-  left: 350px;
+  padding-left: 200px;
+  margin-top: 150px;
 }
-div.achievement p.achievement_content{
+div.achievement > div {
   /* border: 1px solid red; */
+  padding-left: 200px;
+}
+div.achievement > div > img{
+  height: 150px;
+  margin-right: 50px;
+}
+div.achievement > p{
+  /* border: 1px solid red; */
+  margin: 80px 0 200px 100px;
   color: white;
-  width: 340px;
-  height: 340px;
+  width: 300px;
+  display: inline-block;
+}
+div.achievement > img{
+  /* border: 1px solid blue; */
+  width: 530px;
+  border-radius: 180px 0px;
+  position: relative;
+  top: 100px;
+}
+div.achievement_background_color{
+  /* border: 1px solid blue; */
+  height: 480px;
+  width: 900px;
+  background-color: #37415A;
   position: absolute;
-  top: 330px;
-  left: 170px;
+  top: 160px;
+  right: 150px;
+  z-index: -1;
 }
 div.factory_overflow{
   /* border: 1px solid white; */
   height: 280px;
   width: 1200px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0px;
   overflow: hidden;
 }
 div.achievement div.factory_overflow div.factory{
@@ -690,69 +633,51 @@ div.achievement div.factory_overflow div.factory > img{
 div.fotter_color{
   /* border: 1px solid blue; */
   width: 100%;
-  height: 200px;
-  display: block;
-  position: absolute;
+  min-width: 1200px;
   background-color: #121B32;
-  bottom: -940px;
+  position: relative;
+  top:50px;
 }
 div.fotter{
   /* border: 1px solid white; */
   width: 1200px;
-  height: 190px;
   display: block;
-  position: relative;
   margin: 0 auto;
-  top: 930px;
-}
-div.fotter img.fotter_sketch{
-  width: 550px;
-  position: absolute;
-  left: 0px;
-  bottom: 10px;
-}
-div.fotter img.fb{
-  width: 25px;
-  position: absolute;
-  right: 300px;
-  bottom: 85px;
-}
-div.fotter img.ig{
-  width: 25px;
-  position: absolute;
-  right: 350px;
-  bottom: 85px;
-}
-div.fotter img.twitter{
-  width: 25px;
-  position: absolute;
-  right: 400px;
-  bottom: 85px;
+  color:white;
 }
 div.fotter > pre{
+  text-align: right;
   color: white;
   font-size: 14px;
+  display: block;
 }
 div.fotter pre.tel{
-  position: absolute;
-  right: 20px;
-  bottom: 130px;
+  margin: 0 0 28px 0;
+  padding-top: 40px;
 }
-div.fotter pre.time{
+div.fotter div.add_block{
+  /* border: 1px solid red; */
+  text-align: right;
+}
+div.fotter div.add_block > a > img{
+  width: 25px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+div.fotter div.add_block img.twitter{
+  margin-right: 80px;
+}
+div.fotter img.fotter_sketch{
+  /* border: 1px solid red; */
+  width: 550px; 
   position: absolute;
-  right: 20px;
-  bottom: 100px;
+  top: 140px;
 }
 div.fotter pre.add{
-  position: absolute;
-  right: 20px;
-  bottom: 70px;
+  display: inline-block;
 }
 div.fotter pre.tibame{
   color:#54607E;
-  position: absolute;
-  bottom: 10px;
-  right: 20px;
   white-space: nowrap;
-  text-align: right;
+  padding-bottom: 20px;
 }

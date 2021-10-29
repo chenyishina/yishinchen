@@ -76,11 +76,9 @@ nav.nav ul.list div.shop ul.shop_list{
   display: none;
   z-index: 1;
 }
-
 nav.nav ul.list div.shop:hover ul.shop_list{
   display: block;
 }
-
 nav.nav ul.list div.shop ul.shop_list > li{
   /* border: 1px solid red; */
   width: 80px;
@@ -89,7 +87,6 @@ nav.nav ul.list div.shop ul.shop_list > li{
   padding: 15px 5px;
   text-align: center;
 }
-
 nav.nav ul.list div.shop ul.shop_list > li > a{
   color: white;
   text-decoration: none;
@@ -97,14 +94,12 @@ nav.nav ul.list div.shop ul.shop_list > li > a{
   padding: 3px 0px;
   transition: 0.5s;
 }
-
 nav.nav ul.list li > a img.logo{
   width: 66px;
   height: 66px;
   display: inline-block;
   /* margin: 0px 30px 0px 80px; */
 }
-
 ul.list > li {
   color: white;
   display: inline-block;
@@ -112,7 +107,6 @@ ul.list > li {
   padding: 0px;
   margin: 0px;
 }
-
 ul.list > li > a{
   /* border: 1px solid green; */
   color: white;
@@ -124,7 +118,6 @@ ul.list > li > a{
   font-size: 16px;
   transition: 0.5s;
 }
-
 ul.list > li > a.about_us:hover{
   background-color: #D6C9A1;
   padding: 3px 0px;
@@ -206,19 +199,20 @@ div.combine_background_1{
   /* border: 1px solid red; */
   background-color: #2B344A;
   width: 100%;
-  height: 1080px;
+  height: 1100px;
   position: absolute;
-  bottom: 200px;
+  bottom: 190px;
   z-index: -2;
 }
 div.combine_background_2{
   /* border: 1px solid red; */
   background-color: #37415A;
-  width: 70%;
-  height: 370px;
+  width: 50%;
+
+  height: 400px;
   position: absolute;
   border-radius: 500px 0px 0px 500px;
-  top: 1100px;
+  top: 1080px;
   right: 0px;
   z-index: -2;
 }
@@ -253,15 +247,12 @@ div.combine_content pre.combine_title{
   color: white;
   font-size: 20px;
   position: absolute;
-  left: 100px;
-  top: 66px;
-  z-index: 1;
+  left: 80px;
+  top: 95px;
 }
 div.combine_content div.combine_title_1 img.combine_title_jpg{
   width: 280px;
-  position: absolute;
-  left: 10px;
-  top: 70px;
+  margin-top: 100px;
 }
 div.combine_content div.ear{
   /* border: 1px solid blue; */
@@ -272,13 +263,14 @@ div.combine_content div.ear{
   top: 350px;
 }
 div.combine_content div.ear img.ear{
-  width: 280px;
+  width: 240px;
   position: absolute;
   right: 200px;
-  top: 0px;
+  top: 30px;
+  opacity: .1;
 }
 div.combine_content div.ear img.right_desk{
-  width: 450px;
+  width: 400px;
   position: absolute;
   right: 0px;
   top: 200px;
@@ -412,73 +404,4 @@ pre.porsche_content{
   left: 55px;
   top: 80px;
   font-size: 16px;
-}
-div.fotter_color{
-  /* border: 1px solid blue; */
-  width: 100%;
-  height: 200px;
-  display: block;
-  position: absolute;
-  background-color: #121B32;
-  bottom: 0px;
-}
-div.fotter{
-  /* border: 1px solid white; */
-  width: 1200px;
-  height: 190px;
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  top: -10px;
-}
-div.fotter img.fotter_sketch{
-  width: 550px;
-  position: absolute;
-  left: 0px;
-  bottom: 10px;
-}
-div.fotter img.fb{
-  width: 25px;
-  position: absolute;
-  right: 300px;
-  bottom: 85px;
-}
-div.fotter img.ig{
-  width: 25px;
-  position: absolute;
-  right: 350px;
-  bottom: 85px;
-}
-div.fotter img.twitter{
-  width: 25px;
-  position: absolute;
-  right: 400px;
-  bottom: 85px;
-}
-div.fotter > pre{
-  color: white;
-  font-size: 14px;
-}
-div.fotter pre.tel{
-  position: absolute;
-  right: 20px;
-  bottom: 130px;
-}
-div.fotter pre.time{
-  position: absolute;
-  right: 20px;
-  bottom: 100px;
-}
-div.fotter pre.add{
-  position: absolute;
-  right: 20px;
-  bottom: 70px;
-}
-div.fotter pre.tibame{
-  color:#54607E;
-  position: absolute;
-  bottom: 10px;
-  right: 20px;
-  white-space: nowrap;
-  text-align: right;
 }
