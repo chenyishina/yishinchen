@@ -212,12 +212,12 @@ div.background_color{
 }
 div.background_color_left{
   /* border: 1px solid red; */
-  height: 160px;
+  height: 100px;
   width: 40%;
   background-color: #37415A;
   position: absolute;
   left: 0px;
-  bottom: 950px;
+  bottom: 990px;
   border-radius: 0px 100px 100px 0px;
   transition: 2s;
   z-index: 1;
@@ -234,12 +234,12 @@ div.background_color_bottom{
   transition: 2s;
 }
 div.background_color_left_2{
-  height: 160px;
+  height: 100px;
   width: 250px;
   background-color: #37415A;
   position: absolute;
   left: 0px;
-  bottom: 700px;
+  bottom: 745px;
   border-radius: 0px 100px 100px 0px;
   transition: 2s;
 }
@@ -274,9 +274,8 @@ img.sketch_left{
   position: absolute;
   left: 50%;
   transform: translateX(-480%);
-  top: 980px;
+  top: 930px;
   z-index: 2;
- 
 }
 img.sketch_bottom{
   width: 300px;

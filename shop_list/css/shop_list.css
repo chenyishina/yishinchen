@@ -204,36 +204,34 @@ img.lamp{
   width: 500px;
   position: absolute;
   right: 0;
-  top: 160px;
+  top: 30px;
 }
 div.shop_pro_007 > a{
   color: white;
   font-size: 20px;
   white-space: pre;
   position: absolute;
-  top: 82px;
+  top: 115px;
   left: 50px;
 }
 div.shop_pro_007{
   /* border: 1px solid blue; */
-  height: 950px;
   width: 1200px;
   position: relative;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 div.shop_pro_007 img.shop_pro_desk{
   width: 280px;
-  position: absolute;
-  left: 0px;
-  top: 70px;
+  padding: 100px 0 100px 0;
+  display: block;
 }
 div.shop_pro_007 div.product_007{
   /* border: 1px solid red; */
   width: 450px;
   height: 560px;
-  position: absolute;
-  left: 300px; 
-  top: 250px;
+  position: relative;
+  margin-left: 100px;
 }
 div.shop_pro_007 div.product_007 img.NO_007{
   width: 370px;
@@ -285,10 +283,13 @@ div.shop_pro_007 div.product_007 > a:hover{
 div.choose{
   /* border: 1px solid white; */
   width: 380px;
-  height: 560px;
-  position: absolute;
-  right: 70px;
-  top: 250px;
+  text-align: right;
+}
+div.choose_block{
+  /* border: 1px solid green; */
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
 }
 div.choose > p{
   /* border: 1px solid blue; */
@@ -374,10 +375,8 @@ div.choose a.more{
   background-color: #010716;
   width: 130px;
   height: 40px;
-  position: absolute;
-  right: 0;
   border-radius: 10px;
-  padding: 7px 3px 0px 7px;
+  padding: 7px;
 } 
 div.choose a.more:visited{
   color: white;
@@ -389,9 +388,7 @@ div.shop_pro_007 div.menu{
   /* border: 1px solid red; */
   color: white;
   display: inline-block;
-  position: absolute;
-  left: 0px;
-  top: 300px;
+  padding-top: 50px;
 }
 div.shop_pro_007 div.menu > ul {
   padding: 0;
@@ -417,73 +414,4 @@ div.shop_pro_007 div.menu > ul > li > a:visited{
 div.shop_pro_007 div.menu > ul > li > a:hover{
   background-color: #C6A77C;
   border-radius: 10px;
-}
-div.fotter_color{
-  /* border: 1px solid blue; */
-  width: 100%;
-  height: 200px;
-  display: block;
-  position: absolute;
-  background-color: #121B32;
-  bottom: 0px;
-}
-div.fotter{
-  /* border: 1px solid white; */
-  width: 1200px;
-  height: 190px;
-  display: block;
-  position: relative;
-  margin: 0 auto;
-  top: -10px;
-}
-div.fotter img.fotter_sketch{
-  width: 550px;
-  position: absolute;
-  left: 0px;
-  bottom: 10px;
-}
-div.fotter img.fb{
-  width: 25px;
-  position: absolute;
-  right: 300px;
-  bottom: 85px;
-}
-div.fotter img.ig{
-  width: 25px;
-  position: absolute;
-  right: 350px;
-  bottom: 85px;
-}
-div.fotter img.twitter{
-  width: 25px;
-  position: absolute;
-  right: 400px;
-  bottom: 85px;
-}
-div.fotter > pre{
-  color: white;
-  font-size: 14px;
-}
-div.fotter pre.tel{
-  position: absolute;
-  right: 20px;
-  bottom: 130px;
-}
-div.fotter pre.time{
-  position: absolute;
-  right: 20px;
-  bottom: 100px;
-}
-div.fotter pre.add{
-  position: absolute;
-  right: 20px;
-  bottom: 70px;
-}
-div.fotter pre.tibame{
-  color:#54607E;
-  position: absolute;
-  bottom: 10px;
-  right: 20px;
-  white-space: nowrap;
-  text-align: right;
 }
