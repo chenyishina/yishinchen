@@ -229,6 +229,7 @@ div.banner_background div.top_1 img.key_1{
   position: relative;
   right: 350px;
   bottom: 180px;
+  z-index: 1;
 }
 div.banner_background div.top_1 div.light{
   /* border: 1px solid blue; */
@@ -319,6 +320,7 @@ div.bottom img.fan{
   position: absolute;
   bottom: -10px;
   left: 700px;
+  z-index: 1;
 }
 div.banner_background div.bottom div.fan_color_bank{
   /* border: 1px solid blue; */
