@@ -260,8 +260,6 @@ div.banner_background div.top_1 div.key_color_bank{
   transform-origin: bottom;
   display:block;
   vertical-align: top;
-  position: relative;
-  top:20px;
 }
 div.banner_background div.circle_right{
   /* border:1px solid red; */
@@ -311,16 +309,15 @@ div.banner_background div.circle_left_color{
 }
 div.bottom{
   /* border: 1px solid green; */
-  position: relative;
+  text-align: right;
 }
 div.bottom img.fan{
   /* border: 1px solid red; */
   width: 160px;
   text-align: right;
-  position: absolute;
-  bottom: -10px;
-  left: 700px;
-  z-index: 1;
+  position: relative;
+  bottom: -20px;
+  right: 330px;
 }
 div.banner_background div.bottom div.fan_color_bank{
   /* border: 1px solid blue; */
@@ -329,7 +326,6 @@ div.banner_background div.bottom div.fan_color_bank{
   background-color: #2F364A;
   transform: scaleY(1.3) perspective(.5em) rotateX(1deg); 
   transform-origin: bottom;
-  display: inline-block;
   margin-left: 600px;
   position: relative;
   top: 180px;
@@ -340,9 +336,8 @@ div div.bottom img.money_1{
   transform: scaleY(0.6) perspective(.9em) rotateX(-1deg); 
   transform-origin: bottom;
   margin-left: 80px;
-  display: inline-block;
   position: relative;
-  left: 600px;
+  left: 40px;
   bottom: 70px;
 }
 div.key_background{
