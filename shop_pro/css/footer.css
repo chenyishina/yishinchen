@@ -14,6 +14,7 @@ div.fotter{
   color:white;
 }
 div.fotter > pre{
+  width: 1200px;
   text-align: right;
   color: white;
   font-size: 14px;
