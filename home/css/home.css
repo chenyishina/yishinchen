@@ -216,6 +216,7 @@ div.banner_background_color{
    /* border: 1px solid red; */
    width: 1200px;
    margin: 0 auto;
+   position: relative;
  }
 div.banner_background div.top_1{
   /* border: 1px solid blue; */
@@ -286,7 +287,7 @@ div img.banner_logo{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 700px;
+  top: 750px;
   width: 250px;
   opacity: .5;
 }
