@@ -701,7 +701,7 @@ div.note_lock_color{
   height: 100px;
   width: 380px;
   background-color: #37415A;
-  border-radius: 100px 0 0 100px;
+  border-radius: 30px;
 }
 img.note_lock{
   position: absolute;
