@@ -6,7 +6,6 @@ body{
   width: 100%;
   min-width: 1200px;
   margin: 0px;
-  height: 2550px;
   background-color: #1F273D;
   position: absolute;
   font-family: "微軟正黑體", "BiauKai", "helvetica";
@@ -207,7 +206,7 @@ div.group{
   height: 560px;
   position: relative;
   margin: 0 auto;
-  margin-bottom: 250px;
+  margin-bottom: 200px;
   margin-top: 200px;
 }
 div.group div.title{
@@ -613,7 +612,7 @@ img.sketch{
 img.fan{
   width: 200px;
   position: absolute;
-  bottom: 550px;
+  bottom: 685px;
   right: 50%;
   transform: translateX(270%);
 }

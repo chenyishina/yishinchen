@@ -12,13 +12,13 @@ div.fotter{
   margin: 0 auto;
   color:white;
 }
-div.fotter > p{
+div.fotter > pre{
   text-align: right;
   color: white;
   font-size: 14px;
   display: block;
 }
-div.fotter p.tel{
+div.fotter pre.tel{
   margin: 0 0 28px 0;
   padding-top: 40px;
 }
@@ -41,10 +41,10 @@ div.fotter img.fotter_sketch{
   position: absolute;
   top: 140px;
 }
-div.fotter p.add{
+div.fotter pre.add{
   display: inline-block;
 }
-div.fotter p.tibame{
+div.fotter pre.tibame{
   color:#54607E;
   white-space: nowrap;
   padding-bottom: 20px;
