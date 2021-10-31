@@ -203,12 +203,12 @@ div.hamburger div.hamburger_all > a img:hover{
 }
 div.background_color{
   /* border: 1px solid red; */
-  height: 850px;
+  height: 1130px;
   width: 100%;
   min-width: 1200px;
   background-color: #2B344A;
   position: absolute;
-  bottom: 190px;
+  bottom: 0px;
 }
 div.background_color_left_2{
   height: 100px;
@@ -226,7 +226,7 @@ div.background_color_bottom_2{
   background-color: #37415A;
   position: absolute;
   right: 0px;
-  bottom: -100px;
+  bottom: -150px;
   border-radius: 120px 120px 0 0;
   transition: 2s;
 }
@@ -260,7 +260,7 @@ img.sketch_bottom{
   position: absolute;
   right: 50%;
   transform: translateX(400%);
-  bottom: 220px;
+  bottom: 250px;
   z-index: 1;
 }
 img.lamp{
@@ -274,6 +274,7 @@ div.shop_pro_content{
   width: 1200px;
   position: relative;
   margin: 0 auto;
+  margin-bottom: 100px;
 }
 div.shop_pro_content pre.shop_pro_title{
   color: white;
