@@ -143,6 +143,9 @@ img{
   }
   div.traffic img.map{
     top: 0;
+    width: 350px;
+    margin: 0 auto;
+    display: block;
   }
   div.traffic{
     padding-bottom: 220px;
