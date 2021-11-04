@@ -392,7 +392,7 @@ div.pull_me{
   overflow: hidden;
   margin: 150px auto;
 }
-div.pull_me > img{
+div.pull_me div > img{
   margin: 0 auto;
   display: block;
 }
@@ -408,9 +408,16 @@ div.pull_me > pre{
   display: block;
   margin: 0 auto;
 }
-
-/* 這裡inside圖藏在outside後面 */
-div.pull_me img.pull_me_inside{
+.twentytwenty-container{
+  margin-left: 150px;
+}
+.twentytwenty-after-label{
+  display: none;
+}
+.twentytwenty-before-label{
+  display: none;
+}
+.twentytwenty-overlay{
   display: none;
 }
 

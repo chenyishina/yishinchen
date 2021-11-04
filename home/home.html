@@ -5,6 +5,8 @@
     <title>LUNGHUI | CROWN</title>
     <link rel="icon" href="./image/title_logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./vendor/aos/css/aos.css">
+    <link rel="stylesheet" href="./vendor/twentytwenty/css/twentytwenty.css">
   </head>
 
   <body>
@@ -147,8 +149,10 @@
 
       <div class="pull_me">
         <pre>       鎖體的構造</pre><br><br>
-        <img class="pull_me_outside" src="./image/pull_me/outside.png">
-        <img class="pull_me_inside" src="./image/pull_me/inside.png">
+        <div id="container1" class="twentytwenty-container">
+          <img class="pull_me_inside" src="./image/pull_me/inside.png">
+          <img class="pull_me_outside" src="./image/pull_me/outside.png">         
+        </div>
       </div>
 
 
@@ -169,13 +173,13 @@
       <div class="process">
         <pre>鎖的製作過程      </pre>
 
-        <div class="material">
+        <div class="material" data-aos="fade-right" data-aos-duration="800" data-aos-offset="800" data-aos-easing="ease-in-sine">
           <div><img src="./image/process/material.jpg" style="width: 200px; border-radius: 50%;"></div>
           <div><a>鎖體原料</a></div>
           <div><img src="./image/process/material_icon.png" style="width: 100px;"></div>
         </div>
 
-        <div class="cut">
+        <div class="cut" data-aos="fade-left" data-aos-duration="800" data-aos-offset="1000" data-aos-easing="ease-in-sine">
           <div class="cut_text">
             <div><pre class="cut_title">裁切 | 倒角</pre></div>
             <div><img src="./image/process/cut_icon.png" style="width: 140px;"></div>
@@ -184,7 +188,7 @@
           <div><img src="./image/process/cut.jpg" style="width: 390px; border-radius: 140px;"></div>
         </div>
 
-       <div class="hole">
+       <div class="hole" data-aos="fade-right" data-aos-duration="800" data-aos-offset="1200" data-aos-easing="ease-in-sine">
           <div><img src="./image/process/hole.jpg" style="width: 390px; border-radius: 160px;"></div>
           <div class="hole_text">
              <div><pre class="hole_title">鎖體鑽孔</pre></div>
@@ -193,7 +197,7 @@
           </div>
         </div>
 
-       <div class="heart">
+       <div class="heart" data-aos="fade-left" data-aos-duration="800" data-aos-offset="1300" data-aos-easing="ease-in-sine">
          <div class="heart_1">
             <div><img class="heart_icon" src="./image/process/heart_icon.png" style="width: 150px;"></div>
             <div><pre class="heart_title">製造鎖心</pre></div>
@@ -202,7 +206,7 @@
          <pre class="heart_content">裁切長度 | 精修外觀 | 拉鎖匙溝槽 | 鑽鎖銖孔 | 切固定槽.鎖栓酸帶動片.鑰匙凹洞</pre>
        </div>
 
-      <div class="components">
+      <div class="components" data-aos="fade-right" data-aos-duration="800" data-aos-offset="1400" data-aos-easing="ease-in-sine">
          <div><img src="./image/process/components.jpg" style="height: 270px; width: 400px; border-radius: 240px;"></div>
           <div class="components_text">
             <div><pre class="components_title">製造鎖珠</pre></div>
@@ -211,7 +215,7 @@
           </div>
         </div>
 
-        <div class="key">
+        <div class="key" data-aos="fade-left" data-aos-duration="800" data-aos-offset="1500" data-aos-easing="ease-in-sine">
           <div class="key_text">
             <div><pre class="key_title">壓制鑰匙外殼</pre></div>
             <div><img src="./image/process/key_icon.png" style="width: 140px;"></div>
@@ -220,7 +224,7 @@
           <div><img src="./image/process/key.jpg" style="width: 390px; border-radius: 140px;"></div>
         </div>
 
-        <div class="combine">
+        <div class="combine" data-aos="fade-right" data-aos-duration="800" data-aos-offset="1600" data-aos-easing="ease-in-sine">
           <div class="combine_1">
             <div><pre class="combine_title">鎖體組裝</pre></div>
             <div><img class="combine_jpg" src="./image/process/combine.jpg" style="width: 180px; border-radius: 50%;"></div>
@@ -229,13 +233,13 @@
           <pre class="combine_content">彈簧與鎖勾放入鎖體固定 | 裝入鎖栓與彈簧 | 裝入鎖心與彈簧固定</pre>
        </div>
 
-       <div class="test">
+       <div class="test" data-aos="fade-left" data-aos-duration="800" data-aos-offset="1900" data-aos-easing="ease-in-sine">
          <div><img src="./image/process/test_icon.png" style="width: 120px;"></div>
          <div><a>開合測試</a></div>
          <div><img src="./image/process/test.jpg" style="width: 200px; border-radius: 100px;"></div>
        </div>
 
-       <div class="package">
+       <div class="package" data-aos="fade-right" data-aos-duration="800" data-aos-offset="2100" data-aos-easing="ease-in-sine">
           <img src="./image/process/package.jpg" style="height: 270px; width:500px; border-radius: 240px;">
            <div class="package_text">
              <div><pre class="package_title">包裝</pre></div>
@@ -289,6 +293,9 @@
       
       <script type="text/javascript" src="./js/jquery.js"></script>
       <script type="text/javascript" src="./js/jquery_migrate.js"></script>
+      <script type="text/javascript" src="./vendor/aos/js/aos.js"></script>
+      <script type="text/javascript" src="./vendor/twentytwenty/js/jquery.event.move.js"></script>
+      <script type="text/javascript" src="./vendor/twentytwenty/js/jquery.twentytwenty.js"></script>
       <script>
         $(function(){
           $("#go_top").on("click", function(e){
@@ -297,6 +304,14 @@
               scrollTop: 0
             }, 2500);
           });  
+        });
+
+        $ (window).load( function () {
+          $ ( " #container1 " ).twentytwenty();
+        });
+
+        $(function(){
+          AOS.init();
         });
       </script>
 
