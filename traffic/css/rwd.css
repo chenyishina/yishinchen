@@ -8,14 +8,66 @@ img{
   nav.nav{
     width: 100%;
   }
+  ul.list > li:first-child{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+  ul.list > li:nth-child(2){
+    display: none;
+  }
+  ul.list > li:nth-child(3){
+    display: none;
+  }
+  ul.list > li:nth-child(4){
+    display: none;
+  }
+  ul.list > li:nth-child(5){
+    display: none;
+  }
+  ul.list > li:nth-child(6){
+    display: none;
+  }
+  ul.list > li:nth-child(7){
+    display: none;
+  }
+  div.icon img.category{
+    right: 40px;
+  }
+  div.icon img.member{
+    right: 38px;
+  }
+  div.icon img.bag{
+    right: 35px;
+  }
+  #go_top{
+    right: 40px;
+  }
+  div.hamburger{
+    width: 500px;
+    top: 30px;
+  }
+  div.traffic img.map{
+    top: 0;
+    width: 300px;
+  }
+  img.chair{
+    width: 130px;
+  }
+  div.traffic{
+    padding-bottom: 220px;
+  }
   div.footer{
-    width: 100%;
+    width: 540px;
   }
   div.footer_color{
     width: 100%;
+    min-width: 540px;
   }
   body{
     width: 100%;
+    min-width: 540px;
   }
   div.footer img.footer_sketch{
     position: static;
