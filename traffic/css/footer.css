@@ -8,7 +8,7 @@ div.fotter_color{
 div.fotter{
   /* border: 1px solid white; */
   width: 1200px;
-  display: block;
+  display: grid;
   margin: 0 auto;
   color:white;
   font-size: 14px;
@@ -16,11 +16,10 @@ div.fotter{
 div.fotter > pre{
   text-align: right;
   color: white;
-  display: block;
+  display: inline-block;
 }
 div.fotter pre.tel{
-  margin: 0 0 28px 0;
-  padding-top: 40px;
+ margin-top: 40px;
 }
 div.fotter div.add_block{
   /* border: 1px solid red; */
