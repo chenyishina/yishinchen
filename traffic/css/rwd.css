@@ -76,6 +76,13 @@ img{
   div.footer img.footer_sketch{
     display: none;
   }
+  div.traffic_content{
+    position: relative;
+    right: 30px;
+  }
+  div.footer div.add_block img.twitter{
+    margin-right: 10px;
+  }
 }
 @media all and (min-width: 576px) and (max-width: 767.98px){
   div.traffic{

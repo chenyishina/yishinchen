@@ -58,6 +58,9 @@ img{
   #tibame{
     width: 100%;
   }
+  div.footer div.add_block img.twitter{
+    margin-right: 10px;
+  }
   body{
     width: 100%;
   }
