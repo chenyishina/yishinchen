@@ -59,26 +59,32 @@ img{
     padding-bottom: 220px;
   }
   div.footer{
-    width: 540px;
+    width: 100%;
+    /* width: 540px; */
   }
   div.footer_color{
     width: 100%;
-    min-width: 540px;
+    /* min-width: 540px; */
   }
+  #tibame{
+    width: 100%; 
+   }
   body{
     width: 100%;
-    min-width: 540px;
+    /* min-width: 540px; */
   }
   div.footer img.footer_sketch{
-    position: static;
+    display: none;
   }
 }
 @media all and (min-width: 576px) and (max-width: 767.98px){
   div.traffic{
-    width: 540px;
+    width: 100%;
+    /* width: 540px; */
   }
   nav.nav{
-    width: 540px;
+    width: 100%;
+    /* width: 540px; */
   }
   ul.list > li:first-child{
     display: block;
@@ -122,7 +128,9 @@ img{
   }
   div.traffic img.map{
     top: 0;
-    width: 300px;
+    width: 350px;
+    margin: 0 auto;
+    display: block;
   }
   img.chair{
     width: 130px;
@@ -131,27 +139,30 @@ img{
     padding-bottom: 220px;
   }
   div.footer{
-    width: 540px;
+    width: 100%;
+    /* width: 540px; */
   }
   div.footer_color{
     width: 100%;
-    min-width: 540px;
+    /* min-width: 540px; */
   }
   body{
     width: 100%;
-    min-width: 540px;
+    /* min-width: 540px; */
   }
   div.footer img.footer_sketch{
-    position: static;
+    display: none;
   }
   
 }
 @media all and (min-width: 768px) and (max-width: 991.98px){
   div.traffic{
-    width: 720px;
+    width: 100%;
+    /* width: 720px; */
   }
   nav.nav{
-    width: 720px;
+    width: 100%;
+    /* width: 720px; */
   }
   ul.list > li:first-child{
     display: block;
@@ -203,92 +214,89 @@ img{
     padding-bottom: 220px;
   }
   div.footer{
-    width: 720px;
+    width: 100%;
+    /* width: 720px; */
   }
   div.footer_color{
     width: 100%;
-    min-width: 720px;
+    /* min-width: 720px; */
   }
   body{
     width: 100%;
-    min-width: 720px;
+    /* min-width: 720px; */
   }
   div.footer img.footer_sketch{
-    position: static;
+    display: none;
   }
 }
 @media all and (min-width: 992px) and (max-width: 1199.98px){
   div.traffic{
-    width: 960px;
+    width: 100%;
+    /* width: 960px; */
   }
   nav.nav ul.list{
-    width: 960px;
+    width: 100%;
+    /* width: 960px; */
   }
   nav.nav{
-    width: 960px;
+    width: 100%;
+    /* width: 960px; */
   }
   nav.nav ul.list{
     margin: 0;
   }
   ul.list > li > a{
-    margin: 0 20px;
+    margin: 0 10px;
   }
   nav.nav ul.list div.shop{
-    margin: 0 20px;
+    margin: 0 10px;
   }
   div.footer{
-    width: 960px;
+    width: 100%;
+    /* width: 960px; */
   }
   div.footer_color{
     width: 100%;
-    min-width: 960px;
+    /* min-width: 960px; */
   }
   body{
     width: 100%;
-    min-width: 960px;
+    /* min-width: 960px; */
   }
   div.footer img.footer_sketch{
-    position: static;
+    display: none;
   }
 }
 @media all and (min-width: 1200px) and (max-width: 1399.98px){
   div.traffic{
-    width: 1140px;
+    width: 100%;
+    
+    /* width: 1140px; */
   }
   nav.nav{
-    width: 1140px;
+    width: 100%;
+    /* width: 1140px; */
   }
   div.footer{
-    width: 1140px;
+    width: 100%;
+    /* width: 1140px; */
   }
   div.footer_color{
     width: 100%;
-    min-width: 1140px;
+    /* min-width: 1140px; */
   }
-  body{
-    width: 100%;
-    min-width: 1140px;
-  }
+  
   div.footer img.footer_sketch{
     left:0;
   }
 }
 @media all and (min-width: 1400px){
-  div.traffic{
-    width: 1320px;
-  }
   nav.nav{
-    width: 1320px;
-  }
-  div.footer{
-    width: 1320px;
+    width: 100%;
+    /* width: 1320px; */
   }
   div.footer_color{
     width: 100%;
-    min-width: 1200px;
-  }
-  body{
-    width: 100%;
-    min-width: 1200px;
+    /* min-width: 1200px; */
   }
 }

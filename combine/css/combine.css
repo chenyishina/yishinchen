@@ -4,7 +4,7 @@
 
 body{
   width: 100%;
-  min-width: 1200px;
+ 
   margin: 0px;
   background-color: #1F273D;
   position: absolute;
@@ -48,6 +48,7 @@ nav.nav{
 }
 
 nav.nav ul.list{
+  text-align: center;
   list-style: none;
   margin: 0 70px;
   padding: 0;
@@ -229,7 +230,8 @@ div.combine_background_3{
 }
 div.combine_content{
   /* border: 1px solid red; */
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   height: 2200px;
   position: relative;
   margin: 0 auto;
@@ -353,55 +355,43 @@ div.combine_content div.umbrella_content_1 img.lh_logo{
 }
 div.combine_content div.porsche_2{
   /* border: 1px solid red; */
-  width: 930px;
-  height: 500px; 
   position: absolute;
   top: 1600px;
   right: 0;
 }
 div.combine_content div.porsche_2 img.porsche{
-  width: 540px;
-  position: absolute;
-  right: 30px;
-  top: 30px;
+  width: 520px;
   border-radius: 20px;
 }
 div.combine_content div.porsche_2 img.what{
   width: 260px;
-  position: absolute;
-  left: 0px;
-  top: 100px;
-}
-div.combine_content div.porsche_2 img.next_2{
-  position: absolute;
-  right: 620px;
-  top: 300px;
+  margin-right: 50px;
 }
 div.combine_content div.porsche_content_2{
   /* border: 1px solid white; */
-  height: 250px;
-  width: 270px;
-  position: absolute;
-  left: 0;
-  top: 1600px;
+  display: inline-block;
+  position: relative;
+  bottom: 200px;
+}
+div.combine_content div.porsche_2 img.next_2{
+  position: relative;
+  bottom: 100px;
+  right: 30px;
 }
 div.combine_content div.porsche_content_2 img.chat_box{
   width: 300px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
 }
 pre.porsche_title{
   color: white;
   font-size: 18px;
   position: absolute;
-  left: 60px;
-  top: 40px;
+  left: 50px;
+  top: 50px;
 }
 pre.porsche_content{
   color: white;
-  position: absolute;
-  left: 55px;
-  top: 80px;
   font-size: 16px;
+  position: absolute;
+  left: 50px;
+  top: 80px;
 }

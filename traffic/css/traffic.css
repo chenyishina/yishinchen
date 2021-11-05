@@ -3,8 +3,9 @@
 }
 
 body{
+  /* border: 1px solid red; */
   width: 100%;
-  min-width: 1200px;
+  /* min-width: 1200px; */
   margin: 0px;
   /* height: 1250px; */
   background-color: #1F273D;
@@ -48,6 +49,7 @@ nav.nav{
 }
 
 nav.nav ul.list{
+  text-align: center;
   list-style: none;
   margin: 0 70px;
   padding: 0;
