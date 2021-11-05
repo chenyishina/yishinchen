@@ -55,7 +55,9 @@ img{
   div.footer_color{
     width: 100%;
   }
-  
+  #tibame{
+    width: 100%;
+  }
   body{
     width: 100%;
   }
@@ -125,6 +127,10 @@ img{
   }
   pre.porsche_content{
     left: 60px;
+  }
+  div.combine_content div.umbrella_1{
+    width: 100%;
+    overflow: hidden;
   }
 }
 @media all and (min-width: 576px) and (max-width: 767.98px){
