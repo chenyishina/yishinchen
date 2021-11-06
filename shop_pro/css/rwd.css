@@ -103,6 +103,9 @@ img{
   div.background_color_bottom_2{
     display: none;
   }
+  div.background_color{
+    display: none;
+  }
 }
 @media all and (min-width: 576px) and (max-width: 767.98px){
   nav.nav{
