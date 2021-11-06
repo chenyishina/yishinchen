@@ -1,21 +1,745 @@
 img{
   max-width: 100%;
 }
-@media screen and (max-width: 575.98px){
-
+@media all and (max-width: 575.98px){
+  nav.nav{
+    width: 100%;
+  }
+  ul.list > li:first-child{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+  ul.list > li:nth-child(2){
+    display: none;
+  }
+  ul.list > li:nth-child(3){
+    display: none;
+  }
+  ul.list > li:nth-child(4){
+    display: none;
+  }
+  ul.list > li:nth-child(5){
+    display: none;
+  }
+  ul.list > li:nth-child(6){
+    display: none;
+  }
+  ul.list > li:nth-child(7){
+    display: none;
+  }
+  div.icon img.category{
+    right: 40px;
+  }
+  div.icon img.member{
+    right: 38px;
+  }
+  div.icon img.bag{
+    right: 35px;
+  }
+  #go_top{
+    right: 40px;
+  }
+  div.hamburger{
+    width: 500px;
+    top: 30px;
+  }
+  div.footer{
+    width: 100%;
+  }
+  div.footer_color{
+    width: 100%;
+  }
+  #tibame{
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+  div.footer img.footer_sketch{
+    display: none;
+  }
+  div.about_us{
+    width: 100%;
+    text-align: center;
+  }
+  div.about_us_title_color{
+    display: none;
+  }
+  div.about_us img.title_icon{
+    position: static;
+  }
+  div.about_us pre.about_us_title{
+    position: static;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: 0 auto;
+  }
+  div.about_us div.content pre.start{
+    top: 12%;
+    left: 35%;
+  }
+  div.about_us div.content pre.no_1{
+    top: 32%;
+    left: 20%;
+  }
+  div.about_us div.content pre.no_2{
+    left: 50%;
+  }
+  div.about_us div.content pre.no_3{
+    left: 69%;
+    top: 50%;
+  }
+  div.about_us div.content pre.no_4{
+    left: 20%;
+    top: 50%;
+  }
+  div.about_us div.content pre.no_5{
+    left: 58%;
+    top: 65%;
+  }
+  div.about_us div.content pre.end{
+    left: 70%;
+    top: 78%;
+  }
+  div.background_video{
+    bottom: 150px;
+  }
+  div.banner_logo{
+    display: none;
+  }
+  div.about_us div.content{
+    left: -50px;
+  }
+  div.about_us img.map{
+    margin-right: 0;
+  }
+  div.about_us div.lh_background_color{
+    margin: 20px;
+  }
+  div.creative{
+    width: 100%;
+  }
+  div.background_video > video{
+    height: 100%;
+    width: auto;
+    position: relative;
+    left:-80%;
+  }
+  div.creative img.lock_wall{
+    width: 300px;
+    display: block;
+    margin: 80px auto 150px auto;
+  }
+  div.creative div.how{
+    width: auto;
+    display: block;
+    float: none;
+    margin: 80px;
+  }
+  div.creative div.content_1{
+    text-align: center;
+  }
+  div.creative img.crown{
+   display: none;
+  }
+  div.creative img.love_wall{
+    margin: 0 auto;
+  }
+  div.creative div.content_2{
+    text-align: center;
+  }
+  div.creative img.lock_love{
+    position: static;
+    border-radius: 10px;
+    width: 250px;
+  }
+  div.creative div.wherehow{
+    left: 30%;
+    bottom: 700px;
+  }
+  div.creative div.where{
+    padding: 0 10%;
+  }
+  div.creative_background_color{
+    display: none;
+  }
+  div.creative div.content_1 > P{
+    display: block;
+  }
+  div.creative div.content_1 > div{
+    margin-top: auto;
+  }
+  img.temple_logo{
+    display: none;
+  }
+  div.temple{
+    width: 100%;
+    text-align: center;
+  }
+  div.temple img.temple_back{
+    margin: 200px auto 0 auto;
+    border-radius: 0%;
+  }
+  div.temple div.temple_title{
+    top: 100px;
+  }
+  div.temple div.temple_image{
+    padding-left: 0;
+  }
+  div.temple img.luck{
+    left: 0;
+    bottom: 30px;
+  }
+  div.temple a.pick_me{
+    left: 0;
+    bottom: 100px;
+  }
+  div.temple_luck_b2{
+    display: none;
+  }
+  div.temple div.temple_image > div{
+    margin: 20px;
+  }
+  div.temple_2{
+    bottom: 100px;
+  }
+  div.achievement{
+    width: 100%;
+    text-align: center;
+  }
+  div.achievement > p{
+    display: block;
+    text-align: center;
+    margin: 80px auto 0 auto;
+  }
+  div.achievement pre.achievement_title{
+    padding-left: 0;
+  }
+  div.achievement > div{
+    padding-left: 50px;
+  }
+  div.achievement > img{
+    position: static;
+    margin: 50px auto;
+    width: 300px;
+    border-radius: 20px;
+  }
+  div.achievement > div > img{
+    width: 270px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    border-radius: 10px;
+  }
+  div.creative div.creative_background_color{
+    top:-100px;
+    width: 100%;
+  }
+  div.creative_color_1{
+    display: none;
+  }
+  div.creative_color_2{
+    top: 400px;
+  }
 }
-@media screen and (min-width: 576px) and (max-width: 767.98px){
+@media all and (min-width: 576px) and (max-width: 767.98px){
+  nav.nav{
+    width: 100%;
+    /* width: 540px; */
+  }
+  ul.list > li:first-child{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+  ul.list > li:nth-child(2){
+    display: none;
+  }
+  ul.list > li:nth-child(3){
+    display: none;
+  }
+  ul.list > li:nth-child(4){
+    display: none;
+  }
+  ul.list > li:nth-child(5){
+    display: none;
+  }
+  ul.list > li:nth-child(6){
+    display: none;
+  }
+  ul.list > li:nth-child(7){
+    display: none;
+  }
+  div.icon img.category{
+    right: 40px;
+  }
+  div.icon img.member{
+    right: 38px;
+  }
+  div.icon img.bag{
+    right: 35px;
+  }
+  #go_top{
+    right: 40px;
+  }
+  div.hamburger{
+    width: 500px;
+    top: 30px;
+  }
+  div.footer{
+    width: 100%;
+  }
+  div.footer_color{
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+  div.footer img.footer_sketch{
+    display: none;
+  }
+  div.about_us{
+    width: 100%;
+    text-align: center;
+  }
+  div.about_us_title_color{
+    display: none;
+  }
+  div.about_us img.title_icon{
+    position: static;
+  }
+  div.about_us pre.about_us_title{
+    position: static;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: 0 auto;
+  }
+  div.about_us div.content pre.no_2{
+    left: 270px;
+  }
+  div.about_us div.content pre.no_3{
+    left: 320px;
+    top: 350px;
+  }
+  div.about_us div.content pre.no_4{
+    left: 100px;
+  }
+  div.about_us div.content pre.no_5{
+    left: 280px;
+    top: 440px;
+  }
+  div.about_us div.content pre.end{
+    left: 330px;
+  }
+  div.about_us img.map{
+    margin: 70px 80px 50px auto;
+  }
+  div.background_video{
+    bottom: 150px;
 
+  }
+  div.banner_logo{
+    display: none;
+  }
+  div.creative{
+    width: 100%;
+  }
+  div.background_video > video{
+    height: 100%;
+    width: auto;
+    position: relative;
+    left:-35%;
+  }
+  div.creative img.lock_wall{
+    display: block;
+    margin:250px auto 150px auto;
+  }
+  div.creative div.how{
+    width: auto;
+    display: block;
+    float: none;
+    margin: 80px;
+  }
+  div.creative div.content_1{
+    text-align: center;
+  }
+  div.creative img.crown{
+    bottom: 410px;
+    left: 0;;
+  }
+  div.creative img.love_wall{
+    margin: 0 auto;
+  }
+  div.creative div.content_2{
+    text-align: center;
+  }
+  div.creative img.lock_love{
+    position: static;
+  }
+  div.creative div.wherehow{
+    left: 30%;
+    bottom: 700px;
+  }
+  div.creative div.where{
+    padding: 0 10%;
+  }
+  img.temple_logo{
+    display: none;
+  }
+  div.temple{
+    width: 100%;
+    text-align: center;
+  }
+  div.temple img.temple_back{
+    margin: 200px auto 0 auto;
+  }
+  div.temple div.temple_title{
+    top: 100px;
+  }
+  div.temple div.temple_image{
+    padding-left: 0;
+  }
+  div.temple img.luck{
+    left: 0;
+    bottom: 30px;
+  }
+  div.temple a.pick_me{
+    left: 0;
+    bottom: 100px;
+  }
+  div.achievement{
+    width: 100%;
+    text-align: center;
+  }
+  div.achievement > p{
+    display: block;
+    text-align: center;
+    margin: 80px auto 0 auto;
+  }
+  div.achievement pre.achievement_title{
+    padding-left: 0;
+  }
+  div.achievement > div{
+    padding-left: 50px;
+  }
+  div.achievement > img{
+    position: static;
+    margin: 50px auto;
+  }
+  div.achievement > div > img{
+    width: 270px;
+    margin-bottom: 20px;
+    padding-left: 0;
+  }
+  div.creative div.creative_background_color{
+    top:-100px;
+    width: 100%;
+  }
+  div.creative_color_1{
+    top:100px;
+  }
+  div.creative_color_2{
+    top: 580px;
+  }
 }
-@media screen and (min-width: 768px) and (max-width: 991.98px){
-
+@media all and (min-width: 768px) and (max-width: 991.98px){
+  nav.nav{
+    width: 100%;
+    /* width: 720px; */
+  }
+  ul.list > li:first-child{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+  ul.list > li:nth-child(2){
+    display: none;
+  }
+  ul.list > li:nth-child(3){
+    display: none;
+  }
+  ul.list > li:nth-child(4){
+    display: none;
+  }
+  ul.list > li:nth-child(5){
+    display: none;
+  }
+  ul.list > li:nth-child(6){
+    display: none;
+  }
+  ul.list > li:nth-child(7){
+    display: none;
+  }
+  div.icon img.category{
+    right: 60px;
+  }
+  div.icon img.member{
+    right: 58px;
+  }
+  div.icon img.bag{
+    right: 55px;
+  }
+  #go_top{
+    right: 60px;
+  }
+  div.hamburger{
+    width: 500px;
+    top: 30px;
+  }
+  div.footer{
+    width: 100%;
+  }
+  div.footer_color{
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+  div.footer img.footer_sketch{
+    display: none;
+  }
+  div.about_us{
+    width: 100%;
+    text-align: center;
+  }
+  div.about_us_title_color{
+    display: none;
+  }
+  div.about_us img.title_icon{
+    position: static;
+  }
+  div.about_us pre.about_us_title{
+    position: static;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: 0 auto;
+  }
+  div.background_video{
+    bottom: 150px;
+  }
+  div.creative{
+    width: 100%;
+  }
+  div.background_video > video{
+    height: 100%;
+    width: auto;
+    position: relative;
+    left:-20%;
+  }
+  div.creative img.lock_wall{
+    display: block;
+    margin:250px auto 150px auto;
+  }
+  div.creative div.how{
+    width: auto;
+    display: block;
+    float: none;
+    margin: 80px;
+  }
+  div.creative div.content_1{
+    text-align: center;
+  }
+  div.creative img.crown{
+    bottom: 410px;
+    left: 0;;
+  }
+  div.creative img.love_wall{
+    margin: 0 auto;
+  }
+  div.creative div.content_2{
+    text-align: center;
+  }
+  div.creative img.lock_love{
+    position: static;
+  }
+  div.creative div.wherehow{
+    left: 30%;
+    bottom: 700px;
+  }
+  img.temple_logo{
+    display: none;
+  }
+  div.temple{
+    width: 100%;
+    text-align: center;
+  }
+  div.temple img.temple_back{
+    margin: 200px auto 0 auto;
+  }
+  div.temple div.temple_title{
+    top: 100px;
+  }
+  div.temple div.temple_image{
+    padding-left: 0;
+  }
+  div.temple img.luck{
+    left: 0;
+    bottom: 30px;
+  }
+  div.temple a.pick_me{
+    left: 0;
+    bottom: 100px;
+  }
+  div.achievement{
+    width: 100%;
+    text-align: center;
+  }
+  div.achievement > p{
+    display: block;
+    text-align: center;
+    margin: 80px auto 0 auto;
+  }
+  div.achievement pre.achievement_title{
+    padding-left: 0;
+  }
+  div.achievement > div{
+    padding-left: 35px;
+  }
+  div.achievement > img{
+    position: static;
+    margin: 50px auto;
+  }
+  div.creative div.creative_background_color{
+    top:-100px;
+    width: 100%;
+  }
+  div.creative_color_1{
+    top:100px;
+    
+  }
+  div.creative_color_2{
+    top: 580px;
+  }
 }
-@media screen and (min-width: 992px) and (max-width: 1199.98px){
-
+@media all and (min-width: 992px) and (max-width: 1199.98px){
+  nav.nav ul.list{
+    width: 100%;
+    /* width: 960px; */
+  }
+  nav.nav{
+    width: 100%;
+    /* width: 960px; */
+  }
+  nav.nav ul.list{
+    margin: 0;
+  }
+  ul.list > li > a{
+    margin: 0 10px;
+  }
+  nav.nav ul.list div.shop{
+    margin: 0 10px;
+  }
+  div.footer{
+    width: 100%;
+  }
+  div.footer_color{
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+  div.footer img.footer_sketch{
+    display: none;
+  }
+  div.about_us{
+    width: 100%;
+    text-align: center;
+  }
+  div.about_us_title_color{
+    display: none;
+  }
+  div.about_us img.title_icon{
+    position: static;
+  }
+  div.about_us pre.about_us_title{
+    position: static;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: 0 auto;
+  }
+  div.creative{
+    width: 100%;
+  }
+  div.background_video > video{
+    height: 100%;
+    width: auto;
+    position: relative;
+    left:-10%;
+  }
+  div.creative_color_2{
+    top: 2000px;
+  }
+  div.creative_color_3{
+    top: 2480px;
+  }
+  div.creative img.lock_wall{
+    margin:250px 40px 250px 150px;
+  }
+  div.creative div.how{
+    width: 20%;
+    position: relative;
+    right: 60%;
+    margin: 80px;
+  }
+  img.temple_logo{
+    display: none;
+  }
+  div.temple{
+    width: 100%;
+    text-align: center;
+  }
+  div.temple img.temple_back{
+    margin: 200px auto 0 auto;
+  }
+  div.temple div.temple_title{
+    top: 100px;
+  }
+  div.achievement{
+    width: 100%;
+    text-align: center;
+  }
+  div.achievement > p{
+    display: block;
+    text-align: center;
+    margin: 80px auto 0 auto;
+  }
+  div.achievement pre.achievement_title{
+    padding-left: 0;
+  }
+  div.achievement > div{
+    padding-left: 35px;
+  }
+  div.achievement > img{
+    position: static;
+    margin: 50px auto;
+  }
 }
-@media screen and (min-width: 1200px) and (max-width: 1399.98px){
-
+@media all and (min-width: 1200px) and (max-width: 1399.98px){
+  nav.nav{
+    width: 100%;
+  }
+  div.footer{
+    width: 100%;
+  }
+  div.footer_color{
+    width: 100%;
+  }
+  div.footer img.footer_sketch{
+    left:0;
+  }
 }
-@media screen and (min-width: 1400px){
-
+@media all and (min-width: 1400px){
+  nav.nav{
+    width: 100%;
+  }
+  div.footer_color{
+    width: 100%;
+  }
 }
