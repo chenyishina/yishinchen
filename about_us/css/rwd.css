@@ -6,10 +6,7 @@ img{
     width: 100%;
   }
   ul.list > li:first-child{
-    display: block;
-    text-align: center;
-    border-bottom: 1px solid white;
-    padding-bottom: 20px;
+    display: none;
   }
   ul.list > li:nth-child(2){
     display: none;
@@ -107,11 +104,12 @@ img{
   div.background_video{
     bottom: 150px;
   }
-  div.banner_logo{
-    display: none;
-  }
   div.about_us div.content{
     left: -50px;
+  }
+  div.banner_logo{
+    width: 200px;
+    top:40%;
   }
   div.about_us img.map{
     margin-right: 0;
@@ -348,10 +346,9 @@ img{
   }
   div.background_video{
     bottom: 150px;
-
   }
   div.banner_logo{
-    display: none;
+    width: 200px;
   }
   div.creative{
     width: 100%;
