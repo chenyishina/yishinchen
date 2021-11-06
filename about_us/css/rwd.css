@@ -6,7 +6,10 @@ img{
     width: 100%;
   }
   ul.list > li:first-child{
-    display: none;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
   }
   ul.list > li:nth-child(2){
     display: none;
@@ -47,6 +50,9 @@ img{
   }
   div.footer_color{
     width: 100%;
+  }
+  div.footer{
+    padding: 0;
   }
   #tibame{
     width: 100%;
