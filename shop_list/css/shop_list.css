@@ -4,7 +4,7 @@
 
 body{
   width: 100%;
-  min-width: 1200px;
+  /* min-width: 1200px; */
   margin: 0px;
   background-color: #1F273D;
   position: absolute;
@@ -50,6 +50,7 @@ nav.nav ul.list{
   margin: 0 70px;
   padding: 0;
   font-size: 0px;
+  text-align: center;
 }
 
 nav.nav ul.list div.shop{
@@ -215,8 +216,9 @@ div.shop_pro_007 > a{
   left: 50px;
 }
 div.shop_pro_007{
-  /* border: 1px solid blue; */
-  width: 1200px;
+  border: 1px solid blue;
+  width: 100%;
+  max-width: 1200px;
   position: relative;
   margin: 0 auto;
   margin-bottom: 100px;
@@ -227,11 +229,12 @@ div.shop_pro_007 img.shop_pro_desk{
   display: block;
 }
 div.shop_pro_007 div.product_007{
-  /* border: 1px solid red; */
+  border: 1px solid red;
   width: 450px;
   height: 560px;
   position: relative;
   margin-left: 100px;
+  display: inline-block;
 }
 div.shop_pro_007 div.product_007 img.NO_007{
   width: 370px;
@@ -281,15 +284,16 @@ div.shop_pro_007 div.product_007 > a:hover{
     cursor: pointer;
 }
 div.choose{
-  /* border: 1px solid white; */
+  border: 1px solid white;
   width: 380px;
   text-align: right;
+  display: inline-block;
 }
 div.choose_block{
-  /* border: 1px solid green; */
-  width: 1200px;
+  border: 1px solid green;
+  width: 100%;
   margin: 0 auto;
-  display: flex;
+  display: block;
 }
 div.choose > p{
   /* border: 1px solid blue; */
@@ -385,7 +389,7 @@ div.choose a.more:link{
   color: white;
 }
 div.shop_pro_007 div.menu{
-  /* border: 1px solid red; */
+  border: 1px solid red;
   color: white;
   display: inline-block;
   padding-top: 50px;
