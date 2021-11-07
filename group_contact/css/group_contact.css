@@ -595,6 +595,9 @@ div.products div.slick{
   position: relative;
   top: 110px;
 }
+.slick-slide img {
+  width: 100%;
+}
 div.left_color{
   height: 100px;
   width: 300px;
