@@ -91,10 +91,11 @@ img{
     background-color: #010716;
   }
   #button{
+    height: 50px;
     font-size: 12px;
     width: 20%;
     position: fixed;
-    bottom: 15px;
+    bottom: 10px;
     left: 43%;
     right: auto;
     top: auto;
@@ -266,10 +267,11 @@ img{
     background-color: #010716;
   }
   #button{
+    height: 50px;
     font-size: 12px;
     width: 20%;
     position: fixed;
-    bottom: 15px;
+    bottom: 10px;
     left: 43%;
     right: auto;
     top: auto;
