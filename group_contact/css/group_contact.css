@@ -4,7 +4,6 @@
 
 body{
   width: 100%;
-  min-width: 1200px;
   margin: 0px;
   background-color: #1F273D;
   position: absolute;
@@ -43,6 +42,7 @@ nav.nav{
   /* border: 1px solid white; */
   width: 1200px;
   margin: 25px  auto;
+  text-align: center;
 }
 
 nav.nav ul.list{
@@ -577,19 +577,20 @@ div.member div.others > a{
 }
 div.products{
   /* border:1px solid green; */
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   height: 450px;
   margin: 0 auto;
 }
 div.diy_background_color{
   height: 450px;
   width: 100%;
-  min-width: 1200px;
+  /* min-width: 1200px; */
   background-color: #091229;
 }
 div.products div.slick{
   /* border: 1px solid red; */
-  width: 1000px;
+  width: 70%;
   margin: 0 auto;
   position: relative;
   top: 110px;
@@ -612,7 +613,7 @@ img.sketch{
 img.fan{
   width: 200px;
   position: absolute;
-  bottom: 685px;
+  bottom: 665px;
   right: 50%;
   transform: translateX(270%);
 }
