@@ -39,7 +39,7 @@ img{
     right: 35px;
   }
   #go_top{
-    right: 40px;
+    display: none;
   }
   div.hamburger{
     width: 500px;
@@ -62,6 +62,109 @@ img{
   }
   div.shop_pro_007{
     width: 100%;
+  }
+  div.shop_pro_007 img.shop_pro_desk, img.lamp, div.shop_pro_007 div.menu, pre.size, pre.number_title, div.color_2, div.color_1{
+    display: none;
+  }
+  div.choose form.info pre.F{
+    position: fixed;
+    bottom: 0;
+    left: 3%;
+    width: 18%;
+    right: auto;
+    top: auto;
+    background-color: #010716;
+    padding: 10px 10px 12px 10px;
+    z-index: 1;
+    text-align: center;
+  }
+  #number{
+    position: fixed;
+    bottom: 12px;
+    left: 23%;
+    width: 15%;
+    right: auto;
+    top: auto;
+    height: 40px;
+    z-index: 1;
+    background-color: #010716;
+  }
+  #button{
+    font-size: 10px;
+    width: 20%;
+    position: fixed;
+    bottom: 12px;
+    left: 40%;
+    right: auto;
+    top: auto;
+    z-index: 1;
+  }
+  div.choose a.more{
+    width: 100px;
+    font-size: 10px;
+    position: fixed;
+    left: 75%;
+    bottom: 15px;
+    right: auto;
+    top: auto;
+    z-index: 1;
+    height: auto;
+  }
+  div.choose form.info{
+    position: fixed;
+    /* border: 1px solid red; */
+    bottom: 0;
+    left: 0;
+    width: 65%;
+    height: 60px;
+    z-index: 1;
+  }
+  div.choose{
+    width: auto;
+  }
+  div.shop_pro_007 div.product_007{
+    margin: auto;
+    width: 65%;
+    height: 350px;
+  }
+  div.shop_pro_007 div.product_007 > a.box1{
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 60px
+  }
+  div.shop_pro_007 div.product_007 > a.box2{
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 95px;
+  }
+  div.shop_pro_007 div.product_007 > a.box3{
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 130px;
+  }
+  div.shop_pro_007 div.product_007 img.NO_007{
+    width: 230px;
+    top: 50px;
+    left: 40px;
+  }
+  div.shop_pro_007 div.product_007 img.desk{
+    width: 280px;
+    top:215px;
+    left: 20px;
+  }
+  div.choose{
+    vertical-align: top;
+  }
+  div.shop_pro_007 > a{
+   position: static;
+   display: block;
+   text-align: center;
+  }
+  div.footer{
+    padding: 0;
   }
 }
 @media all and (min-width: 576px) and (max-width: 767.98px){
@@ -124,6 +227,113 @@ img{
   div.shop_pro_007{
     width: 100%;
   }
+  div.footer img.footer_sketch{
+    display: none;
+  }
+  div.shop_pro_007{
+    width: 100%;
+  }
+  div.shop_pro_007 img.shop_pro_desk, img.lamp, div.shop_pro_007 div.menu, pre.size, pre.number_title, div.color_2, div.color_1{
+    display: none;
+  }
+  div.choose form.info pre.F{
+    position: fixed;
+    bottom: 0;
+    left: 3%;
+    width: 18%;
+    right: auto;
+    top: auto;
+    background-color: #010716;
+    padding: 10px 10px 12px 10px;
+    z-index: 1;
+    text-align: center;
+  }
+  #number{
+    position: fixed;
+    bottom: 12px;
+    left: 23%;
+    width: 15%;
+    right: auto;
+    top: auto;
+    height: 40px;
+    z-index: 1;
+    background-color: #010716;
+  }
+  #button{
+    font-size: 10px;
+    width: 20%;
+    position: fixed;
+    bottom: 12px;
+    left: 40%;
+    right: auto;
+    top: auto;
+    z-index: 1;
+  }
+  div.choose a.more{
+    width: 100px;
+    font-size: 10px;
+    position: fixed;
+    left: 75%;
+    bottom: 15px;
+    right: auto;
+    top: auto;
+    z-index: 1;
+    height: auto;
+  }
+  div.choose form.info{
+    position: fixed;
+    /* border: 1px solid red; */
+    bottom: 0;
+    left: 0;
+    width: 65%;
+    height: 60px;
+    z-index: 1;
+  }
+  div.choose{
+    width: auto;
+  }
+  div.shop_pro_007 div.product_007{
+    margin-left: 15%;
+    width: 50%;
+    height: 350px;
+ 
+  }
+  div.shop_pro_007 div.product_007 > a.box1{
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 60px
+  }
+  div.shop_pro_007 div.product_007 > a.box2{
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 95px;
+  }
+  div.shop_pro_007 div.product_007 > a.box3{
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 130px;
+  }
+  div.shop_pro_007 div.product_007 img.NO_007{
+    width: 230px;
+    top: 50px;
+    left: 40px;
+  }
+  div.shop_pro_007 div.product_007 img.desk{
+    width: 280px;
+    top:215px;
+    left: 20px;
+  }
+  div.choose{
+    vertical-align: top;
+  }
+  div.shop_pro_007 > a{
+   position: static;
+   display: block;
+   text-align: center;
+  }
 }
 @media all and (min-width: 768px) and (max-width: 991.98px){
   nav.nav{
@@ -185,6 +395,30 @@ img{
   div.shop_pro_007{
     width: 100%;
   }
+  div.shop_pro_007 div.product_007{
+    width: 60%;
+    margin: 0;
+    left: 5%;
+  }
+  div.choose{
+    width: 300px;
+  }
+  div.shop_pro_007 div.menu > ul{
+    display: flex;
+  }
+  div.shop_pro_007 div.menu{
+    padding: 0 0 0 50px;
+    font-size: 14px;
+  }
+  img.lamp{
+    display: none;
+  }
+  div.shop_pro_007 img.shop_pro_desk{
+    padding: 30px 0 50px 0;
+  }
+  div.shop_pro_007 > a{
+    top: 40px;
+  }
 }
 @media all and (min-width: 992px) and (max-width: 1199.98px){
   nav.nav ul.list{
@@ -218,6 +452,12 @@ img{
   }
   div.shop_pro_007{
     width: 100%;
+  }
+  div.shop_pro_007 div.product_007{
+    margin-left: 30px;
+  }
+  div.choose{
+    width: 300px;
   }
 }
 @media all and (min-width: 1200px) and (max-width: 1399.98px){
