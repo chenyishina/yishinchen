@@ -246,7 +246,7 @@ div.traffic_content > div > div > div{
   display: inline-block;
   margin-left: 20px;
 }
-pre.time{
+p.time{
   margin-left: 60px;
 }
 div.traffic img.map{

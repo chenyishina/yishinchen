@@ -34,20 +34,23 @@ img{
     display: none;
   }
   div.icon img.category{
-    right: 40px;
+    right: 3%;
   }
   div.icon img.member{
-    right: 38px;
+    right: 3%;
   }
   div.icon img.bag{
-    right: 35px;
+    right: 2%;
   }
   #go_top{
-    right: 40px;
+    right: 3%;
   }
   div.hamburger{
-    width: 500px;
-    top: 30px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 0;
+    background-color: rgba(31, 39, 61, .8);
   }
   div.footer{
     width: 100%;
@@ -79,6 +82,20 @@ img{
     left: 50%;
     transform: translateX(-50%);
     top: 1150px;
+    width: 300px;
+  }
+  div.umbrella_content_1 pre.umbrella_title,
+  div.combine_content div.umbrella_content_1 pre.umbrella_content{
+    left: 80px;
+  }
+  div.combine_content div.umbrella_content_1 img.umbrella_logo{
+    left: 10px;
+  }
+  div.combine_content div.umbrella_content_1 img.X{
+    left: 120px;
+  }
+  div.combine_content div.umbrella_content_1 img.lh_logo{
+    left: 180px;
   }
   div.combine_content div.combine_title_1 img.combine_title_jpg{
     display: none;
@@ -134,9 +151,11 @@ img{
     left: 50px;
   }
   div.combine_content div.umbrella_1{
+    text-align: center;
     width: 100%;
     overflow: hidden;
   }
+  
 }
 @media all and (min-width: 576px) and (max-width: 767.98px){
   div.combine_content{
@@ -184,8 +203,11 @@ img{
     right: 40px;
   }
   div.hamburger{
-    width: 500px;
-    top: 30px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 0;
+    background-color: rgba(31, 39, 61, .8);
   }
   div.footer{
     width: 100%;
@@ -298,8 +320,11 @@ img{
     right: 60px;
   }
   div.hamburger{
-    width: 500px;
-    top: 30px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 0;
+    background-color: rgba(31, 39, 61, .8);
   }
   div.footer{
     width: 100%;

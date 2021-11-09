@@ -2,6 +2,7 @@ img{
   max-width: 100%;
 }
 @media all and (max-width: 575.98px){
+  
   div.traffic{
     width: 100%;
   }
@@ -33,34 +34,40 @@ img{
     display: none;
   }
   div.icon img.category{
-    right: 40px;
+    right: 3%;
   }
   div.icon img.member{
-    right: 38px;
+    right: 3%;
   }
   div.icon img.bag{
-    right: 35px;
+    right: 2%;
   }
   #go_top{
-    right: 40px;
+    right: 3%;
   }
   div.hamburger{
-    width: 500px;
-    top: 30px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 0;
+    background-color: rgba(31, 39, 61, .8);
   }
   div.traffic img.map{
     top: 0;
-    width: 300px;
+    width: 70%;
   }
   img.chair{
-    width: 130px;
+    display: none;
   }
   div.traffic{
-    padding-bottom: 220px;
+    padding-bottom: 50px;
   }
   div.footer{
     width: 100%;
     /* width: 540px; */
+  }
+  div.left_background{
+    display: none;
   }
   div.footer_color{
     width: 100%;
@@ -78,10 +85,21 @@ img{
   }
   div.traffic_content{
     position: relative;
-    right: 30px;
+    width: 70%;
+    font-size: 14px;
   }
   div.footer div.add_block img.twitter{
     margin-right: 10px;
+  }
+  p.time{
+    margin-left: 0;
+  }
+  div.traffic_content > div > div > div{
+    /* display: block; */
+    margin-left: 0;
+  }
+  div.traffic_content > div{
+    border-bottom: 1px solid gray;
   }
 }
 @media all and (min-width: 576px) and (max-width: 767.98px){
@@ -130,8 +148,11 @@ img{
     right: 40px;
   }
   div.hamburger{
-    width: 500px;
-    top: 30px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 0;
+    background-color: rgba(31, 39, 61, .8);
   }
   div.traffic img.map{
     top: 0;
@@ -208,8 +229,11 @@ img{
     right: 60px;
   }
   div.hamburger{
-    width: 500px;
-    top: 30px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 0;
+    background-color: rgba(31, 39, 61, .8);
   }
   div.traffic img.map{
     top: 0;

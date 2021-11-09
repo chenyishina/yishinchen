@@ -1,33 +1,320 @@
 img{
   max-width: 100%;
 }
-@media screen and (max-width: 575.98px){
-  div.my_div1{
+@media all and (max-width: 575.98px){
+  nav.nav{
+    width: 100%;
+  }
+  ul.list > li:first-child{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+  ul.list > li:nth-child(2){
+    display: none;
+  }
+  ul.list > li:nth-child(3){
+    display: none;
+  }
+  ul.list > li:nth-child(4){
+    display: none;
+  }
+  ul.list > li:nth-child(5){
+    display: none;
+  }
+  ul.list > li:nth-child(6){
+    display: none;
+  }
+  ul.list > li:nth-child(7){
+    display: none;
+  }
+  div.icon img.category{
+    right: 3%;
+  }
+  div.icon img.member{
+    right: 3%;
+  }
+  div.icon img.bag{
+    right: 2%;
+  }
+  #go_top{
+    right: 3%;
+  }
+  div.hamburger{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 0;
+    background-color: rgba(31, 39, 61, .8);
+  }
+  div.footer{
+    width: 100%;
+  }
+  div.footer_color{
+    width: 100%;
+  }
+  #tibame{
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+  div.banner_background{
+    width: 100%;
+    text-align: center;
+    background-color: #121B32;
+  }
+  div.banner_background_color{
+    display: none;
+  }
+  div.banner_background div.top_1 div.key_color_bank > img{
+    margin-top: 30px;
+  }
+  div.banner_background div.top_1 img.key_1{
+    left: -20%;
+    bottom: 160px;
+    position: absolute;
+    top:50px;
+  }
+  div.banner_background div.top_1 img.light_right{
+    width: 80px;
+  }
+  div.banner_background div.top_1 img.light_middle{
+    width: 60px;
+  }
+  div.banner_background div.top_1 img.light_left{
+    width: 60px;
+  }
+  div.banner_background div.top_1 div.light{
+    left: 30px;
+    top: 90px;
+  }
+  div.banner_background div.circle_right_color,
+  div.banner_background div.circle_left_color,
+  div.banner_background div.circle_right img.machine_1,
+  div.banner_background div.circle_left img.combination_1{
+    display: none;
+  }
+  div img.banner_logo{
+    position: static;
+    transform: none;
+    margin-top: 50px;
+    opacity: .4;
+  }
+  div.banner_background div.bottom div.fan_color_bank > img{
+    top: 80px;
+  }
+  div div.bottom img.money_1{
+    left: 0;
+  }
+  div.bottom img.fan{
+    position: absolute;
+    right: 10px;
+  }
+  div.key_background img.story{
+    position: static;
+    transform: none;
+    margin-bottom: 30px;
+  }
+  div.key_background{
+    width: 100%;
+    background-image: none;
+    margin: 100px auto 50px;
+    height: auto;
+  }
+  div.key_background div.about{
+    position: static;
+    top: 0;
+    transform: none;
+    width: auto;
+    padding: 20px;
+  }
+  div.pull_me{
+    width: 100%;
+    margin: 0 auto 100px;
+  }
+  .twentytwenty-container{
+    margin-left: 0;
+  }
+  div.product_background div.product marquee{
+    width: 100%;
+  }
+  div.product_background div.product{
+    width: 100%;
+  }
+  div.product_background div.product marquee > a img{
+    height: 70px;
+  }
+  div.process{
+    width: 100%;
+    text-align: center;
+  }
+  div.process > pre{
+    position: static;
+    padding-left: 5%;
+  }
+  div.process div.material{
+    padding-left: 0;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  div.process div.cut{
+    display: grid;
+    text-align: center;
+  }
+  div.process div.cut div{
+    margin-bottom: 20px;
+  }
+  div.process div.cut_text{
+    order: 1;
+  }
+}
+@media all and (min-width: 576px) and (max-width: 767.98px){
+  nav.nav{
+    width: 100%;
+    /* width: 540px; */
+  }
+  ul.list > li:first-child{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+  ul.list > li:nth-child(2){
+    display: none;
+  }
+  ul.list > li:nth-child(3){
+    display: none;
+  }
+  ul.list > li:nth-child(4){
+    display: none;
+  }
+  ul.list > li:nth-child(5){
+    display: none;
+  }
+  ul.list > li:nth-child(6){
+    display: none;
+  }
+  ul.list > li:nth-child(7){
+    display: none;
+  }
+  div.icon img.category{
+    right: 40px;
+  }
+  div.icon img.member{
+    right: 38px;
+  }
+  div.icon img.bag{
+    right: 35px;
+  }
+  #go_top{
+    right: 40px;
+  }
+  div.hamburger{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 0;
+    background-color: rgba(31, 39, 61, .8);
+  }
+  body{
+    width: 100%;
+  }
+  div.banner_background{
     width: 100%;
   }
 }
-@media screen and (min-width: 576px) and (max-width: 767.98px){
+@media all and (min-width: 768px) and (max-width: 991.98px){
+  nav.nav{
+    width: 100%;
+    /* width: 720px; */
+  }
+  ul.list > li:first-child{
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+  ul.list > li:nth-child(2){
+    display: none;
+  }
+  ul.list > li:nth-child(3){
+    display: none;
+  }
+  ul.list > li:nth-child(4){
+    display: none;
+  }
+  ul.list > li:nth-child(5){
+    display: none;
+  }
+  ul.list > li:nth-child(6){
+    display: none;
+  }
+  ul.list > li:nth-child(7){
+    display: none;
+  }
+  div.icon img.category{
+    right: 60px;
+  }
+  div.icon img.member{
+    right: 58px;
+  }
+  div.icon img.bag{
+    right: 55px;
+  }
+  #go_top{
+    right: 60px;
+  }
+  div.hamburger{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    border-radius: 0;
+    background-color: rgba(31, 39, 61, .8);
+  }
+  body{
+    width: 100%;
+  }
   div.banner_background{
-    width: 540px;
+    width: 100%;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 991.98px){
+@media all and (min-width: 992px) and (max-width: 1199.98px){
+  nav.nav ul.list{
+    width: 100%;
+    /* width: 960px; */
+  }
+  nav.nav{
+    width: 100%;
+    /* width: 960px; */
+  }
+  nav.nav ul.list{
+    margin: 0;
+  }
+  ul.list > li > a{
+    margin: 0 10px;
+  }
+  nav.nav ul.list div.shop{
+    margin: 0 10px;
+  }
+  body{
+    width: 100%;
+  }
   div.banner_background{
-    width: 720px;
+    width: 100%;
   }
 }
-@media screen and (min-width: 992px) and (max-width: 1199.98px){
-  div.banner_background{
-    width: 960px;
+@media all and (min-width: 1200px) and (max-width: 1399.98px){
+  nav.nav{
+    width: 100%;
   }
+
 }
-@media screen and (min-width: 1200px) and (max-width: 1399.98px){
-  div.banner_background{
-    width: 1140px;
+@media all and (min-width: 1400px){
+  nav.nav{
+    width: 100%;
   }
-}
-@media screen and (min-width: 1400px){
-  div.my_div1{
-    width: 1320px;
-  }
+
 }
