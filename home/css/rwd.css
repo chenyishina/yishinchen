@@ -73,22 +73,22 @@ img{
   }
   div.banner_background div.top_1 img.key_1{
     left: -20%;
-    bottom: 160px;
     position: absolute;
     top:50px;
   }
   div.banner_background div.top_1 img.light_right{
-    width: 80px;
+    width: 100px;
   }
   div.banner_background div.top_1 img.light_middle{
-    width: 60px;
+    width: 70px;
+    top: 0px;
   }
   div.banner_background div.top_1 img.light_left{
-    width: 60px;
+    width: 80px;
   }
   div.banner_background div.top_1 div.light{
-    left: 30px;
-    top: 90px;
+    left: 3%;
+    top: 120px;
   }
   div.banner_background div.circle_right_color,
   div.banner_background div.circle_left_color,
@@ -99,18 +99,20 @@ img{
   div img.banner_logo{
     position: static;
     transform: none;
-    margin-top: 50px;
+    padding-top: 190px;
     opacity: .4;
   }
   div.banner_background div.bottom div.fan_color_bank > img{
-    top: 80px;
+    /* top: 80px; */
   }
   div div.bottom img.money_1{
     left: 0;
+    bottom: 0;
   }
   div.bottom img.fan{
     position: absolute;
     right: 10px;
+    bottom: -18px;
   }
   div.key_background img.story{
     position: static;
@@ -128,14 +130,21 @@ img{
     top: 0;
     transform: none;
     width: auto;
-    padding: 20px;
+    padding: 50px;
+    margin-bottom: 100px;
   }
   div.pull_me{
     width: 100%;
     margin: 0 auto 100px;
   }
+  div.pull_me > pre{
+    position: static;
+  }
   .twentytwenty-container{
     margin-left: 0;
+  }
+  div.product_background{
+    margin-bottom: 50px;
   }
   div.product_background div.product marquee{
     width: 100%;
@@ -144,31 +153,270 @@ img{
     width: 100%;
   }
   div.product_background div.product marquee > a img{
-    height: 70px;
+    height: 150px;
   }
   div.process{
     width: 100%;
     text-align: center;
+    margin-bottom: 0;
   }
   div.process > pre{
     position: static;
     padding-left: 5%;
   }
   div.process div.material{
+    display: grid;
     padding-left: 0;
-    padding-bottom: 30px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+  }
+  div.process div.material::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.material div{
+    margin-bottom: 20px;
   }
   div.process div.cut{
     display: grid;
     text-align: center;
+    margin-bottom: 20px;
+  }
+  div.process div.cut_text::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
   }
   div.process div.cut div{
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
   }
   div.process div.cut_text{
     order: 1;
+  }
+  div.process div.cut img.cut_2{
+    padding: 20px;
+  }
+  div.process div.hole img.hole_3{
+    padding: 20px;
+  }
+  div.process div.hole div.hole_text pre.hole_content{
+    position: static;
+  }
+  div.process div.hole{
+    margin-bottom: 50px;
+  }
+  div.process div.hole::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.hole div.hole_text{
+    display: grid;
+  }
+  div.process div.heart div.heart_1{
+    margin-left: 0;
+  }
+  div.process div.heart pre.heart_content{
+    margin-left: 0;
+  }
+  div.process div.heart pre.heart_content > span{
+    display: block;
+  }
+  div.process div.heart div.heart_1{
+    display: grid;
+  }
+  div.process div.heart div.heart_1 > div{
+    margin: 0;
+  }
+  div.process div.heart div.heart_1 > div:first-child{
+    order: 2;
+  }
+  div.process div.heart div.heart_1 > div:nth-child(2){
+    order: 3;
+  }
+  div.process div.heart div.heart_1 > div:last-child{
+    order: 1;
+    margin-bottom: 10px;
+  }
+  div.process div.heart{
+    margin-bottom: 30px;
+  }
+  div.process div.heart::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.components div.components_text{
+    display: grid;
+  }
+  div.process div.components > div > img{
+    margin: 0;
+  }
+  div.process div.components img.components_5{
+    height: auto;
+    padding: 20px;
+  }
+  div.process div.components div.components_text pre.components_content{
+    position: static;
+  }
+  div.process div.components > div > div > pre > span{
+    display: block;
+  }
+  div.process div.components{
+    margin-bottom: 30px;
+  }
+  div.process div.components::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.key{
+    width: 100%;
+    display: grid;
+    margin-bottom: 30px;
+  }
+  div.process div.key > div{
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+  div.process div.key img.key_6{
+    padding: 20px;
+  }
+  div.process div.key > div:first-child{
+    order: 1;
+  }
+  div.process div.key div > div > pre{
+    margin: 0;
+  }
+  div.process div.key div > div > pre:last-child{
+    margin-bottom: 20px;
+  }
+  div.process div.key > div:first-child::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.combine{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  div.process div.combine::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.combine > pre.combine_content{
+    margin-left: 0;
+  }
+  div.process div.combine > pre > span{
+    display: block;
+  }
+  div.process div.combine_1{
+    display: grid;
+  }
+  div.process div.combine div.combine_1 > div:first-child{
+    order: 1;
+  }
+  div.process div.combine div.combine_1 pre.combine_title{
+    margin: 20px 0 0 0;
+  }
+  div.process div.test > div:first-child{
+    margin: 0;
+  }
+  div.process div.test{
+    display: grid;
+    margin-bottom: 20px;
+  }
+  div.process div.test > div:nth-child(2){
+    order: 1;
+  }
+  div.process div.test > div:first-child{
+    order: 2;
+  }
+  div.process div.test > div:first-child::after{
+    content: "↓";
+    display: block;
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.test > div{
+    margin: 10px auto;
+  }
+  div.process div.package{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  div.process div.package img.package_9{
+    padding: 20px;
+  }
+  div.process div.package div.package_text{
+    margin: 0;
+    display: grid;
+  }
+  div.process div.package div.package_text > div pre.package_title{
+    margin: 0;
+  }
+  div.process div.package div.package_text > div pre.package_content{
+    position: static;
+  }
+  div.news_background_color{
+    min-width: 0;
+    height: auto;
+  }
+  div.news{
+    width: 100%;
+    height: auto;
+  }
+  div.note_lock_color,
+  img.note_lock{
+    display: none;
+  }
+  div.news > a > img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  div.news > a{
+    display: grid;
+    text-align: center;
+    margin: 0 20px 50px 20px;
+  }
+  div.news div.news_title{
+    padding-right: 0;
+  }
+  div.fotter_fotter{
+    width: 100%;
+    text-align: center;
+  }
+  div.fotter_fotter div.fotter_info{
+    transform: auto;
+  }
+  div.fotter_fotter div.fotter_info > p{
+    display: block;
+  }
+  div.fotter_fotter div.fotter_info{
+    width: 100%;
+  }
+  div.fotter_fotter div.fotter_info > p:first-child{
+    margin: 0 0 16px 0;
+  }
+  div.fotter_fotter div.fotter_info > p:nth-child(2){
+    margin: 0;
+  }
+  div.fotter_fotter div.fotter_info > p:last-child{
+    margin: 0;
+  }
+  div.fotter_fotter div.fotter_info > a > img:first-child{
+    margin: 0;
+  }
+  div.fotter_fotter div.fotter_info > a > img:nth-child(2){
+    margin: 0;
+  }
+  div.fotter_fotter div.fotter_info p.tibame{
+    position: static;
+    margin: 10px 0 0 0;
   }
 }
 @media all and (min-width: 576px) and (max-width: 767.98px){
@@ -224,6 +472,364 @@ img{
   }
   div.banner_background{
     width: 100%;
+    text-align: center;
+    background-color: #121B32;
+  }
+  div.banner_background_color{
+    display: none;
+  }
+  div.banner_background div.top_1 div.key_color_bank > img{
+    margin-top: 30px;
+  }
+  div.banner_background div.top_1 img.key_1{
+    left: -20%;
+    position: absolute;
+    top:50px;
+  }
+  div.banner_background div.top_1 img.light_right{
+    width: 100px;
+  }
+  div.banner_background div.top_1 img.light_middle{
+    width: 70px;
+    top: 0px;
+  }
+  div.banner_background div.top_1 img.light_left{
+    width: 80px;
+  }
+  div.banner_background div.top_1 div.light{
+    left: 3%;
+    top: 120px;
+  }
+  div.banner_background div.circle_right_color,
+  div.banner_background div.circle_left_color,
+  div.banner_background div.circle_right img.machine_1,
+  div.banner_background div.circle_left img.combination_1{
+    display: none;
+  }
+  div img.banner_logo{
+    position: static;
+    transform: none;
+    padding-top: 190px;
+    opacity: .4;
+  }
+  div.banner_background div.bottom div.fan_color_bank > img{
+    /* top: 80px; */
+  }
+  div div.bottom img.money_1{
+    left: 0;
+    bottom: 0;
+  }
+  div.bottom img.fan{
+    position: absolute;
+    right: 10px;
+    bottom: -18px;
+  }
+  div.key_background img.story{
+    position: static;
+    transform: none;
+    margin-bottom: 30px;
+  }
+  div.key_background{
+    width: 100%;
+    background-image: none;
+    margin: 100px auto 50px;
+    height: auto;
+  }
+  div.key_background div.about{
+    position: static;
+    top: 0;
+    transform: none;
+    width: auto;
+    padding: 50px;
+    margin-bottom: 100px;
+  }
+  div.pull_me{
+    width: 100%;
+    margin: 0 auto 100px;
+  }
+  .twentytwenty-container{
+    margin-left: 0;
+  }
+  div.pull_me > pre{
+    position: static;
+  }
+  div.product_background{
+    margin-bottom: 50px;
+  }
+  div.product_background div.product marquee{
+    width: 100%;
+  }
+  div.product_background div.product{
+    width: 100%;
+  }
+  div.product_background div.product marquee > a img{
+    height: 150px;
+  }
+  div.process{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  div.process > pre{
+    position: static;
+    padding-left: 5%;
+  }
+  div.process div.material{
+    display: grid;
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  div.process div.material::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.material div{
+    margin-bottom: 20px;
+  }
+  div.process div.cut{
+    display: grid;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  div.process div.cut_text::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.cut div{
+    /* margin-bottom: 20px; */
+  }
+  div.process div.cut_text{
+    order: 1;
+  }
+  div.process div.cut img.cut_2{
+    padding: 20px;
+  }
+  div.process div.hole img.hole_3{
+    padding: 20px;
+  }
+  div.process div.hole div.hole_text pre.hole_content{
+    position: static;
+  }
+  div.process div.hole{
+    margin-bottom: 50px;
+  }
+  div.process div.hole::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.hole div.hole_text{
+    display: grid;
+  }
+  div.process div.heart div.heart_1{
+    margin-left: 0;
+  }
+  div.process div.heart pre.heart_content{
+    margin-left: 0;
+  }
+  div.process div.heart pre.heart_content > span{
+    display: block;
+  }
+  div.process div.heart div.heart_1{
+    display: grid;
+  }
+  div.process div.heart div.heart_1 > div{
+    margin: 0;
+  }
+  div.process div.heart div.heart_1 > div:first-child{
+    order: 2;
+  }
+  div.process div.heart div.heart_1 > div:nth-child(2){
+    order: 3;
+  }
+  div.process div.heart div.heart_1 > div:last-child{
+    order: 1;
+    margin-bottom: 10px;
+  }
+  div.process div.heart{
+    margin-bottom: 30px;
+  }
+  div.process div.heart::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.components div.components_text{
+    display: grid;
+  }
+  div.process div.components > div > img{
+    margin: 0;
+  }
+  div.process div.components img.components_5{
+    height: auto;
+    padding: 20px;
+  }
+  div.process div.components div.components_text pre.components_content{
+    position: static;
+  }
+  div.process div.components > div > div > pre > span{
+    display: block;
+  }
+  div.process div.components{
+    margin-bottom: 30px;
+  }
+  div.process div.components::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.key{
+    width: 100%;
+    display: grid;
+    margin-bottom: 30px;
+  }
+  div.process div.key > div{
+    display: block;
+    margin: 0;
+    text-align: center;
+  }
+  div.process div.key img.key_6{
+    padding: 20px;
+  }
+  div.process div.key > div:first-child{
+    order: 1;
+  }
+  div.process div.key div > div > pre{
+    margin: 0;
+  }
+  div.process div.key div > div > pre:last-child{
+    margin-bottom: 20px;
+  }
+  div.process div.key > div:first-child::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.combine{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  div.process div.combine::after{
+    content: "↓";
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.combine > pre.combine_content{
+    margin-left: 0;
+  }
+  div.process div.combine > pre > span{
+    display: block;
+  }
+  div.process div.combine_1{
+    display: grid;
+  }
+  div.process div.combine div.combine_1 > div:first-child{
+    order: 1;
+  }
+  div.process div.combine div.combine_1 pre.combine_title{
+    margin: 20px 0 0 0;
+  }
+  div.process div.test > div:first-child{
+    margin: 0;
+  }
+  div.process div.test{
+    display: grid;
+    margin-bottom: 20px;
+  }
+  div.process div.test > div:nth-child(2){
+    order: 1;
+  }
+  div.process div.test > div:first-child{
+    order: 2;
+  }
+  div.process div.test > div:first-child::after{
+    content: "↓";
+    display: block;
+    font-size: 40px;
+    color: white;
+  }
+  div.process div.test > div{
+    margin: 10px auto;
+  }
+  div.process div.package{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  div.process div.package img.package_9{
+    padding: 20px;
+  }
+  div.process div.package div.package_text{
+    margin: 0;
+    display: grid;
+  }
+  div.process div.package div.package_text > div pre.package_title{
+    margin: 0;
+  }
+  div.process div.package div.package_text > div pre.package_content{
+    position: static;
+  }
+  div.news_background_color{
+    min-width: 0;
+    height: auto;
+  }
+  div.news{
+    width: 100%;
+    height: auto;
+  }
+  div.note_lock_color,
+  img.note_lock{
+    display: none;
+  }
+  div.news > a > img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  div.news > a{
+    display: grid;
+    text-align: center;
+    margin: 0 20px 50px 20px;
+  }
+  div.news div.news_title{
+    padding-right: 0;
+  }
+  div.news div.news_title{
+    padding-right: 0;
+  }
+  div.fotter_fotter{
+    width: 100%;
+    text-align: center;
+  }
+  div.fotter_fotter div.fotter_info{
+    transform: auto;
+  }
+  div.fotter_fotter div.fotter_info > p{
+    display: block;
+  }
+  div.fotter_fotter div.fotter_info{
+    width: 100%;
+  }
+  div.fotter_fotter div.fotter_info > p:first-child{
+    margin: 0 0 16px 0;
+  }
+  div.fotter_fotter div.fotter_info > p:nth-child(2){
+    margin: 0;
+  }
+  div.fotter_fotter div.fotter_info > p:last-child{
+    margin: 0;
+  }
+  div.fotter_fotter div.fotter_info > a > img:first-child{
+    margin: 0;
+  }
+  div.fotter_fotter div.fotter_info > a > img:nth-child(2){
+    margin: 0;
+  }
+  div.fotter_fotter div.fotter_info p.tibame{
+    position: static;
+    margin: 10px 0 0 0;
   }
 }
 @media all and (min-width: 768px) and (max-width: 991.98px){
@@ -280,6 +886,171 @@ img{
   div.banner_background{
     width: 100%;
   }
+  div.banner_background div.circle_right_color{
+    width: 260px;
+    height: 350px;
+  }
+  div.banner_background div.circle_right img.machine_1{
+    width: 235px;
+  }
+  div.banner_background div.circle_left_color{
+    width: 360px;
+    height: 460px;
+  }
+  div.banner_background div.circle_left img.combination_1{
+    width: 310px;
+  }
+  div img.banner_logo{
+    top: 690px;
+  }
+  div.banner_background_color{
+    height: 1450px;
+  }
+  div.key_background{
+    width: 100%;
+    margin: 100px auto 150px auto;
+  }
+  div.key_background div.about{
+    width: auto;
+  }
+  div.key_background img.story{
+    left: 7%;
+    top: 40%;
+    transform: translateX(0);
+  }
+  div.pull_me{
+    width: 100%;
+    margin: 0 auto 100px;
+  }
+  div.pull_me > pre{
+    position: static;
+  }
+  div.pull_me div > img{
+    width: 100%;
+  }
+  .twentytwenty-container{
+    margin-left: 0;
+  }
+  div.product_background div.product marquee{
+    width: 100%;
+  }
+  div.product_background div.product{
+    width: 100%;
+  }
+  div.process{
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  div.process div.material{
+    margin-bottom: 140px;
+  }
+  div.process div.cut{
+    margin-bottom: 140px;
+  }
+  div.process div.hole > div{
+    position: relative;
+  }
+  div.process div.hole div.hole_text pre.hole_content{
+    position: absolute;
+    top: 160px;
+    left: 30px;
+  }
+  div.process div.hole img.hole_3{
+    width: 330px;
+  }
+  div.process div.components > div{
+    position: relative;
+  }
+  div.process div.components div.components_text pre.components_content{
+    position: absolute;
+    left: 0;
+    top: 130px;
+  }
+  div.process div.components img.components_5{
+    width: 350px;
+    height: 220px;
+  }
+  div.process div.components > div > img{
+    margin: 0 30px 0 20px;
+  }
+  div.process div.components{
+    margin-bottom: 150px;
+  }
+  div.process div.combine{
+    width: 100%;
+  }
+  div.process div.package{
+    width: 100%;
+  }
+  div.process div.package div.package_text{
+    position: relative;
+  }
+  div.process div.package div.package_text > div pre.package_content{
+    position: absolute;
+    top: 150px;
+    left: 0;
+  }
+  div.process div.package img.package_9{
+    height: 210px;
+    width: 420px;
+  }
+  div.process div.package div.package_text{
+    margin: 0 0 0 20px;
+  }
+  div.process div.package{
+    margin-bottom: 120px;
+  }
+  div.news_background_color{
+    min-width: 0;
+    height: auto;
+  }
+  div.news{
+    width: 100%;
+    height: auto;
+  }
+  div.news div.news_title{
+    text-align: left;
+    padding-right: 0;
+    padding-left: 100px;
+  }
+  div.note_lock_color{
+   display: none;
+  }
+  img.note_lock{
+    display: none;
+  }
+  div.fotter_fotter{
+    width: 100%;
+    text-align: center;
+  }
+  div.fotter_fotter div.fotter_info{
+    transform: auto;
+  }
+  div.fotter_fotter div.fotter_info > p{
+    display: block;
+  }
+  div.fotter_fotter div.fotter_info{
+    width: 100%;
+  }
+  div.fotter_fotter div.fotter_info > p:first-child{
+    margin: 0 0 16px 0;
+  }
+  div.fotter_fotter div.fotter_info > p:nth-child(2){
+    margin: 0;
+  }
+  div.fotter_fotter div.fotter_info > p:last-child{
+    margin: 0;
+  }
+  div.fotter_fotter div.fotter_info > a > img:first-child{
+    margin: 0;
+  }
+  div.fotter_fotter div.fotter_info > a > img:nth-child(2){
+    margin: 0;
+  }
+  div.fotter_fotter div.fotter_info p.tibame{
+    position: static;
+    margin: 10px 0 0 0;
+  }
 }
 @media all and (min-width: 992px) and (max-width: 1199.98px){
   nav.nav ul.list{
@@ -305,12 +1076,162 @@ img{
   div.banner_background{
     width: 100%;
   }
+  div.key_background{
+    width: 100%;
+  }
+  div.key_background div.about{
+    width: auto;
+  }
+  div.key_background img.story{
+    left: 7%;
+    top: 40%;
+    transform: translateX(0);
+  }
+  div.pull_me{
+    width: 100%;
+    margin: 0 auto 100px;
+  }
+  div.pull_me > pre{
+    position: static;
+  }
+  div.pull_me div > img{
+    width: 100%;
+  }
+  .twentytwenty-container{
+    margin-left: 0;
+  }
+  div.product_background div.product marquee{
+    width: 100%;
+  }
+  div.product_background div.product{
+    width: 100%;
+  }
+  div.process{
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  div.process div.material{
+    margin-bottom: 140px;
+  }
+  div.process div.cut{
+    margin-bottom: 140px;
+  }
+  div.process div.hole > div{
+    position: relative;
+  }
+  div.process div.hole div.hole_text pre.hole_content{
+    position: absolute;
+    top: 160px;
+    left: 30px;
+  }
+  div.process div.hole img.hole_3{
+    width: 330px;
+  }
+  div.process div.components > div{
+    position: relative;
+  }
+  div.process div.components div.components_text pre.components_content{
+    position: absolute;
+    left: 0;
+    top: 130px;
+  }
+  div.process div.components img.components_5{
+    width: 350px;
+    height: 220px;
+  }
+  div.process div.components > div > img{
+    margin: 0 30px 0 20px;
+  }
+  div.process div.components{
+    margin-bottom: 150px;
+  }
+  div.process div.combine{
+    width: 100%;
+  }
+  div.process div.package{
+    width: 100%;
+  }
+  div.process div.package div.package_text{
+    position: relative;
+  }
+  div.process div.package div.package_text > div pre.package_content{
+    position: absolute;
+    top: 150px;
+    left: 0;
+  }
+  div.process div.package img.package_9{
+    height: 210px;
+    width: 420px;
+  }
+  div.process div.package div.package_text{
+    margin: 0 0 0 20px;
+  }
+  div.process div.package{
+    margin-bottom: 120px;
+  }
+  div.news_background_color{
+    min-width: 0;
+    height: auto;
+  }
+  div.note_lock_color{
+    bottom: 420px;
+    border-radius: 50px 0 0 50px;
+    width: 280px;
+  }
+  img.note_lock{
+    bottom: 360px;
+    right: 5px;
+  }
+  div.news{
+    width: 100%;
+    height: auto;
+  }
+  div.news div.news_title{
+    text-align: left;
+    padding-right: 0;
+    padding-left: 100px;
+  }
+  div.fotter_fotter{
+    width: 100%;
+  }
 }
 @media all and (min-width: 1200px) and (max-width: 1399.98px){
   nav.nav{
     width: 100%;
   }
-
+  body{
+    width: 100%;
+  }
+  div.banner_background{
+    width: 100%;
+  }
+  div.key_background{
+    width: 100%;
+  }
+  div.key_background div.about{
+    width: auto;
+  }
+  div.pull_me{
+    width: 100%;
+  }
+  div.product_background div.product marquee{
+    width: 100%;
+  }
+  div.product_background div.product{
+    width: 100%;
+  }
+  div.process{
+    width: 100%;
+  }
+  div.news{
+    width: 100%;
+  }
+  div.fotter_fotter{
+    width: 100%;
+  }
+  div.process div.package{
+    width: 100%;
+  }
 }
 @media all and (min-width: 1400px){
   nav.nav{
