@@ -4,7 +4,7 @@
 
 body{
   width: 100%;
-  min-width: 1200px;
+  /* min-width: 1200px; */
   margin: 0px;
   background-color: #1F273D;
   position: absolute;
@@ -44,6 +44,7 @@ nav.nav{
   /* border: 1px solid white; */
   width: 1200px;
   margin: 25px  auto;
+  text-align: center;
 }
 
 nav.nav ul.list{
@@ -208,18 +209,18 @@ div.background_color_right{
   border-radius: 300px;
   position: relative;
   bottom: 180px;
-  left: 400px;
+  left: -140px;
   z-index: -1;
 }
 img.crown{
   width: 870px;
-  position: relative;
-  bottom: 250px;
-  left: 200px;
+  position: absolute;
+  bottom: -5px;
+  left: 100px;
 }
 div.background_color_left{
   width: 100%;
-  min-width: 1200px;
+  /* min-width: 1200px; */
   height: 870px;
   position: absolute;
   left: 0;
@@ -239,6 +240,7 @@ div.test{
   /* border: 1px solid red; */
   width: 1200px;
   margin: 0 auto;
+  position: relative;
 }
 div.test div.test_title{
   /* border: 1px solid blue; */
@@ -249,19 +251,19 @@ div.test div.test_title > img{
   width: 280px;
   margin-top: 100px;
 }
-div.test div.test_title > a{
+div.test div.test_title > p{
   color: white;
   font-size: 20px;
   position: absolute;
   left: 80px;
-  top: 115px;
+  top: 95px;
 }
 div.test div.test_video{
   /* border:1px solid blue; */
-  width: 1200px;
+  width: 500px;
   margin-top: 150px;
-  display: inline-block;
-  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 div.test div.test_video > div{
   /* border: 1px solid green; */
@@ -270,7 +272,16 @@ div.test div.test_video > div{
 div.test div.cut_video{
   /* border: 1px solid white; */
   display: inline-block;
-  text-align: right;
+  text-align: center;
+}
+.slick-prev:before{
+  content: "◀" !important;
+}
+.slick-next:before{
+  content: "►" !important;
+}
+.slick-slide{
+  float: none !important;
 }
 div.test div.cut_video > div{
   /* border: 1px solid red; */
@@ -310,7 +321,8 @@ div.test div.test_video div.open_close_video > div{
   margin-bottom: 10px;
 }
 div.test div.test_video div.open_close_video div > video{
-  height: 280px;
+  /* height: 280px; */
+  width: 100%;
   border-radius: 20px;
 }
 div.test div.test_video div.open_close_video div > a{
@@ -338,7 +350,7 @@ div.test div.test_video div.open_close_video a.more_2:hover{
 div.test div.pull_video{
   /* border: 1px solid white; */
   display: inline-block;
-  text-align: right;
+  text-align: center;
 }
 div.test div.test_video div.pull_video > div{
   margin-bottom: 10px;
@@ -366,34 +378,29 @@ div.test div.test_video div.pull_video a.more_3:hover{
   color: black;
   padding: 5px 5px;
 }
-div.test div.test_video a img.left_icon{
-  width: 40px;
-  position: relative;
-  bottom: 180px;
+img.left_icon{
+  display: none;
 }
-div.test div.test_video a img.right_icon{
-  width: 40px;
-  position: relative;
-  bottom: 180px;
-  transform: rotate(180deg);
+img.right_icon{
+  display: none;
 }
 div.open_close_content{
   /* border: 1px solid blue; */
   width: 1200px;
   position: relative;
-  margin: 0 auto;
+  margin: 0 auto 150px auto;
 }
 div.open_close_content div.open_close_jpg{
   /* border: 1px solid green; */
   border-radius: 10px;
   display: inline-grid;
   margin-left: 180px;
-  position: relative;
-  bottom:430px;
+  vertical-align: top;
 }
 div.open_close_content div.open_close_jpg > img{
   width: 100px;
   margin-bottom: 30px;
+  border-radius: 10px;
 }
 div.open_close_content div.open_close_jpg > img:hover{
   cursor: pointer;
@@ -404,8 +411,8 @@ div.open_close_content img.jpg_1{
 }
 div.open_close_content div.open_close_title{
   /* border: 1px solid green; */
-  padding-left: 150px;
-  margin: 130px 0 100px 30px; 
+  padding-left: 15%;
+  margin: 130px auto 100px auto; 
 }
 div.open_close_content div.open_close_title > p{
   color: white;
@@ -422,6 +429,11 @@ div.open_close_words_1 > div{
   display: inline-block;
   vertical-align: top;
   margin: 100px 0 0 50px;
+}
+div.open_close_words_1 div.spot_1,
+div.open_close_words_1 div.spot_2,
+div.open_close_words_1 div.spot_3{
+  display: none;
 }
 div.open_close_words_1 p.title_1{
   color: white;
@@ -461,7 +473,7 @@ div.cut{
   height: 850px;
   position: relative;
   margin: 0 auto;
-  margin-bottom: 300px;
+  margin-bottom: 150px;
 }
 div.cut div.cut_title > p{
   color: white;
@@ -486,7 +498,7 @@ div.cut div.cut_content_1 p.content_1{
   left: 120px;
   z-index: 1;
 }
-div.cut div.cut_content_1 img.cut_1{
+div.cut div.cut_content_1 div img.cut_1{
   height: 200px;
   position: absolute;
   top: 0px;
@@ -530,7 +542,7 @@ div.cut div.cut_content_2 p.content_2{
   left: 20px;
   z-index: 1;
 }
-div.cut div.cut_content_2 img.cut_2{
+div.cut div.cut_content_2 div img.cut_2{
   height: 190px;
   position: absolute;
   top: 0px;
@@ -546,7 +558,7 @@ div.cut div.cut_content_2{
   right: 0px;
 }
 div.cut div.cut_content_2 div.cut_background_2{
-  width: 1150px;
+  width: 95%;
   height: 190px;
   background-color: #0D162F;
   border-radius: 100px;
@@ -574,7 +586,7 @@ div.cut div.cut_content_3 p.content_3{
   left: 50px;
   z-index: 1;
 }
-div.cut div.cut_content_3 img.cut_3{
+div.cut div.cut_content_3 div img.cut_3{
   height: 200px;
   position: absolute;
   top: 0px;
