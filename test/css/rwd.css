@@ -51,6 +51,9 @@ img{
   div.footer{
     width: 100%;
   }
+  div.footer div.add_block img.twitter{
+    margin: 0;
+  }
   div.footer_color{
     width: 100%;
   }
@@ -266,9 +269,10 @@ img{
   }
   div.pull div.pull_title > p{
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     padding: 0;
     text-align: center;
+    margin-top: 120px;
   }
   div.pull div.pull_title > p::after{
     content: "";
@@ -280,9 +284,15 @@ img{
     margin: 0 auto;
   }
   div.pull div.pull_content_1{
+    display: inline-block;
     width: 50%;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+  }
+  div.pull div.inside{
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
   }
   div.pull div.pull_content_1 p.title_1{
     width: auto;
@@ -293,11 +303,17 @@ img{
   div.pull > div > div > img{
     height: auto;
   }
+  /* div.pull > div > div > img.pull_2{
+    height: 164px;
+  }
+  div.pull > div > div > img.pull_3{
+    height: 206px;
+  } */
   div.pull div.pull_content_2{
     width: 50%;
     text-align: center;
     position: static;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
   div.pull div.pull_content_2 > div{
     position: static;
