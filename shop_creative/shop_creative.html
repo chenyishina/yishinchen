@@ -2,11 +2,11 @@
 <html lang="zh-Hant" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>線上商店 | 文創商品</title>
+    <title>線上商店 | 專業級</title>
     <link rel="icon" href="./image/title_logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/shop_creative.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/rwd.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   </head>
 
@@ -28,7 +28,7 @@
           </li>
           <li>
             <div class="shop">
-              <a class="shop_cate" href="#" style="pointer-events:none;">線上商店</a>
+              <a class="shop_cate" href="#" style="pointer-events:none; background-color: #96430F; padding: 3px 0px; border-radius: 10px;">線上商店</a>
               <ul class="shop_list">
                 <li><a class="pro" href="../shop_pro/shop_pro.html">專業級</a>
                 <li><a class="creative" style="background-color: #96430F; padding: 3px 0px; border-radius: 10px; pointer-events:none;">文創商品</a>
@@ -45,14 +45,14 @@
     </header>
 
     <div class="icon">
-      <a style="cursor: pointer;"onclick="document.getElementById('hide1').style.display=''"><img class="category" src="./image/icon/category.png"></a>
+      <a id="open_ham" style="cursor: pointer;"><img class="category" src="./image/icon/category.png"></a>
       <a href="#"><img class="member" src="./image/icon/member.png"></a>
       <a href="#"><img class="bag" src="./image/icon/bag.png"></a>
       <a href="#"><img id="go_top" src="./image/icon/top.png"></a>
     </div>
 
-    <div class="hamburger" id="hide1" style="display: none;">
-      <a style="cursor: pointer;"><img id="icon_ham" onclick="document.getElementById('hide1').style.display='none'" src="image/icon/category_1.png"></a>
+    <div class="hamburger" id="hide1">
+      <a style="cursor: pointer;"><img id="close_ham" src="image/icon/category_1.png"></a>
       <div class="hamburger_all">
         <a href="../traffic/traffic.html"><img class="h_1" src="./image/hamburger/h_1.png"></a>
         <a href="../about_us/about_us.html"><img src="./image/hamburger/h_2.png"></a>
@@ -64,19 +64,19 @@
       </div>
     </div>
 
-    <div class="background_color"></div>
-    <img class="sketch_left" src="./image/shop_creative/sketch_left.png">
-    <img class="sketch_bottom" src="./image/shop_creative/sketch_bottom.png">
-    
 
-    <div class="shop_creative_content">
+    <div class="background_color"></div>
+    <img class="sketch_bottom" src="./image/shop_pro/sketch_bottom.png">
+  
+
+    <div class="shop_pro_content">
+      <img class="sketch_left" src="./image/shop_pro/sketch_left.png">
       <div class="background_color_left_2"></div>
       <div class="background_color_bottom_2"></div>
-      <img class="lamp" src="./image/shop_creative/lamp.png">
-      <img class="shop_creative_jpg" src="./image/shop_creative/desk_full.png">
-      <img class="shop_creative_logo" src="./image/creative_logo.png">
-      <pre class="shop_creative_title">線上商店 | 文創商品</pre>
-
+      <img class="lamp" src="./image/shop_pro/lamp.png">
+      <img class="shop_pro_jpg" src="./image/shop_pro/desk_full.png">
+      <img class="creative_logo" src="./image/creative_logo.png">
+      <pre class="shop_pro_title">線上商店 | 文創商品</pre>
 
       <div class="p_1">
         <div><pre class="product_1_title">青森綠意</pre></div>
@@ -84,8 +84,8 @@
           <div><pre class="product_1_price">NT. 490</pre></div>
           <div><a href="#"><img class="shop_bag_1" src="./image/icon/bag.png"></a></div>
         </div>
-        <div><img class="product_1" src="./image/shop_creative/1.png"></div>
-        <div><img class="desk_1" src="./image/shop_creative/desk1.png"></div>
+        <div><img class="product_1" src="./image/shop_pro/1.png"></div>
+        <div><img class="desk_1" src="./image/shop_pro/desk1.png"></div>
         <div><a href="#" class="more_1">&lt;    MORE</a></div>    
       </div>
 
@@ -95,19 +95,19 @@
           <div><pre class="product_2_price">NT. 490</pre></div>
           <div><a href="#"><img class="shop_bag_2" src="./image/icon/bag.png"></a></div>
         </div>
-        <div><img class="product_2" src="./image/shop_creative/2.png"></div>
-        <div><img class="desk_2" src="./image/shop_creative/desk2.png"></div>
+        <div><img class="product_2" src="./image/shop_pro/2.png"></div>
+        <div><img class="desk_2" src="./image/shop_pro/desk2.png"></div>
         <div><a href="#" class="more_2">&lt;    MORE</a></div>    
       </div>
-     
+
       <div class="p_3">
         <div><pre class="product_3_title">五邀拐</pre></div>
         <div>
           <div><pre class="product_3_price">NT. 490</pre></div>
           <div><a href="#"><img class="shop_bag_3" src="./image/icon/bag.png"></a></div>
         </div>
-        <div><img class="product_3" src="./image/shop_creative/3.png"></div>
-        <div><img class="desk_3" src="./image/shop_creative/desk2.png">></div>
+        <div><img class="product_3" src="./image/shop_pro/3.png"></div>
+        <div><img class="desk_3" src="./image/shop_pro/desk2.png"></div>
         <div><a href="#" class="more_3">&lt;    MORE</a></div>    
       </div>
 
@@ -117,34 +117,52 @@
           <div><pre class="product_4_price">NT. 490</pre></div>
           <div><a href="#"><img class="shop_bag_4" src="./image/icon/bag.png"></a></div>
         </div>
-        <div> <img class="product_4" src="./image/shop_creative/4.png"></div>
-        <div><img class="desk_4" src="./image/shop_creative/desk1.png"></div>
-        <div><a href="#" class="more_4">&lt;    MORE</a></div>    
+        <div><img class="product_4" src="./image/shop_pro/4.png"></div>
+        <div><img class="desk_4" src="./image/shop_pro/desk1.png"></div>
+        <div><a href="../shop_list/shop_list.html" class="more_4">&lt;    MORE</a></div>    
       </div>
     </div>
 
-   
-
-    <div class="fotter_color">
-      <div class="fotter">
-         <img class="fotter_sketch" src="./image/fotter/fotter_sketch.png">
-         <pre class="tel">TEL : 08-7522877</pre>
-         <pre class="time">營業時間 9 : 00 AM - 5 : 00 PM</pre>
+    <div class="footer_color">
+      <div class="footer">
+         <div><p>TEL : 08-7522877</p></div>
+         <div><p>營業時間 9 : 00 AM - 5 : 00 PM</p></div>
          <div class="add_block">
-           <a href="#"><img class="fb" src="./image/fotter/fb.png"></a>
-           <a href="#"><img class="ig" src="./image/fotter/ig.png"></a>
+           <a href="#"><img src="./image/fotter/fb.png"></a>
+           <a href="#"><img src="./image/fotter/ig.png"></a>
            <a href="#"><img class="twitter" src="./image/fotter/twitter.png"></a>
-           <pre class="add">地址 : 屏東市清溪里興中巷16-1號</pre>
+           <p>地址 : 屏東市清溪里興中巷16-1號</p>
          </div> 
-         <pre class="tibame">本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，<br>本平台僅供學習、展示之用。
-         若有侵權疑慮，您可以私訊<a href="https://www.facebook.com/TibaMe/">[緯育TibaMe]</a>，後續會由專人協助處理</pre>
-       </div>
-     </div>
+         <div>
+           <p id="tibame">本網站為緯育TibaMe前端工程師專業技術養成班第72期學員專題作品，
+            本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊[緯育TibaMe]
+            ，後續會由專人協助處理</p>
+         </div>
+         <div><img class="footer_sketch" src="./image/fotter/fotter_sketch.png"></div>
+      </div>
+    </div>
 
 
     <script type="text/javascript" src="./js/jquery.js"></script>
     <script type="text/javascript" src="./js/jquery_migrate.js"></script>
     <script>
+
+       //====== 漢堡按鈕 =======
+
+      $(function(){
+        $("#open_ham").on("click", function(){
+          $("#hide1").slideToggle();
+        });
+      });
+
+      $(function(){
+        $("#close_ham").on("click", function(){
+          $("#hide1").slideToggle();
+        });
+      });
+
+
+
       $(function(){
         $("#go_top").on("click", function(e){
           e.preventDefault();

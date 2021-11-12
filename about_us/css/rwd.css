@@ -48,6 +48,9 @@ img{
     border-radius: 0;
     background-color: rgba(31, 39, 61, .8);
   }
+  div.hamburger div.hamburger_all{
+    margin-top: 50px;
+  }
   div.footer{
     width: 100%;
   }
@@ -322,6 +325,9 @@ img{
     border-radius: 0;
     background-color: rgba(31, 39, 61, .8);
   }
+  div.hamburger div.hamburger_all{
+    margin-top: 50px;
+  }
   div.footer{
     width: 100%;
   }
@@ -526,6 +532,9 @@ img{
     top: 0;
     border-radius: 0;
     background-color: rgba(31, 39, 61, .8);
+  }
+  div.hamburger div.hamburger_all{
+    margin-top: 50px;
   }
   div.footer{
     width: 100%;

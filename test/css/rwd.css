@@ -48,6 +48,9 @@ img{
     border-radius: 0;
     background-color: rgba(31, 39, 61, .8);
   }
+  div.hamburger div.hamburger_all{
+    margin-top: 50px;
+  }
   div.footer{
     width: 100%;
   }
@@ -389,6 +392,9 @@ img{
     border-radius: 0;
     background-color: rgba(31, 39, 61, .8);
   }
+  div.hamburger div.hamburger_all{
+    margin-top: 50px;
+  }
   div.footer{
     width: 100%;
   }
@@ -697,6 +703,9 @@ img{
     border-radius: 0;
     background-color: rgba(31, 39, 61, .8);
   }
+  div.hamburger div.hamburger_all{
+    margin-top: 50px;
+  }
   div.footer{
     width: 100%;
   }
@@ -749,7 +758,7 @@ img{
     margin-bottom: 20px;
   }
   div.open_close_content img.jpg_1{
-    width: 350px;
+    width: 325px;
     height: auto;
   }
   div.open_close_content div.open_close_title{

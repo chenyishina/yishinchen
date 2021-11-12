@@ -47,14 +47,14 @@
     </header>
 
     <div class="icon">
-      <a style="cursor: pointer;"onclick="document.getElementById('hide1').style.display=''"><img class="category" src="./image/icon/category.png"></a>
+      <a id="open_ham" style="cursor: pointer;"><img class="category" src="./image/icon/category.png"></a>
       <a href="#"><img class="member" src="./image/icon/member.png"></a>
       <a href="#"><img class="bag" src="./image/icon/bag.png"></a>
       <a href="#"><img id="go_top" src="./image/icon/top.png"></a>
     </div>
 
-    <div class="hamburger" id="hide1" style="display: none;">
-      <a style="cursor: pointer;"><img id="icon_ham" onclick="document.getElementById('hide1').style.display='none'" src="image/icon/category_1.png"></a>
+    <div class="hamburger" id="hide1">
+      <a style="cursor: pointer;"><img id="close_ham" src="image/icon/category_1.png"></a>
       <div class="hamburger_all">
         <a href="../traffic/traffic.html"><img class="h_1" src="./image/hamburger/h_1.png"></a>
         <a href="../about_us/about_us.html"><img src="./image/hamburger/h_2.png"></a>
@@ -111,7 +111,7 @@
     <div class="open_close_content">
       <div class="open_close_background"></div>
       <div class="open_close_title">
-        <p>鑰匙插拔 | 開閉鎖測試</p>
+        <p id="para1">鑰匙插拔 | 開閉鎖測試</p>
       </div>
 
       <div class="open_close_jpg">
@@ -141,7 +141,7 @@
       </div>
     </div>
     <div class="cut">
-      <div class="cut_title"><p>剪力測試</p></div>
+      <div class="cut_title"><p id="para2">剪力測試</p></div>
 
       <div class="cut_content_1">
         <p class="title_1">測試型號 | 目的</p>
@@ -169,7 +169,7 @@
     </div>
 
     <div class="pull">
-      <div class="pull_title"><p>拉力測試</p></div>
+      <div class="pull_title"><p id="para3">拉力測試</p></div>
       <div>
         <div class="pull_content_1">
           <img class="pull_1" src="./image/pull/pull_1.png">
@@ -225,7 +225,20 @@
     <script type="text/javascript" src="./js/slick.min.js"></script>
     <script>
 
-      
+     //============================ 漢堡按鈕 =======================
+        $(function(){
+          $("#open_ham").on("click", function(){
+            $("#hide1").slideToggle();
+          });
+        });
+
+        $(function(){
+          $("#close_ham").on("click", function(){
+            $("#hide1").slideToggle();
+          });
+        });
+
+    //  ===========================  slick   ========================      
       $('.test_video').slick({
         dots: true,
         infinite: true,
@@ -233,7 +246,6 @@
         fade: true,
         cssEase: 'linear'
       });
-
 
       $(function(){
         $("#go_top").on("click", function(e){
@@ -244,12 +256,13 @@
         });  
       });
 
+    // ======================== more 按鈕移動距離 ========================
       $(function(){
         $("#cut").on("click", function(e){
           e.preventDefault();
           $('html, body').animate({
-            scrollTop: 2500
-          }, 750);
+            scrollTop: ($(para2).offset().top)
+          }, 950);
         });  
       });
 
@@ -257,8 +270,8 @@
         $("#pull").on("click", function(e){
           e.preventDefault();
           $('html, body').animate({
-            scrollTop: 3550
-          }, 1000);
+            scrollTop: ($(para3).offset().top)
+          }, 1100);
         });  
       });
 
@@ -266,10 +279,11 @@
         $("#open_close").on("click", function(e){
           e.preventDefault();
           $('html, body').animate({
-            scrollTop: 1450
+            scrollTop:($(para1).offset().top)
           }, 750);
         });  
       });
+   
     </script>
 
   </body>

@@ -48,6 +48,9 @@ img{
     border-radius: 0;
     background-color: rgba(31, 39, 61, .8);
   }
+  div.hamburger div.hamburger_all{
+    margin-top: 50px;
+  }
   div.footer{
     width: 100%;
   }
@@ -79,7 +82,7 @@ img{
     left: 0;
   }
   div.group div.diy{
-    margin: 50px auto;
+    margin: 80px auto;
     position: relative;
     top:0;
     left: 0;
@@ -87,22 +90,36 @@ img{
   div.group div.title{
     display: block;
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     position: relative;
     top:0;
     left: 0;
   }
   div.group div.important{
-    margin: 0 auto;
+    margin: 0px auto 0 20%;
     position: relative;
     top:0;
-    left: 0;
-    width: 100%;
+    width: 80%;
     height: 130px;
+    text-align: left;
+    display: inline-block;
+  }
+  div.group::after{
+    content: "";
+    display: block;
+    /* border: 1px solid red; */
+    height: 1px;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
   }
   div.group{
     margin: 0 0 50px 0;
     height: auto;
+  }
+  div.group img.line{
+    display: none;
   }
   form.reserve{
     width: 100%;
@@ -170,6 +187,9 @@ img{
     border-radius: 0;
     background-color: rgba(31, 39, 61, .8);
   }
+  div.hamburger div.hamburger_all{
+    margin-top: 50px;
+  }
   div.footer{
     width: 100%;
   }
@@ -212,13 +232,13 @@ img{
     left: 0;
   }
   div.group div.important{
-    margin: 40px auto 0;
+    margin: 40px auto 0 20%;
     position: relative;
     top:0;
-    left: 0;
-    width: 100%;
+    width: 80%;
     height: 130px;
     text-align: left;
+    display: inline-block;
   }
   div.group{
     margin: 0 0 50px 0;
@@ -290,6 +310,9 @@ img{
     border-radius: 0;
     background-color: rgba(31, 39, 61, .8);
   }
+  div.hamburger div.hamburger_all{
+    margin-top: 50px;
+  }
   div.footer{
     width: 100%;
   }
@@ -332,13 +355,13 @@ img{
     left: 0;
   }
   div.group div.important{
-    margin: 40px auto 0;
+    margin: 40px auto 0 20%;
     position: relative;
     top:0;
-    left: 0;
-    width: 100%;
+    width: 80%;
     height: 130px;
     text-align: left;
+    display: inline-block;
   }
   div.group{
     margin: 0 0 50px 0;
@@ -405,16 +428,20 @@ img{
     transform: none;
   }
   div.group img.lamp{
-    left: 80px;
+    left: 20px;
+  }
+  div.left_color,
+  img.sketch{
+    display: none;
   }
   div.group div.guid{
-    left: 300px;
+    /* left: 300px; */
   }
   div.group div.diy{
-    left: 600px;
+    /* left: 600px; */
   }
   form.reserve div.server{
-    margin-left: 10%;
+    margin-left: 18%;
   }
   div.member{
     margin-left: 5%;
@@ -439,6 +466,7 @@ img{
   form.reserve{
     width: 100%;
   }
+
 }
 @media all and (min-width: 1400px){
   nav.nav{

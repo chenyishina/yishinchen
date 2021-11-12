@@ -182,10 +182,13 @@ div.hamburger div.hamburger_all > a img{
   left: 50%;
   transform: translateX(-50%);
 }
+#hide1{
+  display: none;
+}
 div.hamburger div.hamburger_all > a img:hover{
   left:48%;
 }
-#icon_ham{
+#close_ham{
   width: 50px;
   position: absolute;
   top: 25px;

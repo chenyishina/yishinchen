@@ -191,10 +191,13 @@ div.hamburger div.hamburger_all > a img{
   left: 50%;
   transform: translateX(-50%);
 }
+#hide1{
+  display: none;
+}
 div.hamburger div.hamburger_all > a img:hover{
   left:48%;
 }
-#icon_ham{
+#close_ham{
   width: 50px;
   position: absolute;
   top: 25px;
@@ -232,7 +235,7 @@ div.group div.guid{
   height: 240px;
   position: absolute;
   top: 130px;
-  left: 400px;
+  right: 500px;
 }
 div.group div.guid > a{
   /* border: 1px solid red; */
@@ -295,7 +298,7 @@ div.group div.diy{
   height: 240px;
   position: absolute;
   top: 130px;
-  left: 700px;
+  right: 200px;
 }
 div.group div.diy > a{
   /* border: 1px solid red; */

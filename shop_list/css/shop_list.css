@@ -192,10 +192,13 @@ div.hamburger div.hamburger_all > a img{
   left: 50%;
   transform: translateX(-50%);
 }
+#hide1{
+  display: none;
+}
 div.hamburger div.hamburger_all > a img:hover{
   left:48%;
 }
-#icon_ham{
+#close_ham{
   width: 50px;
   position: absolute;
   top: 25px;
@@ -381,7 +384,11 @@ div.choose a.more{
   height: 40px;
   border-radius: 10px;
   padding: 7px;
+  transition: all 1s;
 } 
+div.choose a.more:hover{
+  background-color:#96430F;
+}
 div.choose a.more:visited{
   color: white;
 }
