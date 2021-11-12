@@ -134,7 +134,9 @@ img{
     transform: rotate(180deg);
   } */
   div.open_close_content div.open_close_title{
-    margin: 80px auto 20px auto;
+    margin: 80px auto 40px auto;
+    padding: 0;
+    text-align: center;
   }
   div.open_close_content div.open_close_title > p{
     margin: 0;
@@ -146,7 +148,7 @@ img{
     height: 1px;
     background-color: white;
     width: 60%;
-    
+    margin: 0 auto;
   }
   div.open_close_content div.open_close_background{
     display: none;
