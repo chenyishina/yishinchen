@@ -118,6 +118,12 @@
         <img class="jpg_2" id="op_2" src="./image/open_close/open_close_times.jpg">
         <img class="jpg_3" id="op_3" src="./image/open_close/open_close_1.jpg">
         <img class="jpg_4" id="op_4" src="./image/open_close/open_close_3.jpg">
+        <div class="imgPreview">
+          <img src="#" alt="" id="imgPreview">
+        </div>
+        <div class="imgPreview_1">
+          <img src="#" alt="" id="imgPreview_1">
+        </div>
       </div>
 
       <div class="open_close_words">
@@ -241,7 +247,7 @@
             $("#hide1").slideToggle();
           });
         });
-    //============================ openclose點擊換圖 =======================
+    //============================ openclose點擊換圖文 =======================
         $(function(){
               $("#op_2").on("click", function(){
                 $("#op_para2").fadeIn();
@@ -256,6 +262,32 @@
           });
         });
 
+        //============================ 點擊圖放大 =======================
+        $(function () {
+          $('#op_3').on('click', function () {
+
+              var src = $(this).attr('src');
+              $('.imgPreview img').attr('src', src);
+              $('.imgPreview').fadeIn()
+            });
+          $('.imgPreview').on('click', function () {
+
+              $('.imgPreview').fadeOut()
+          });
+       });
+
+       $(function () {
+          $('#op_4').on('click', function () {
+
+              var src = $(this).attr('src');
+              $('.imgPreview_1 img').attr('src', src);
+              $('.imgPreview_1').fadeIn()
+            });
+          $('.imgPreview_1').on('click', function () {
+
+              $('.imgPreview_1').fadeOut()
+          });
+       });
     //  ===========================  slick   ========================      
       $('.test_video').slick({
         dots: true,
