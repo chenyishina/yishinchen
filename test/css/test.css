@@ -278,10 +278,10 @@ div.test div.cut_video{
   text-align: center;
 }
 .slick-prev:before{
-  content: "◀" !important;
+  content: "⯇" !important;
 }
 .slick-next:before{
-  content: "▶" !important;
+  content: "⯈" !important;
 }
 .slick-slide{
   float: none !important;
@@ -398,6 +398,7 @@ div.open_close_content div.open_close_jpg{
   border-radius: 10px;
   display: inline-grid;
   margin-left: 180px;
+  margin-bottom: 120px;
   vertical-align: top;
 }
 div.open_close_content div.open_close_jpg > img{
@@ -445,13 +446,39 @@ div.open_close_words_1 p.title_1{
 div.open_close_words_1 p.para_1{
   color: white;
 }
-div.open_close_words_2{
+div.open_close_words_2{              /*這裡是點選圖片要出線的文字*/
   /* border: 1px solid blue; */
-  width: 250px;
-  position: relative;
-  left: 510px;
-  bottom: 405px;
-  display: none;               /*這裡是點選圖片要出線的文字*/
+  position: absolute;
+  top: 205px;
+  left: 365px;
+  display: none;
+}
+div.open_close_words_2 > div{
+  display: inline-block;
+  vertical-align: top;
+  width: 230px;
+  margin: 50px 0 0 50px;
+}
+div.open_close_words_2 img.jpg_2{
+  width: 450px;
+  border-radius: 10px;
+  top: 0;
+  left: -180px;
+}
+div.open_close_words_2 button{
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  color: white;
+  background-color: rgb(1, 1, 39);
+  transition: all 1s;
+}
+div.open_close_words_2 button:hover{
+  background-color: white;
+  color: black;
 }
 div.open_close_words_2 p.title_2{
   color: white;

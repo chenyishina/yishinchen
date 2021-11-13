@@ -115,13 +115,13 @@
       </div>
 
       <div class="open_close_jpg">
-        <img class="jpg_2" src="./image/open_close/open_close_times.jpg">
-        <img class="jpg_3" src="./image/open_close/open_close_1.jpg">
-        <img class="jpg_4" src="./image/open_close/open_close_3.jpg">
+        <img class="jpg_2" id="op_2" src="./image/open_close/open_close_times.jpg">
+        <img class="jpg_3" id="op_3" src="./image/open_close/open_close_1.jpg">
+        <img class="jpg_4" id="op_4" src="./image/open_close/open_close_3.jpg">
       </div>
 
       <div class="open_close_words">
-        <div class="open_close_words_1">
+        <div class="open_close_words_1" id="op_para1">
           <!-- <a href="#"><img class="left_icon" src="./image/icon/next.png"></a> -->
           <img class="jpg_1" src="./image/open_close/open_close_5.jpg">
           <!-- <a href="#"><img class="right_icon" src="./image/icon/next.png"></a> -->
@@ -133,10 +133,14 @@
               藉以分析開合次數的數據</p>
           </div>
         </div>
-        <div class="open_close_words_2">
-          <p class="title_2">測試結果</p>
-          <p class="para_2">測試開閉達30000次以上，其主要測試鎖體內部結構的作動
-            ，如磨耗和鎖心轉動連結機構和鋼珠的運動所帶來開閉鎻功能性的耐久測試。</p>
+        <div class="open_close_words_2" id="op_para2">
+          <img class="jpg_2" src="./image/open_close/open_close_times.jpg">
+          <div>
+            <p class="title_2">測試結果</p>
+            <p class="para_2">測試開閉達30000次以上，其主要測試鎖體內部結構的作動
+              ，如磨耗和鎖心轉動連結機構和鋼珠的運動所帶來開閉鎻功能性的耐久測試。</p>
+          </div>
+          <button id="back_btn">back</button>
         </div>
       </div>
     </div>
@@ -235,6 +239,20 @@
         $(function(){
           $("#close_ham").on("click", function(){
             $("#hide1").slideToggle();
+          });
+        });
+    //============================ openclose點擊換圖 =======================
+        $(function(){
+              $("#op_2").on("click", function(){
+                $("#op_para2").fadeIn();
+                $("#op_para1").fadeOut();
+              });
+            });
+
+        $(function(){
+          $("#back_btn").on("click", function(){
+            $("#op_para1").fadeIn();
+            $("#op_para2").fadeOut();
           });
         });
 
