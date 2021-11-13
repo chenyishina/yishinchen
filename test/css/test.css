@@ -278,10 +278,10 @@ div.test div.cut_video{
   text-align: center;
 }
 .slick-prev:before{
-  content: "⯇" !important;
+  content: "◄" !important;
 }
 .slick-next:before{
-  content: "⯈" !important;
+  content: "►" !important;
 }
 .slick-slide{
   float: none !important;
@@ -560,7 +560,8 @@ div.cut div.cut_title > p{
 }
 div.cut div.cut_content_1 p.title_1{
   color: white;
-  font-size: 18px;  position: absolute;
+  font-size: 18px;  
+  position: absolute;
   top: 0px;
   left: 120px;
   z-index: 1;
@@ -569,7 +570,8 @@ div.cut div.cut_content_1 p.content_1{
   /* border: 1px solid blue; */
   width:200px;
   color: white;
-  font-size: 18px;  position: absolute;
+  font-size: 18px;  
+  position: absolute;
   top: 50px;
   left: 120px;
   z-index: 1;
