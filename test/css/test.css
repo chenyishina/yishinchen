@@ -277,12 +277,6 @@ div.test div.cut_video{
   display: inline-block;
   text-align: center;
 }
-.slick-prev:before{
-  content: "←";
-}
-.slick-next:before{
-  content: "→";
-}
 .slick-slide{
   float: none !important;
 }
