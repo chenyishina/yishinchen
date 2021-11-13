@@ -175,7 +175,7 @@ img{
   } */
   div.open_close_words_1 > div{
     margin: 0;
-    width: 40%;
+    width: 60%;
   }
   div.open_close_words{
     text-align: center;
@@ -187,7 +187,7 @@ img{
     margin-top: 40px;
   }
   div.open_close_words_2 > div{
-    width: 40%;
+    width: 60%;
     text-align: center;
     margin: 0;
   }
@@ -517,6 +517,7 @@ img{
   } */
   div.open_close_words_1 > div{
     margin: 50px 0;
+    width: 40%;
   }
   div.open_close_words{
     text-align: center;
@@ -528,7 +529,7 @@ img{
     margin-top: 40px;
   }
   div.open_close_words_2 > div{
-    width: 230px;
+    width: 40%;
     text-align: center;
     margin: 0;
   }
