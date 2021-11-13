@@ -278,10 +278,10 @@ div.test div.cut_video{
   text-align: center;
 }
 .slick-prev:before{
-  content: "◄" !important;
+  content: "◀" !important;
 }
 .slick-next:before{
-  content: "►" !important;
+  content: "▶" !important;
 }
 .slick-slide{
   float: none !important;
