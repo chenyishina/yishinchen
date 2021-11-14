@@ -6,6 +6,8 @@
     <link rel="icon" href="./image/title_logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/rwd.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./vendor/aos/css/aos.css">
     <link rel="stylesheet" href="./vendor/twentytwenty/css/twentytwenty.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
@@ -160,7 +162,7 @@
 
       <div class="product_background">
         <div class="product">
-          <marquee direction="left" scrollamount="7" width="100%" onMouseOver="this.stop()" onMouseOut="this.start()">
+          <div class="autoplay">
             <a href="../shop_pro/shop_pro.html"><img class="money_lock"  src="./image/product/money_lock.png"></a>
             <a href="../shop_pro/shop_pro.html"><img class="long_lock" src="./image/product/long_lock.png"></a>
             <a href="../shop_pro/shop_pro.html"><img class="gun_lock" src="./image/product/gun_lock.png"></a>
@@ -168,7 +170,7 @@
             <a href="../shop_pro/shop_pro.html"><img class="007_lock" src="./image/product/007_lock.png"></a>
             <a href="../shop_pro/shop_pro.html"><img class="big_lock" src="./image/product/big_lock.png"></a>
             <a href="../shop_pro/shop_pro.html"><img class="qq_lock" src="./image/product/qq_lock.png"></a>
-          </marquee>
+          </div>
         </div>
       </div>
 
@@ -295,6 +297,7 @@
       
       <script type="text/javascript" src="./js/jquery.js"></script>
       <script type="text/javascript" src="./js/jquery_migrate.js"></script>
+      <script type="text/javascript" src="./js/slick.min.js"></script>
       <script type="text/javascript" src="./vendor/aos/js/aos.js"></script>
       <script type="text/javascript" src="./vendor/twentytwenty/js/jquery.event.move.js"></script>
       <script type="text/javascript" src="./vendor/twentytwenty/js/jquery.twentytwenty.js"></script>
@@ -330,6 +333,39 @@
         $(function(){
           AOS.init();
         });
+
+        //======================  slick ==================
+
+        $('.autoplay').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1,
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1.
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            }
+          }
+        ]
+      });
+
       </script>
 
   </body>

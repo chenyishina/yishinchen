@@ -436,22 +436,26 @@ div.product_background{
   width: 100%;
   margin-bottom: 200px;
 }
-div.product_background div.product marquee > a img{
+div.product_background div.product div.autoplay  a img{
   /* border: 1px solid red; */
   display: inline-block;
   height: 200px;
-  margin: 10px;
 }
-div.product_background div.product marquee{
-  /* border: 1px solid red; */
-  width: 1200px;
+div.product_background div.product div.autoplay {
+  /* border: 1px solid blue; */
+  text-align: center;
+  width: 80%;
   position: relative;
   top: 0px;
   margin: 0 auto;
 }
+.slick-prev:before, .slick-next:before{
+  top: 5px !important;
+}
 div.product_background div.product{
-  /* border: 1px solid blue; */
-  width: 1200px;
+  /* border: 1px solid green; */
+  width: 100%;
+  max-width: 1200px;
   display: block;
   position: relative;
   margin: 0 auto;
