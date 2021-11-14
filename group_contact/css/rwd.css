@@ -96,23 +96,34 @@ img{
     left: 0;
   }
   div.group div.important{
-    margin: 0px auto 0 20%;
+    /* border: 1px solid red; */
+    margin: 0px auto 0 7%;
     position: relative;
     top:0;
+    right: 0;
     width: 80%;
-    height: 130px;
+    height: auto;
     text-align: left;
     display: inline-block;
   }
-  div.group::after{
+  div.group div.important::after{
     content: "";
     display: block;
     /* border: 1px solid red; */
     height: 1px;
     background-color: white;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 30px;
+  }
+  div.group div.important > p{
+    width: 85%;
+    display: inline-block;
+    position: static;
+  }
+  div.group div.important > img{
+    vertical-align: top;
+    position: static;
   }
   div.group{
     margin: 0 0 50px 0;
@@ -418,6 +429,7 @@ img{
   div.group{
     width: 100%;
     margin-top: 100px;
+    margin-bottom: 100px;
   }
   form.reserve{
     width: 100%;
