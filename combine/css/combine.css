@@ -301,6 +301,27 @@ div.combine_content div.umbrella_1 img.hi{
   /* top: 480px;  下滑幅度 */
   top: 620px;
   transform: rotate(-33deg);
+  animation-name: slide_down;
+  animation-duration: 5s;
+  animation-iteration-count: 3;
+  animation-delay: 3s;
+}
+@keyframes slide_down {
+  0%, 100%{
+    top: 620px;
+    transform: rotate(-33deg);
+  }
+  20%, 80% {
+    top: 560px;
+    transform: rotate(-25deg);
+  }
+  40%, 60% {
+    top: 480px;
+    transform: rotate(-33deg);
+  }
+  50%{
+    transform: rotate(-25deg);
+  }
 }
 div.combine_content div.umbrella_1 img.next_1{
   position: absolute;

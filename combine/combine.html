@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/combine.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/rwd.css">
+    <link rel="stylesheet" href="./vendor/aos/css/aos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   </head>
 
@@ -82,9 +83,9 @@
       </div>
 
       <div class="umbrella_1">
-        <img class="umbrella" src="./image/combine/umbrella_lock.png">
+        <img data-aos="zoom-in" data-aos-duration="2000" class="umbrella" src="./image/combine/umbrella_lock.png">
         <img class="next_1" src="./image/combine/next.png">
-        <img class="stairs" src="./image/combine/stairs.png">
+        <img data-aos="fade-down" data-aos-duration="2000" class="stairs" src="./image/combine/stairs.png">
         <img class="hi" src="./image/combine/hi_p.png">
       </div>
 
@@ -104,7 +105,7 @@
         </div>
         <img class="what" src="./image/combine/what_p.png">
         <img class="next_2" src="./image/combine/next.png">
-        <img class="porsche" src="./image/combine/porsche_lock.png">
+        <img data-aos="zoom-in" data-aos-duration="2000" class="porsche" src="./image/combine/porsche_lock.png">
       </div>
       
       
@@ -135,8 +136,10 @@
 
     <script type="text/javascript" src="./js/jquery.js"></script>
     <script type="text/javascript" src="./js/jquery_migrate.js"></script>
+    <script type="text/javascript" src="./vendor/aos/js/aos.js"></script>
     <script>
 
+      AOS.init();
       //====== 漢堡按鈕 =======
       $(function(){
         $("#open_ham").on("click", function(){
@@ -160,6 +163,7 @@
         });  
       });
     </script>
+   
 
   </body>
 </html>
