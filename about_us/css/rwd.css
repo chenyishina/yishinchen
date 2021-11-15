@@ -232,6 +232,12 @@ img{
   div.temple_2{
     bottom: 100px;
   }
+  div.temple_color{
+    height: 1450px;
+  }
+  #lucky_block{
+    bottom: 170px;
+  }
   div.achievement{
     width: 100%;
     text-align: center;
@@ -450,6 +456,13 @@ img{
     left: 0;
     bottom: 100px;
   }
+  div.temple_color{
+    bottom: 0;
+    height: 1250px;
+  }
+  #lucky_block{
+    bottom: 160px;
+  }
   div.achievement{
     width: 100%;
     text-align: center;
@@ -630,6 +643,13 @@ img{
   div.temple a.pick_me{
     left: 0;
     bottom: 100px;
+  }
+  #lucky_block{
+    bottom: 160px;
+  }
+  div.temple_color{
+    bottom: 0;
+    height: 1250px;
   }
   div.achievement{
     width: 100%;

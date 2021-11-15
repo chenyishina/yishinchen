@@ -347,7 +347,7 @@ div.creative div.creative_background_color{
   height: 480px;
   background-color: #0D162F;
   position: absolute;
-  border-radius: 50px 300px 300px 50px;
+  border-radius: 0px 300px 300px 0px;
   /* border: 1px solid red; */
   top: 160px;
   z-index: -1;
@@ -582,6 +582,21 @@ div.temple img.luck:hover{
 @keyframes swing {
     0% { transform: rotate(-2deg); }
     100% { transform: rotate(2deg); }
+}
+#lucky_block{
+  width: 280px;
+  /* border: 1px solid red; */
+  transform: rotate(20deg);
+  position: absolute;
+  right: 8%;
+  bottom: 400px;
+  animation: circle 1s ;
+  transform-origin: bottom;
+  display: none;
+}
+@keyframes circle{
+  0% { transform: rotate(-20deg); }
+  100% { transform: rotate(380deg); }
 }
 div.achievement{
   /* border: 1px solid blue; */

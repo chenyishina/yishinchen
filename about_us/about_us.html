@@ -160,9 +160,9 @@
             <pre>MAKE A WISH</pre>
           </div> 
 
-          <img class="luck" src="./image/temple/luck.jpg">
-          <a class="pick_me" herf="#">&lt;     PICK ME</a>
-
+          <img id="box" class="luck" src="./image/temple/luck.jpg">
+          <a id="pick_lucky"class="pick_me" herf="#">&lt;     PICK ME</a>
+          <div class="hide_luck"><img id="lucky_block" src="./image/temple/safe.png"></div>
           <div class="temple_luck_b1"></div>
           <div class="temple_luck_b2"></div>
         </div>
@@ -268,6 +268,8 @@
         ]
       });
 
+      //========go top==========
+
       $(function(){
           $("#go_top").on("click", function(e){
             e.preventDefault();
@@ -276,7 +278,16 @@
             }, 750);
           });  
         });
-      
+
+      //========pick me==========
+      $(function(){
+          $("#pick_lucky").on("click", function(e){
+            $("#lucky_block").fadeToggle();
+          });  
+          $("#box").on("click", function(e){
+            $("#lucky_block").fadeToggle();
+          });  
+        });
 
     </script>	
 
