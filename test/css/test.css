@@ -411,6 +411,7 @@ div.open_close_content div.open_close_jpg > img:hover{
   height: 100%;
   position: fixed;
   background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 .imgPreview img {
     
@@ -420,6 +421,7 @@ div.open_close_content div.open_close_jpg > img:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  cursor: pointer !important;
 }
 /*新增滑鼠移入圖片效果*/
 .imgPreview img {
@@ -435,6 +437,7 @@ div.open_close_content div.open_close_jpg > img:hover{
   height: 100%;
   position: fixed;
   background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 .imgPreview_1 img {
     
@@ -444,6 +447,7 @@ div.open_close_content div.open_close_jpg > img:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+  cursor: pointer !important;
 }
 /*新增滑鼠移入圖片效果*/
 .imgPreview_1 img {
