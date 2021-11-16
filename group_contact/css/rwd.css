@@ -66,8 +66,8 @@ img{
   div.footer img.footer_sketch{
     display: none;
   }
-  div.footer{
-    padding: 0;
+  div.footer div.add_block img.twitter{
+    margin-right: 10px;
   }
   div.group{
     width: 100%;

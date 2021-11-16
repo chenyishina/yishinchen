@@ -57,11 +57,11 @@ img{
   div.footer_color{
     width: 100%;
   }
-  div.footer{
-    padding: 0;
-  }
   #tibame{
     width: 100%;
+  }
+  div.footer div.add_block img.twitter{
+    margin-right: 10px;
   }
   body{
     width: 100%;
@@ -234,9 +234,6 @@ img{
   }
   div.temple_color{
     height: 1450px;
-  }
-  #lucky_block{
-    bottom: 170px;
   }
   div.achievement{
     width: 100%;
@@ -460,9 +457,6 @@ img{
     bottom: 0;
     height: 1250px;
   }
-  #lucky_block{
-    bottom: 160px;
-  }
   div.achievement{
     width: 100%;
     text-align: center;
@@ -643,9 +637,6 @@ img{
   div.temple a.pick_me{
     left: 0;
     bottom: 100px;
-  }
-  #lucky_block{
-    bottom: 160px;
   }
   div.temple_color{
     bottom: 0;

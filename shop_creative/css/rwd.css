@@ -63,8 +63,8 @@ img{
   body{
     width: 100%;
   }
-  div.footer{
-    padding: 0;
+  div.footer div.add_block img.twitter{
+    margin-right: 10px;
   }
   div.footer img.footer_sketch{
     display: none;
@@ -203,8 +203,8 @@ img{
   body{
     width: 100%;
   }
-  div.footer{
-    padding: 0;
+  div.footer div.add_block img.twitter{
+    margin-right: 10px;
   }
   div.footer img.footer_sketch{
     display: none;

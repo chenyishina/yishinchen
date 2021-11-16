@@ -162,9 +162,8 @@
 
           <img id="box" class="luck" src="./image/temple/luck.jpg">
           <a id="pick_lucky"class="pick_me" herf="#">&lt;     PICK ME</a>
-          <div class="hide_luck"><img id="lucky_block" src="./image/temple/safe.png"></div>
           <div class="imgPreview">
-            <img src="#" alt="" id="imgPreview">
+            <img src="./image/temple/safe.png" alt="" id="imgPreview">
           </div>
           <div class="temple_luck_b1"></div>
           <div class="temple_luck_b2"></div>
@@ -256,7 +255,7 @@
               arrows: false,
               centerMode: true,
               centerPadding: '40px',
-              slidesToShow: 3
+              slidesToShow: 2
             }
           },
           {
@@ -282,17 +281,28 @@
           });  
         });
 
-      //========pick me==========
-      $(function(){
-          $("#pick_lucky").on("click", function(e){
-            $("#lucky_block").fadeToggle();
-          });  
-          $("#box").on("click", function(e){
-            $("#lucky_block").fadeToggle();
-          });  
-        });
 
-
+     //========pick me==========
+     
+      $(function () {
+    
+          $('#pick_lucky').on('click', function () {
+              var src = $('.imgPreview img').attr('src');
+              $('.imgPreview img').attr('src', src);
+              $('.imgPreview').show()
+          });
+          $('.imgPreview').on('click', function () {
+              $('.imgPreview').hide()
+          });
+          $('#box').on('click', function () {
+              var src = $('.imgPreview img').attr('src');
+              $('.imgPreview img').attr('src', src);
+              $('.imgPreview').show()
+          });
+          $('.imgPreview').on('click', function () {
+              $('.imgPreview').hide()
+          });
+      })
     
 
     </script>	

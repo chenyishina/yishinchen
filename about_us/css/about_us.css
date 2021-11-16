@@ -583,20 +583,34 @@ div.temple img.luck:hover{
     0% { transform: rotate(-2deg); }
     100% { transform: rotate(2deg); }
 }
-#lucky_block{
-  width: 280px;
-  /* border: 1px solid red; */
-  transform: rotate(20deg);
-  position: absolute;
-  right: 8%;
-  bottom: 400px;
-  animation: circle 1s ;
-  transform-origin: bottom;
+.imgPreview {
+  z-index: 99;
   display: none;
+  top: 0;
+  left: 0;
+  width: 100%; /*容器佔滿整個螢幕*/
+  height: 100%;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.imgPreview img {
+  /* border: 1px solid red; */
+  z-index: 100;
+  width: 40%;
+  position: fixed;
+  top: 40%;
+  left: 30%;
+  animation: circle 1s;
+}
+/*新增滑鼠移入圖片效果*/
+.img {
+  cursor: url("./image/temple/safe.png"), auto;
 }
 @keyframes circle{
-  0% { transform: rotate(-20deg); }
-  100% { transform: rotate(380deg); }
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 div.achievement{
   /* border: 1px solid blue; */
