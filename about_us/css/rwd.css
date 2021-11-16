@@ -233,7 +233,16 @@ img{
     bottom: 100px;
   }
   div.temple_color{
-    height: 1450px;
+    height: 1850px;
+  }
+  .imgPreview img {
+    /* border: 1px solid red; */
+    z-index: 100;
+    width: 70%;
+    position: fixed;
+    top: 40%;
+    left: 15%;
+    animation: circle 1s;
   }
   div.achievement{
     width: 100%;
@@ -455,7 +464,16 @@ img{
   }
   div.temple_color{
     bottom: 0;
-    height: 1250px;
+    height: 1480px;
+  }
+  .imgPreview img {
+    /* border: 1px solid red; */
+    z-index: 100;
+    width: 70%;
+    position: fixed;
+    top: 40%;
+    left: 15%;
+    animation: circle 1s;
   }
   div.achievement{
     width: 100%;
@@ -641,6 +659,15 @@ img{
   div.temple_color{
     bottom: 0;
     height: 1250px;
+  }
+  .imgPreview img {
+    /* border: 1px solid red; */
+    z-index: 100;
+    width: 50%;
+    position: fixed;
+    top: 40%;
+    left: 25%;
+    animation: circle 1s;
   }
   div.achievement{
     width: 100%;

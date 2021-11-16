@@ -594,20 +594,19 @@ div.temple img.luck:hover{
   background: rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
-
 .imgPreview img {
   /* border: 1px solid red; */
   z-index: 100;
-  width: 70%;
+  width: 40%;
   position: fixed;
   top: 40%;
-  left: 15%;
+  left: 30%;
   animation: circle 1s;
 }
-/*新增滑鼠移入圖片效果*/
-.img {
+
+/* .img {
   cursor: url("./image/temple/safe.png"), auto;
-}
+} */
 @keyframes circle{
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
