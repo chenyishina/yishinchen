@@ -829,6 +829,13 @@ div.news > a > p{
   color: white;
   display: inline-block;
   margin: 20px 0;
+  text-decoration: none;
+}
+div.news > a:link{
+  text-decoration: none;
+}
+div.news > a:visited{
+  text-decoration: none;
 }
 div.news > a > img{
   height: 180px;
