@@ -404,6 +404,7 @@ div.open_close_content div.open_close_jpg > img:hover{
   cursor: pointer;
 }
 .imgPreview {
+  z-index: 99;
   display: none;
   top: 0;
   left: 0;
@@ -430,6 +431,7 @@ div.open_close_content div.open_close_jpg > img:hover{
 
 
 .imgPreview_1 {
+  z-index: 99;
   display: none;
   top: 0;
   left: 0;
