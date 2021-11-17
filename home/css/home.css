@@ -9,7 +9,7 @@ body{
   width: 100%;
   /* min-width: 1200px; */
   background-color: #1F273D;
-  font-family: "微軟正黑體", "BiauKai", "helvetica";
+  font-family: "微軟正黑體", "Noto Sans TC", "Arial", sans-serif;
 }
 
 div.icon img.category{

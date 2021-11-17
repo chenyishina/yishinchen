@@ -10,7 +10,7 @@ body{
   /* height: 1250px; */
   background-color: #1F273D;
   position: absolute;
-  font-family: "微軟正黑體", "BiauKai", "helvetica";
+  font-family: "微軟正黑體", "Noto Sans TC", "Arial", sans-serif;
   font-size: 16px;
 }
 
