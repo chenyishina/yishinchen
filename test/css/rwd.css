@@ -198,6 +198,13 @@ img{
     width: 230px;
     margin: 30px 15px 0 0;
   }
+  div.open_close_words_1 p.para_1,
+  div.open_close_words_2 p.para_2,
+  div.pull div.pull_content_1 p.content_1,
+  div.pull div.pull_content_2 p.content_2,
+  div.pull div.pull_content_3 p.content_3{
+    text-align: left;
+  }
   div.cut{
     width: 100%;
     height: auto;
@@ -228,7 +235,7 @@ img{
     position: static;
     display: inline-block;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
   div.cut div.cut_content_1 p.title_1{
     position: static;
@@ -237,12 +244,15 @@ img{
   div.cut div.cut_content_1 p.content_1{
     position: static;
     display: block;
-    text-align: center;
+    text-align: left;
     width: auto;
     padding: 0 20%;
+    margin-bottom: 40px;
   }
   div.cut div.cut_content_1 div img.cut_1{
     position: static; 
+    height: auto;
+    width: 260px;
   }
   div.cut div.cut_content_2 p.title_2{
     position: static;
@@ -251,12 +261,15 @@ img{
   div.cut div.cut_content_2 p.content_2{
     position: static;
     display: block;
-    text-align: center;
+    text-align: left;
     width: auto;
     padding: 0 20%;
+    margin-bottom: 40px;
   }
   div.cut div.cut_content_2 div img.cut_2{
     position: static;
+    height: auto;
+    width: 260px;
   }
   div.cut div.cut_content_2{
     width: 100%;
@@ -264,7 +277,7 @@ img{
     position: static;
     display: inline-block;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
   div.cut div.cut_content_3 p.title_3{
     position: static;
@@ -273,12 +286,15 @@ img{
   div.cut div.cut_content_3 p.content_3{
     position: static;
     display: block;
-    text-align: center;
+    text-align: left;
     width: auto;
     padding: 0 20%;
+    margin-bottom: 40px;
   }
   div.cut div.cut_content_3 div img.cut_3{
     position: static;
+    height: auto;
+    width: 260px;
   }
   div.cut div.cut_content_3{
     width: 100%;
@@ -540,6 +556,16 @@ img{
     width: 40%;
     margin-right: 40px;
   }
+  div.open_close_words_1 p.para_1,
+  div.open_close_words_2 p.para_2{
+    text-align: left;
+  }
+  div.pull div.pull_content_1 p.content_1,
+  div.pull div.pull_content_2 p.content_2,
+  div.pull div.pull_content_3 p.content_3{
+    text-align: left;
+    padding: 0 10%;
+  }
   div.cut{
     width: 100%;
     height: auto;
@@ -570,7 +596,7 @@ img{
     position: static;
     display: inline-block;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
   div.cut div.cut_content_1 p.title_1{
     position: static;
@@ -579,12 +605,15 @@ img{
   div.cut div.cut_content_1 p.content_1{
     position: static;
     display: block;
-    text-align: center;
+    text-align: left;
     width: auto;
     padding: 0 20%;
+    margin-bottom: 40px;
   }
   div.cut div.cut_content_1 div img.cut_1{
     position: static; 
+    height: auto;
+    width: 320px;
   }
   div.cut div.cut_content_2 p.title_2{
     position: static;
@@ -593,12 +622,15 @@ img{
   div.cut div.cut_content_2 p.content_2{
     position: static;
     display: block;
-    text-align: center;
+    text-align: left;
     width: auto;
     padding: 0 20%;
+    margin-bottom: 40px;
   }
   div.cut div.cut_content_2 div img.cut_2{
     position: static;
+    height: auto;
+    width: 320px;
   }
   div.cut div.cut_content_2{
     width: 100%;
@@ -606,7 +638,7 @@ img{
     position: static;
     display: inline-block;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
   }
   div.cut div.cut_content_3 p.title_3{
     position: static;
@@ -615,12 +647,15 @@ img{
   div.cut div.cut_content_3 p.content_3{
     position: static;
     display: block;
-    text-align: center;
+    text-align: left;
     width: auto;
     padding: 0 20%;
+    margin-bottom: 40px;
   }
   div.cut div.cut_content_3 div img.cut_3{
     position: static;
+    height: auto;
+    width: 320px;
   }
   div.cut div.cut_content_3{
     width: 100%;
@@ -813,6 +848,13 @@ img{
   }
   div.open_close_content div.open_close_title{
     margin: 70px auto 50px auto;
+  }
+ 
+  div.pull div.pull_content_1 p.content_1,
+  div.pull div.pull_content_2 p.content_2,
+  div.pull div.pull_content_3 p.content_3{
+    text-align: left;
+    padding: 0 10%;
   }
   div.cut{
     width: 100%;
