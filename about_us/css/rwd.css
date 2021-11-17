@@ -165,7 +165,10 @@ img{
     margin: 0 auto;
   }
   div.creative div.content_1{
-    text-align: center;
+    /* text-align: center; */
+  }
+  div.creative div.creative_title_1{
+    padding-left: 10%;
   }
   div.creative img.crown{
    display: none;
@@ -174,9 +177,15 @@ img{
     margin: 0 auto;
   }
   div.creative div.content_2{
+    /* text-align: center; */
+  }
+  div.creative div.where > span{
+    display: block;
     text-align: center;
   }
   div.creative img.lock_love{
+    display: block;
+    margin: 0 auto;
     position: static;
     border-radius: 10px;
     width: 250px;
@@ -184,6 +193,11 @@ img{
   div.creative div.wherehow{
     left: 30%;
     bottom: 700px;
+  }
+  div.creative div.how >p > span{
+    /* border: 1px solid red; */
+    display: block;
+    text-align: center;
   }
   div.creative div.where{
     padding: 0 10%;
@@ -193,9 +207,14 @@ img{
   }
   div.creative div.content_1 > P{
     display: block;
+    text-align: center;
   }
   div.creative div.content_1 > div{
     margin-top: auto;
+  }
+  div.creative div.where > p > span{
+    display: block;
+    text-align: center;
   }
   img.temple_logo{
     display: none;
@@ -250,8 +269,9 @@ img{
   }
   div.achievement > p{
     display: block;
-    text-align: center;
+    text-align: left;
     margin: 80px auto 0 auto;
+    padding: 0 5%;
   }
   div.achievement pre.achievement_title{
     padding-left: 0;
@@ -426,19 +446,38 @@ img{
   }
   div.creative img.love_wall{
     margin: 0 auto;
+    display: block;
+    margin: 0 auto;
   }
   div.creative div.content_2{
-    text-align: center;
+    /* text-align: center; */
+  }
+  div.creative div.creative_content{
+    text-align: left;
   }
   div.creative img.lock_love{
     position: static;
+    display: block;
+    margin: 0 auto;
   }
   div.creative div.wherehow{
     left: 30%;
     bottom: 700px;
   }
   div.creative div.where{
-    padding: 0 10%;
+    padding: 0 20%;
+  }
+  div.creative div.where > span{
+    display: block;
+    text-align: center;
+  }
+  div.creative div.how > p > span{
+    display: block;
+    text-align: center;
+  }
+  div.creative div.where > p > span{
+    display: block;
+    text-align: center;
   }
   img.temple_logo{
     display: none;
@@ -483,7 +522,7 @@ img{
   }
   div.achievement > p{
     display: block;
-    text-align: center;
+    text-align: left;
     margin: 80px auto 0 auto;
   }
   div.achievement pre.achievement_title{
@@ -634,6 +673,29 @@ img{
     left: 30%;
     bottom: 700px;
   }
+  div.creative div.creative_content > P{
+    /* border: 1px solid red; */
+    text-align: left;
+  }
+  div.creative div.where > p{
+    text-align: left;
+  }
+  div.creative div.where{
+   padding: 0 20%;
+  }
+  div.creative div.how > p{
+    /* border: 1px solid red; */
+    text-align: left;
+    padding: 0 10%;
+  }
+  div.creative div.how > p > span{
+    display: block;
+    text-align: center;
+  }
+  div.creative div.where > p > span{
+    display: block;
+    text-align: center;
+  }
   img.temple_logo{
     display: none;
   }
@@ -677,7 +739,7 @@ img{
   }
   div.achievement > p{
     display: block;
-    text-align: center;
+    text-align: left;
     margin: 80px auto 0 auto;
   }
   div.achievement pre.achievement_title{
@@ -773,6 +835,24 @@ img{
     right: 60%;
     margin: 80px;
   }
+  div.creative div.creative_content > P{
+    /* border: 1px solid red; */
+    text-align: left;
+  }
+  div.creative div.where > p{
+    text-align: left;
+  }
+  div.creative div.where{
+   padding: 0 20%;
+  }
+  div.creative div.how > p{
+    /* border: 1px solid red; */
+    text-align: left;
+  }
+  div.creative div.how > p > span{
+    display: block;
+    text-align: center;
+  }
   img.temple_logo{
     display: none;
   }
@@ -792,7 +872,7 @@ img{
   }
   div.achievement > p{
     display: block;
-    text-align: center;
+    text-align: left;
     margin: 80px auto 0 auto;
   }
   div.achievement pre.achievement_title{

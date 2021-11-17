@@ -391,6 +391,12 @@ div.group img.line{
   bottom: 0px;
   right: 80px;
 }
+input{
+  padding: 10px;
+}
+textarea{
+  padding: 10px;
+}
 form.reserve{
   /* border: 1px solid white; */
   width: 1200px;
